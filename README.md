@@ -5,7 +5,7 @@
 ### Ignacio Espinoso Ribeiro - 169767
 
 
-- (Projeto 1)[https://github.com/ignacioespinoso/mc833/proj1]
+## [Projeto 1](https://github.com/ignacioespinoso/mc833/proj1)
 
 Montar um sistema de conexão usando sockets TCP entre um servidor e 2 tipos de clinete.
 
