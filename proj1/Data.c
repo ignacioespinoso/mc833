@@ -262,7 +262,7 @@ char* getAllInfo(){
 ///			novoComentario - o novo comentario a ser adicionado
 /// Return: bool - true: O codigo foi escrito com sucesso
 ///				 - false: O código não foi escrito (provavelmente codigo de disciplina invalido)
-bool setCommentarioForCode(char *codigo, char *novoComentario){
+bool setComentarioForCode(char *codigo, char *novoComentario){
 
 	testIfLoaded();
 

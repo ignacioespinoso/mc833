@@ -22,6 +22,7 @@
 test: Data.c teste.c
 	gcc teste.c -o test.out
 	./test.out
+	rm -rf test.out
 
 # Limpar arquivo de teste
 clean_test: test.out

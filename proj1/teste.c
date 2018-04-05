@@ -16,9 +16,6 @@ int main (){
 
 	printf("-------- Carregando Disciplinas\n");
 	testIfLoaded();
-	for (int i=0; i<numeroDisciplinas; i++){
-		printf("%s %s %s\n", disciplinas[i].codigo, disciplinas[i].ementa, disciplinas[i].professor);
-	}
 
 	printf("\n-------- Pegando Codigos\n");
 	char **codigos = NULL;
@@ -44,6 +41,16 @@ int main (){
 	printf("MC102:\n%s\n", getComentarioFromCodigo("MC102"));
 	printf("ME322:\n%s\n", getComentarioFromCodigo("ME322"));
 	printf("MA444:\n%s\n", getComentarioFromCodigo("MA444"));
+
+	printf("\n-------- Alterando Comentarios de Aula\n");
+	printf("ANTERIOR: %s\n", getComentarioFromCodigo("F 408"));
+	bool ok = setComentarioForCode("F 408", "Novo comentario - no aluno is dead");
+	if (ok){
+		printf("DEPOIS: %s\n", getComentarioFromCodigo("F 408"));
+	} else {
+		printf("ERROR");
+	}
+	
 
 	printf("\n-------- Pegando Informacao total Disciplina\n");
 	printf("%s\n", getInformacaoDisciplinaFromCodigo("MC102"));
