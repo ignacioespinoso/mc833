@@ -7,9 +7,9 @@
 
 ## [Projeto 1](https://github.com/ignacioespinoso/mc833/proj1)
 
-Montar um sistema de conexão usando sockets TCP entre um servidor e 2 tipos de clinete.
+Montar um sistema de conexão usando sockets TCP entre um servidor e 2 tipos de cliente.
 
-O servidor armazena informações sobre disciplinas: título, ementa, sala de aula, horário, có́digo da disciplina (identificador). Adicionalmente o servidor armazena um texto de comentário sobre a próxima aula de uma disciplina escrito pelo cliente professor. 
+O servidor armazena informações sobre disciplinas: título, ementa, sala de aula, horário, có́digo da disciplina (identificador). Adicionalmente o servidor armazena um texto de comentário sobre a próxima aula de uma disciplina escrito pelo cliente professor.
 Portanto, existem dois tipos de usuário: aluno e professor.
 
 Pelo menos as seguintes operações devem ser realizadas:
