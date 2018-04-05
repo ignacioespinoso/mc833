@@ -8,6 +8,10 @@
 
 #include"Data.c"
 
+
+// Arquivo para testar Data.c - base de dados
+// e todas as requisicoes que podem ser feitas pelo servidor
+// para poder pegar os dados corretamente
 int main (){
 
 	printf("-------- Carregando Disciplinas\n");
