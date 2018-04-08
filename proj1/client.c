@@ -19,6 +19,8 @@ enum bool {false, true};
 
 // Created methods to handle connection
 bool newConnectionClientLoop(int sockfd);
+bool receiveMessageFromServer(int sockfd, char* buffer);
+bool receiveMessageFromServer(int sockfd, char* buffer);
 
 // get sockaddr, IPv4 or IPv6:
 void *get_in_addr(struct sockaddr *sa) {
@@ -78,7 +80,7 @@ int main(int argc, char *argv[]) {
 
     freeaddrinfo(servinfo); // all done with this structure
 
-    if ((numbytes = recv(sockfd, buf, MAXDATASIZE-1, 0)) == -1) {
+    if (receiveMessageFromServer(sockfd, buf) == false) {
         perror("recv");
         exit(1);
     }
@@ -97,6 +99,11 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
+/// Sends a string message to the server
+/// PARAM:  fd - the server connection identifier
+///         message - the string message
+/// RETURN: bool -  true if the message was sent
+///                 false if something went wrong
 bool sendMessageToServer(int fd, char *message){
     if ((send(fd, message, strlen(message),0))== -1){
         return false;
@@ -104,6 +111,26 @@ bool sendMessageToServer(int fd, char *message){
     return true;
 }
 
+/// Waits to receive a message from the server
+/// PARAM:  sockfd - the server connection idetifier
+///         buffer - a char* to insert the message
+/// RETURN: bool -  true if the message was received correclty
+///                 false if something went wrong
+bool receiveMessageFromServer(int sockfd, char* buffer){
+    int num;
+    num = recv(sockfd, buffer, sizeof(buffer),0);
+    if (num < 0)
+        return false;
+    buffer[num] = '\0';
+    return true;
+}
+
+/// After being connected to a server
+/// this method can be called to continue the connection
+/// so it will only closes when thi method comes to an end
+/// PARAM:  sockfd - the server connection idetifier
+/// RETURN: bool -  true if the connection was closes properly
+///                 false if something went wrong
 bool newConnectionClientLoop(int sockfd){
 
     int num;
@@ -117,19 +144,19 @@ bool newConnectionClientLoop(int sockfd){
             close(sockfd);
             return false;
 
-        } else {
-            printf("Client: Message being sent: %s\n",buffer);
-            num = recv(sockfd, buffer, sizeof(buffer),0);
-            if ( num <= 0 ) {
-                printf("Either Connection Closed or Error\n");
-                //Break from the While
-                break;
-            }
+        } 
+        printf("Client: Message being sent: %s\n",buffer);
 
-            buffer[num] = '\0';
-            printf("Client:Message Received From Server -  %s\n",buffer);
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sockfd, buffer) == false) {
+            printf("Either Connection Closed or Error\n");
+            //Break from the While
+            break;
         }
+
+        printf("Client: Message Received From Server -  %s\n",buffer);
     }
+    
 
     return true;
 }

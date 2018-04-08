@@ -140,6 +140,8 @@ int main(void) {
 /// Send a message to the client
 /// Param:  fd - the client connection number (?)
 ///         message - a String (char*) for the sending message
+/// RETURN: bool -  true if the message was sent correclty
+///                 false if something went wrong
 bool sendMessageToClient(int fd, char *message){
     if (send(fd, message, strlen(message), 0) == -1){
         return false;
@@ -147,6 +149,11 @@ bool sendMessageToClient(int fd, char *message){
     return true;
 }
 
+/// After being connected to a client
+/// this method can be called to continue the connection
+/// PARAM:  client_fd - the client connection idetifier
+/// RETURN: bool -  true if the connection was closes properly
+///                 false if something went wrong
 bool newConnectionServerLoop(int client_fd){
     
     int num;
@@ -165,7 +172,7 @@ bool newConnectionServerLoop(int client_fd){
         }
         buffer[num] = '\0';
         printf("Server:Msg Received %s\n", buffer);
-        if ((send(client_fd,buffer, strlen(buffer),0))== -1) {
+        if (sendMessageToClient(client_fd, buffer) == false) {
             fprintf(stderr, "Failure Sending Message\n");
             close(client_fd);
             break;
