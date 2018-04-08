@@ -19,7 +19,7 @@ bool sendMessageToClient(int fd, char *message);
 bool receiveMessageFromClient(int sockfd, char* buffer);
 bool newConnectionServerLoop(int client_fd);
 bool checkReceivedMessage(char *message, char *answer);
-
+void getCodeFromRequest(char *request, char *code);
 
 void sigchld_handler(int s) {
     // waitpid() might overwrite errno, so we save and restore it:
@@ -201,7 +201,6 @@ bool newConnectionServerLoop(int client_fd){
     return true;
 }
 
-/// TODO:
 /// Check an incomming request
 /// to get the proper answer from the Data.c
 /// PARAM:  message - the incoming request
@@ -211,6 +210,7 @@ bool newConnectionServerLoop(int client_fd){
 bool checkReceivedMessage(char *message, char *answer){
     
     int request;
+    char code[6];
     request = message[0] - '0';
 
     switch (request) {
@@ -218,7 +218,40 @@ bool checkReceivedMessage(char *message, char *answer){
             strcpy(answer, "All Subjects:\n");
             strcat(answer, getCodigosDisciplinas());
             break;
+        case 2:
+            getCodeFromRequest(message, code);
+            strcpy(answer, code);
+            strcat(answer, "\n");
+            strcat(answer, getEmentaFromCodigo(code));
+            break;
+        case 3:
+            getCodeFromRequest(message, code);
+            strcpy(answer, code);
+            strcat(answer, "\n");
+            strcat(answer, getInformacaoDisciplinaFromCodigo(code));
+            break;
+        case 4:
+            getCodeFromRequest(message, code);
+            strcpy(answer, code);
+            strcat(answer, "\n");
+            strcat(answer, getComentarioFromCodigo(code));
+            break;
+        case 5:
+            strcpy(answer, "All Subjects:\n");
+            strcat(answer, getAllInfo());
+            break;
+        default:
+            strcpy(answer, message);
+            strcat(answer, "[Unrecognized Message/Request]");
+            break;
     }
 
     return false;
+}
+
+void getCodeFromRequest(char *request, char *code){
+    for (int i=0; i<6; i++){
+        code[i] = request[i+2];
+    }
+    code[6] = 0;
 }

@@ -160,7 +160,6 @@ bool newConnectionClientLoop(int sockfd){
     return true;
 }
 
-/// TODO:
 /// Here we need to make a request to our server
 /// the user will select from a list of controlled requests
 /// PARAM:  the string where the request will be written
@@ -211,9 +210,10 @@ bool selectRequestMessage(char *request){
             return false;
     }
 
+    char code[10];
     printf("For which Subject [Type subject Code]: ");
-    scanf(" %s", (request + 1));
+    scanf(" %s", code);
+    strcat(request, code);
 
-
-    return false;
+    return true;
 }
