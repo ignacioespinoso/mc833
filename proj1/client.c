@@ -139,7 +139,7 @@ bool newConnectionClientLoop(int sockfd){
     while(1) {
         printf("Client: Enter Data for Server:\n");
         fgets(buffer,MAXDATASIZE-1,stdin);
-        if (sendMessageToServer(sockfd, buffer)) {
+        if (sendMessageToServer(sockfd, buffer) == false) {
             close(sockfd);
             return false;
 
