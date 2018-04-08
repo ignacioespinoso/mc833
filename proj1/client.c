@@ -155,6 +155,10 @@ bool newConnectionClientLoop(int sockfd){
             printf("Either Connection Closed or Error\n");
             return false;
         }
+
+        //Make a little stop
+        printf("\n\n(Press Enter to continue)\n\n");
+        getchar();
     }
 
     return true;
