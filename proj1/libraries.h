@@ -20,3 +20,5 @@
 #include <signal.h>
 #include <arpa/inet.h>
 #include <time.h>
+
+#define MAXDATASIZE 2000 // max number of bytes we can get at once 

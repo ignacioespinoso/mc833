@@ -11,7 +11,6 @@
 #include "libraries.h"
 
 #define PORT "3490" // the port client will be connecting to 
-#define MAXDATASIZE 2000 // max number of bytes we can get at once 
 
 // Creating Bool type
 typedef int bool;
@@ -21,6 +20,7 @@ enum bool {false, true};
 bool newConnectionClientLoop(int sockfd);
 bool receiveMessageFromServer(int sockfd, char* buffer);
 bool receiveMessageFromServer(int sockfd, char* buffer);
+bool selectRequestMessage(char *request);
 
 // get sockaddr, IPv4 or IPv6:
 void *get_in_addr(struct sockaddr *sa) {
@@ -107,7 +107,7 @@ bool sendMessageToServer(int fd, char *message){
     if ((send(fd, message, strlen(message),0))== -1){
         return false;
     }
-    printf("Client: Message being sent: %s\n",message);
+    printf("client: Message being sent: %s\n",message);
     return true;
 }
 
@@ -122,8 +122,16 @@ bool receiveMessageFromServer(int sockfd, char* buffer){
     if (num < 0)
         return false;
     buffer[num] = '\0';
-    printf("Client: Message Received From Server -  %s\n",buffer);
+    printf("client: Message Received From Server -  %s\n",buffer);
     return true;
+}
+
+/// TODO:
+/// Here we need to make a request to our server
+/// the user will select from a list of controlled requests
+/// PARAM:  the string where the request will be written
+bool selectRequestMessage(char *request){
+    return false;
 }
 
 /// After being connected to a server
@@ -140,12 +148,15 @@ bool newConnectionClientLoop(int sockfd){
     while(1) {
 
         //Send a message to server
-        printf("Client: Enter Data for Server:\n");
+        printf("client: Enter Data for Server:\n");
         fgets(buffer,MAXDATASIZE-1,stdin);
         if (sendMessageToServer(sockfd, buffer) == false) {
             close(sockfd);
             return false;
         }
+
+        //TODO:
+        //selectRequestMessage(buffer);
 
         //The message was sent correctly - waiting for answer
         if (receiveMessageFromServer(sockfd, buffer) == false) {
@@ -153,7 +164,6 @@ bool newConnectionClientLoop(int sockfd){
             return false;
         }
     }
-    
 
     return true;
 }

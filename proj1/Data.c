@@ -23,7 +23,7 @@
 
 //Creating boolean type
 typedef int bool;
-enum bool {false, true};
+enum bool {false, true, end};
 
 //Creating struct for Subject information
 typedef struct ClassData{

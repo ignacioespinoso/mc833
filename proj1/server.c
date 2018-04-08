@@ -18,6 +18,7 @@
 bool sendMessageToClient(int fd, char *message);
 bool receiveMessageFromClient(int sockfd, char* buffer);
 bool newConnectionServerLoop(int client_fd);
+bool checkReceivedMessage(char *message, char *answer);
 
 
 void sigchld_handler(int s) {
@@ -40,6 +41,8 @@ void *get_in_addr(struct sockaddr *sa) {
 }
 
 int main(void) {
+
+    // Connection variables
     int sockfd, new_fd;  // listen on sock_fd, new connection on new_fd
     struct addrinfo hints, *servinfo, *p;
     struct sockaddr_storage their_addr; // connector's address information
@@ -147,7 +150,7 @@ bool sendMessageToClient(int fd, char *message){
     if (send(fd, message, strlen(message), 0) == -1){
         return false;
     }
-    printf("Server: Msg being sent: %s [Number of bytes sent: %lu]\n",message, strlen(message));
+    printf("server: Msg being sent: %s [Number of bytes sent: %lu]\n",message, strlen(message));
     return true;
 }
 
@@ -159,15 +162,23 @@ bool sendMessageToClient(int fd, char *message){
 bool receiveMessageFromClient(int sockfd, char* buffer){
     int num;
     num = recv(sockfd, buffer, 1024, 0);
-    if (num < 0)
+    if (num <= 0)
         return false;
     // if num == 0 connection closed (?)
     buffer[num] = '\0';
-    printf("Server: Message Received From Client -  %s\n", buffer);
+    printf("server: Message Received From Client -  %s\n", buffer);
     return true;
 }
 
+/// TODO:
+/// Check an incomming request
+/// to get the proper answer from the Data.c
+/// PARAM:  message - the incoming request
+///         answer  - the answer string
+/// Return: true    - the correct answer could be found
+///         false   - the answer was not found
 bool checkReceivedMessage(char *message, char *answer){
+    // TODO: List of requests to be answered
     return false;
 }
 
@@ -179,15 +190,18 @@ bool checkReceivedMessage(char *message, char *answer){
 bool newConnectionServerLoop(int client_fd){
     
     int num;
-    char buffer[5000];
+    char buffer[MAXDATASIZE];
 
     // Stays in loop until the connection is closed
     while(1) {
 
         if (receiveMessageFromClient(client_fd, buffer) == false) {
-            perror("recv");
-            return false;
+            printf(">>> There was an error or the connection was closed\n\n");
+            break;
         }
+
+        //TODO:
+        //checkReceivedMessage(buffer, buffer);
 
         if (sendMessageToClient(client_fd, buffer) == false) {
             fprintf(stderr, "Failure Sending Message\n");
