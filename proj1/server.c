@@ -16,6 +16,7 @@
 
 /// Created methods
 bool sendMessageToClient(int fd, char *message);
+bool newConnectionServerLoop(int client_fd);
 
 
 void sigchld_handler(int s) {
@@ -117,8 +118,16 @@ int main(void) {
 
         if (!fork()) { // this is the child process
             close(sockfd); // child doesn't need the listener
+
+            // Send the "Connected message!"
             if (sendMessageToClient(new_fd, "Connected") == false)
                 perror("send");
+
+            if (newConnectionServerLoop(new_fd) == false){
+                perror("Connection Failed");
+                exit(1);
+            }
+
             close(new_fd);
             exit(0);
         }
@@ -134,6 +143,35 @@ int main(void) {
 bool sendMessageToClient(int fd, char *message){
     if (send(fd, message, strlen(message), 0) == -1){
         return false;
+    }
+    return true;
+}
+
+bool newConnectionServerLoop(int client_fd){
+    
+    int num;
+    char buffer[5000];
+
+    while(1) {
+
+        if ((num = recv(client_fd, buffer, 1024,0))== -1) {
+            perror("recv");
+            return false;
+        }
+        else if (num == 0) {
+            printf("Connection closed\n");
+            //So I can now wait for another client
+            break;
+        }
+        buffer[num] = '\0';
+        printf("Server:Msg Received %s\n", buffer);
+        if ((send(client_fd,buffer, strlen(buffer),0))== -1) {
+            fprintf(stderr, "Failure Sending Message\n");
+            close(client_fd);
+            break;
+        }
+
+        printf("Server:Msg being sent: %s\nNumber of bytes sent: %lu\n",buffer, strlen(buffer));
     }
     return true;
 }

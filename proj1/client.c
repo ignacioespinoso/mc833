@@ -13,6 +13,13 @@
 #define PORT "3490" // the port client will be connecting to 
 #define MAXDATASIZE 2000 // max number of bytes we can get at once 
 
+// Creating Bool type
+typedef int bool;
+enum bool {false, true};
+
+// Created methods to handle connection
+bool newConnectionClientLoop(int sockfd);
+
 // get sockaddr, IPv4 or IPv6:
 void *get_in_addr(struct sockaddr *sa) {
     if (sa->sa_family == AF_INET) {
@@ -24,7 +31,7 @@ void *get_in_addr(struct sockaddr *sa) {
 
 int main(int argc, char *argv[]) {
     int sockfd, numbytes;  
-    char buf[MAXDATASIZE], buffer[MAXDATASIZE];
+    char buf[MAXDATASIZE];
     struct addrinfo hints, *servinfo, *p;
     int rv;
     char s[INET6_ADDRSTRLEN];
@@ -77,22 +84,41 @@ int main(int argc, char *argv[]) {
     }
 
     buf[numbytes] = '\0';
-
     printf("client: received '%s'\n",buf);
+    // Connection loop - Connection already stablished
+    if (newConnectionClientLoop(sockfd) == false){
+        perror("Connection error");
+        exit(1);
+    }
 
+    // End connection
+    close(sockfd);
 
-    // Connection loop
+    return 0;
+}
+
+bool sendMessageToServer(int fd, char *message){
+    if ((send(fd, message, strlen(message),0))== -1){
+        return false;
+    }
+    return true;
+}
+
+bool newConnectionClientLoop(int sockfd){
+
     int num;
+    char buffer[MAXDATASIZE];
+
+    // Stays in loop until user close the connection
     while(1) {
         printf("Client: Enter Data for Server:\n");
         fgets(buffer,MAXDATASIZE-1,stdin);
-        if ((send(sockfd,buffer, strlen(buffer),0))== -1) {
-            //perror(stderr, "Failure Sending Message\n");
+        if (sendMessageToServer(sockfd, buffer)) {
             close(sockfd);
-            exit(1);
+            return false;
 
         } else {
-            printf("Client:Message being sent: %s\n",buffer);
+            printf("Client: Message being sent: %s\n",buffer);
             num = recv(sockfd, buffer, sizeof(buffer),0);
             if ( num <= 0 ) {
                 printf("Either Connection Closed or Error\n");
@@ -100,13 +126,10 @@ int main(int argc, char *argv[]) {
                 break;
             }
 
-            buf[num] = '\0';
+            buffer[num] = '\0';
             printf("Client:Message Received From Server -  %s\n",buffer);
         }
     }
 
-    // End connection
-    close(sockfd);
-
-    return 0;
+    return true;
 }

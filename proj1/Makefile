@@ -32,6 +32,11 @@ server: server.c
 client: client.c
 	gcc client.c -o client.out
 
+# Gerar todos os arquivos - Test only
+all: client.c server.c
+	gcc client.c -o client.out
+	gcc server.c -o server.out
+
 # Gerar e rodar o servidor
 run_server: server.c
 	gcc server.c -o server.out
