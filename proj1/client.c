@@ -139,19 +139,15 @@ bool newConnectionClientLoop(int sockfd){
     // Stays in loop until user close the connection
     while(1) {
 
-        //Send a message to server
-        printf("client: Enter Data for Server:\n");
-        fgets(buffer,MAXDATASIZE-1,stdin);
-        if (sendMessageToServer(sockfd, buffer) == false) {
-            close(sockfd);
-            return false;
-        }
-
-        //TODO:
+        //Show the menu to select a message to server
         if (selectRequestMessage(buffer) == false){
             // The user decided to close the connection
             close(sockfd);
             return true;
+        }
+        if (sendMessageToServer(sockfd, buffer) == false) {
+            close(sockfd);
+            return false;
         }
 
         //The message was sent correctly - waiting for answer
@@ -210,6 +206,9 @@ bool selectRequestMessage(char *request){
             printf("Type your message: ");
             scanf(" %s", request);
             return true;
+        default:
+            printf("Invalid request... Closing connection\n");
+            return false;
     }
 
     printf("For which Subject [Type subject Code]: ");

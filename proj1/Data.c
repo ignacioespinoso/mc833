@@ -123,19 +123,17 @@ int getQuantidadeDisciplinas(){
 /// Pega os docigos de todas as disciplinas da base de dados
 /// Return: Retorna um pontiro para um array de Strings (char**)
 ///			(alocado dinamicamente) com todos os codigos
-char** getCodigosDisciplinas(){
+char* getCodigosDisciplinas(){
 
 	testIfLoaded();
 
-	char **codigos;
+	char *codigos;
 	// Alocando memoria para cada codigo de disciplina
-	codigos = malloc(sizeof(char*) * numeroDisciplinas);
-	for (int i=0; i < numeroDisciplinas; i++){
-		codigos[i] = malloc(sizeof(char) * 10);
-	}
+	codigos = malloc(sizeof(char) * numeroDisciplinas * 5);
 	// Copiando os codigos de disciplina no parametro
 	for (int i=0; i < numeroDisciplinas; i++){
-		strcpy(codigos[i], disciplinas[i].codigo);
+		strcat(codigos, disciplinas[i].codigo);
+		strcat(codigos, "\n");
 	}
 	// retornando total de codigos adicionado
 	return codigos;
@@ -152,7 +150,7 @@ char** getCodigosNomesDisciplinas(){
 	// Alocando memoria para cada codigo de disciplina
 	codigos = malloc(sizeof(char*) * numeroDisciplinas);
 	for (int i=0; i < numeroDisciplinas; i++){
-		codigos[i] = malloc(sizeof(char) * 300);
+		codigos[i] = malloc(sizeof(char) * 100);
 	}
 	// Copiando os codigos de disciplina no parametro
 	for (int i=0; i < numeroDisciplinas; i++){

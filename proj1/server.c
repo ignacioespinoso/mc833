@@ -170,18 +170,6 @@ bool receiveMessageFromClient(int sockfd, char* buffer){
     return true;
 }
 
-/// TODO:
-/// Check an incomming request
-/// to get the proper answer from the Data.c
-/// PARAM:  message - the incoming request
-///         answer  - the answer string
-/// Return: true    - the correct answer could be found
-///         false   - the answer was not found
-bool checkReceivedMessage(char *message, char *answer){
-    // TODO: List of requests to be answered
-    return false;
-}
-
 /// After being connected to a client
 /// this method can be called to continue the connection
 /// PARAM:  client_fd - the client connection idetifier
@@ -191,6 +179,7 @@ bool newConnectionServerLoop(int client_fd){
     
     int num;
     char buffer[MAXDATASIZE];
+    char answer[MAXDATASIZE];
 
     // Stays in loop until the connection is closed
     while(1) {
@@ -200,14 +189,36 @@ bool newConnectionServerLoop(int client_fd){
             break;
         }
 
-        //TODO:
-        //checkReceivedMessage(buffer, buffer);
+        // Check the request
+        checkReceivedMessage(buffer, answer);
 
-        if (sendMessageToClient(client_fd, buffer) == false) {
+        if (sendMessageToClient(client_fd, answer) == false) {
             fprintf(stderr, "Failure Sending Message\n");
             close(client_fd);
             break;
         }
     }
     return true;
+}
+
+/// TODO:
+/// Check an incomming request
+/// to get the proper answer from the Data.c
+/// PARAM:  message - the incoming request
+///         answer  - the answer string
+/// Return: true    - the correct answer could be found
+///         false   - the answer was not found
+bool checkReceivedMessage(char *message, char *answer){
+    
+    int request;
+    request = message[0] - '0';
+
+    switch (request) {
+        case 1:
+            strcpy(answer, "All Subjects:\n");
+            strcat(answer, getCodigosDisciplinas());
+            break;
+    }
+
+    return false;
 }
