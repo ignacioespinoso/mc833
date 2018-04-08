@@ -41,10 +41,10 @@ int main(int argc, char *argv[]) {
     while(1) {
         connfd = accept(listenfd, (struct sockaddr*)NULL, NULL); 
 
-        printf("Accepted %d\n", connfd);
+        printf("Accepted %d\n", listenfd);
 
         ticks = time(NULL);
-        snprintf(sendBuff, sizeof(sendBuff), "%.24s\r\n", ctime(&ticks));
+        snprintf(sendBuff, sizeof(sendBuff), "%.24s\r\n%s\r\n", ctime(&ticks), getEmentaFromCodigo("MC102"));
         
         printf("--->>SENDING: %s\n ", sendBuff);
         write(connfd, sendBuff, strlen(sendBuff)); 

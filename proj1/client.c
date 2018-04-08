@@ -39,7 +39,8 @@ int main(int argc, char *argv[]) {
     if( connect(sockfd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
        printf("\n Error : Connect Failed \n");
        return 1;
-    } 
+    }
+    printf("CONNECTED TO %s\n", argv[1]);
 
     while ( (n = read(sockfd, recvBuff, sizeof(recvBuff)-1)) > 0) {
         recvBuff[n] = 0;
