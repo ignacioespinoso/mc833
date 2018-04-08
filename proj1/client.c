@@ -159,6 +159,7 @@ bool newConnectionClientLoop(int sockfd){
         //Make a little stop
         printf("\n\n(Press Enter to continue)\n\n");
         getchar();
+        getchar();
     }
 
     return true;
