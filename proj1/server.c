@@ -14,8 +14,11 @@
 #define PORT "3490"     // the port users will be connecting to
 #define BACKLOG 10      // how many pending connections queue will hold
 
-void sigchld_handler(int s)
-{
+/// Created methods
+bool sendMessageToClient(int fd, char *message);
+
+
+void sigchld_handler(int s) {
     // waitpid() might overwrite errno, so we save and restore it:
     int saved_errno = errno;
 
@@ -26,8 +29,7 @@ void sigchld_handler(int s)
 
 
 // get sockaddr, IPv4 or IPv6:
-void *get_in_addr(struct sockaddr *sa)
-{
+void *get_in_addr(struct sockaddr *sa) {
     if (sa->sa_family == AF_INET) {
         return &(((struct sockaddr_in*)sa)->sin_addr);
     }
@@ -35,8 +37,7 @@ void *get_in_addr(struct sockaddr *sa)
     return &(((struct sockaddr_in6*)sa)->sin6_addr);
 }
 
-int main(void)
-{
+int main(void) {
     int sockfd, new_fd;  // listen on sock_fd, new connection on new_fd
     struct addrinfo hints, *servinfo, *p;
     struct sockaddr_storage their_addr; // connector's address information
@@ -116,7 +117,7 @@ int main(void)
 
         if (!fork()) { // this is the child process
             close(sockfd); // child doesn't need the listener
-            if (send(new_fd, "Hello, world!", 13, 0) == -1)
+            if (sendMessageToClient(new_fd, "Connected") == false)
                 perror("send");
             close(new_fd);
             exit(0);
@@ -125,4 +126,14 @@ int main(void)
     }
 
     return 0;
+}
+
+/// Send a message to the client
+/// Param:  fd - the client connection number (?)
+///         message - a String (char*) for the sending message
+bool sendMessageToClient(int fd, char *message){
+    if (send(fd, message, strlen(message), 0) == -1){
+        return false;
+    }
+    return true;
 }
