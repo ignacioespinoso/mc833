@@ -122,7 +122,7 @@ bool receiveMessageFromServer(int sockfd, char* buffer){
     if (num < 0)
         return false;
     buffer[num] = '\0';
-    printf("client: Message Received From Server -  %s\n",buffer);
+    printf("client: Message Received From Server:\n%s\n",buffer);
     return true;
 }
 
@@ -157,7 +157,7 @@ bool newConnectionClientLoop(int sockfd){
         }
 
         //Make a little stop
-        printf("\n\n(Press Enter to continue)\n\n");
+        printf("\n(Press Enter to continue)\n\n");
         getchar();
         getchar();
     }
