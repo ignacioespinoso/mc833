@@ -40,7 +40,7 @@ run_server: server.c
 # Gerar e rodar o cliente
 run_client: client.c
 	gcc client.c -o client.out
-	./client.out
+	echo "run the command ./client.out xxx.x.x.x - with the server IP"
 
 # Limpar arquivos de server
 clean_server: server.out

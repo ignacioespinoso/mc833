@@ -1,5 +1,6 @@
 // Server Code
-
+// Reference:   https://www.thegeekstuff.com/2011/12/c-socket-programming/
+//              https://www.thegeekstuff.com/2011/12/c-socket-programming/
 /*  Giovani Nascimento Pereira - 168609
     Ignacio Espinoso Ribeiro - 
 
@@ -12,57 +13,43 @@
 #define MYPORT "3490"  // the port users will be connecting to
 #define BACKLOG 5     // how many pending connections queue will hold
 
-int main() {
-    struct addrinfo hints, *servinfo;
-    memset(&hints, 0, sizeof(hints)); // make sure the struct is empty
-    struct sockaddr_storage their_addr; // connector's address information
-    hints.ai_family = AF_UNSPEC; //don't care IPv4 or IPv6
-    hints.ai_socktype = SOCK_STREAM; //TCP stream sockets
-    hints.ai_flags = AI_PASSIVE; // fill in my IP for me
+int main(int argc, char *argv[]) {
 
-    //Sets things up
-    int status;
-    if ((status = getaddrinfo (NULL, MYPORT, &hints, &servinfo)) != 0) {
-        fprintf(stderr, "getaddrinfo error: %s\n", gai_strerror(status));
-        exit(1);
-    }
+    int listenfd = 0, connfd = 0;
+    struct sockaddr_in serv_addr; 
 
-    //Creates socket
-    int server_socket = socket(servinfo->ai_family, servinfo->ai_socktype
-                                , servinfo->ai_protocol);
-    //Binds port to socket
-    int server_port;
-    server_port = bind(server_socket, servinfo->ai_addr, servinfo->ai_addrlen);
-    if(server_port < 0) {
-        perror("bind call error");
-    }
-    //Listens and accepts connection
-    listen(server_socket, BACKLOG);
-    socklen_t addr_size;
-    int new_connection;
+    char sendBuff[1025];
+    time_t ticks; 
 
-    printf("server: waiting for connections...\n");
+    // Creates an UN-named socket inside the kernel and 
+    // returns an integer known as socket descriptor
+    printf("CREATING SOCKET...\n");
+    listenfd = socket(AF_INET, SOCK_STREAM, 0);
+    memset(&serv_addr, '0', sizeof(serv_addr));
+    memset(sendBuff, '0', sizeof(sendBuff)); 
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    serv_addr.sin_port = htons(5000); 
+
+    printf("BINDING...\n");
+    bind(listenfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr)); 
+
+    printf("LISTENING...\n\n");
+    listen(listenfd, 10); 
+
     while(1) {
-        addr_size = sizeof their_addr;
-        new_connection = accept(server_socket, (struct sockaddr *)&their_addr
-                                , &addr_size);
-        if (new_connection == -1) {
-           perror("accept error");
-           continue;
-        }
-        //Gets information about the peer.
-        inet_ntop(their_addr.ss_family,
-            get_in_addr((struct sockaddr *)&their_addr),
-            s, sizeof s);
+        connfd = accept(listenfd, (struct sockaddr*)NULL, NULL); 
 
-        if (!fork()) { // this is the child process
-            close(new_connection); // child doesn't need the listener
-            if (send(new_connection, "Hello, world!", 13, 0) == -1)
-                perror("send error");
-            close(new_fd);
-            exit(0);
-        }
-        close(new_connection);  // parent doesn't need this
-    }
-  return 0;
+        printf("Accepted %d\n", connfd);
+
+        ticks = time(NULL);
+        snprintf(sendBuff, sizeof(sendBuff), "%.24s\r\n", ctime(&ticks));
+        
+        printf("--->>SENDING: %s\n ", sendBuff);
+        write(connfd, sendBuff, strlen(sendBuff)); 
+
+        close(connfd);
+        sleep(1);
+     }
 }
