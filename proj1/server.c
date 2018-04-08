@@ -172,6 +172,7 @@ bool newConnectionServerLoop(int client_fd){
         }
         buffer[num] = '\0';
         printf("Server:Msg Received %s\n", buffer);
+        strcat(buffer, " [RECEBIDO]");
         if (sendMessageToClient(client_fd, buffer) == false) {
             fprintf(stderr, "Failure Sending Message\n");
             close(client_fd);

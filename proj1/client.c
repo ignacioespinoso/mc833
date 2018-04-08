@@ -118,7 +118,7 @@ bool sendMessageToServer(int fd, char *message){
 ///                 false if something went wrong
 bool receiveMessageFromServer(int sockfd, char* buffer){
     int num;
-    num = recv(sockfd, buffer, sizeof(buffer),0);
+    num = recv(sockfd, buffer, MAXDATASIZE,0);
     if (num < 0)
         return false;
     buffer[num] = '\0';
