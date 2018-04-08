@@ -32,7 +32,7 @@ void *get_in_addr(struct sockaddr *sa) {
 }
 
 int main(int argc, char *argv[]) {
-    int sockfd, numbytes;  
+    int sockfd, numbytes = 0;  
     char buf[MAXDATASIZE];
     struct addrinfo hints, *servinfo, *p;
     int rv;
@@ -133,7 +133,6 @@ bool receiveMessageFromServer(int sockfd, char* buffer){
 ///                 false if something went wrong
 bool newConnectionClientLoop(int sockfd){
 
-    int num;
     char buffer[MAXDATASIZE];
 
     // Stays in loop until user close the connection
