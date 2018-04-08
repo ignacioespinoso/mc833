@@ -16,6 +16,7 @@
 
 /// Created methods
 bool sendMessageToClient(int fd, char *message);
+bool receiveMessageFromClient(int sockfd, char* buffer);
 bool newConnectionServerLoop(int client_fd);
 
 
@@ -146,7 +147,28 @@ bool sendMessageToClient(int fd, char *message){
     if (send(fd, message, strlen(message), 0) == -1){
         return false;
     }
+    printf("Server: Msg being sent: %s [Number of bytes sent: %lu]\n",message, strlen(message));
     return true;
+}
+
+/// Waits to receive a message from the client
+/// PARAM:  sockfd - the client connection idetifier
+///         buffer - a char* to insert the message
+/// RETURN: bool   - true if the message was received correclty
+///                  false if something went wrong
+bool receiveMessageFromClient(int sockfd, char* buffer){
+    int num;
+    num = recv(sockfd, buffer, 1024, 0);
+    if (num < 0)
+        return false;
+    // if num == 0 connection closed (?)
+    buffer[num] = '\0';
+    printf("Server: Message Received From Client -  %s\n", buffer);
+    return true;
+}
+
+bool checkReceivedMessage(char *message, char *answer){
+    return false;
 }
 
 /// After being connected to a client
@@ -159,27 +181,19 @@ bool newConnectionServerLoop(int client_fd){
     int num;
     char buffer[5000];
 
+    // Stays in loop until the connection is closed
     while(1) {
 
-        if ((num = recv(client_fd, buffer, 1024,0))== -1) {
+        if (receiveMessageFromClient(client_fd, buffer) == false) {
             perror("recv");
             return false;
         }
-        else if (num == 0) {
-            printf("Connection closed\n");
-            //So I can now wait for another client
-            break;
-        }
-        buffer[num] = '\0';
-        printf("Server:Msg Received %s\n", buffer);
-        strcat(buffer, " [RECEBIDO]");
+
         if (sendMessageToClient(client_fd, buffer) == false) {
             fprintf(stderr, "Failure Sending Message\n");
             close(client_fd);
             break;
         }
-
-        printf("Server:Msg being sent: %s\nNumber of bytes sent: %lu\n",buffer, strlen(buffer));
     }
     return true;
 }

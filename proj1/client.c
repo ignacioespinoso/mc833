@@ -107,6 +107,7 @@ bool sendMessageToServer(int fd, char *message){
     if ((send(fd, message, strlen(message),0))== -1){
         return false;
     }
+    printf("Client: Message being sent: %s\n",message);
     return true;
 }
 
@@ -121,6 +122,7 @@ bool receiveMessageFromServer(int sockfd, char* buffer){
     if (num < 0)
         return false;
     buffer[num] = '\0';
+    printf("Client: Message Received From Server -  %s\n",buffer);
     return true;
 }
 
@@ -136,23 +138,20 @@ bool newConnectionClientLoop(int sockfd){
 
     // Stays in loop until user close the connection
     while(1) {
+
+        //Send a message to server
         printf("Client: Enter Data for Server:\n");
         fgets(buffer,MAXDATASIZE-1,stdin);
         if (sendMessageToServer(sockfd, buffer) == false) {
             close(sockfd);
             return false;
-
-        } 
-        printf("Client: Message being sent: %s\n",buffer);
+        }
 
         //The message was sent correctly - waiting for answer
         if (receiveMessageFromServer(sockfd, buffer) == false) {
             printf("Either Connection Closed or Error\n");
-            //Break from the While
-            break;
+            return false;
         }
-
-        printf("Client: Message Received From Server -  %s\n",buffer);
     }
     
 
