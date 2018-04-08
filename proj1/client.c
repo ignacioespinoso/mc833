@@ -126,14 +126,6 @@ bool receiveMessageFromServer(int sockfd, char* buffer){
     return true;
 }
 
-/// TODO:
-/// Here we need to make a request to our server
-/// the user will select from a list of controlled requests
-/// PARAM:  the string where the request will be written
-bool selectRequestMessage(char *request){
-    return false;
-}
-
 /// After being connected to a server
 /// this method can be called to continue the connection
 /// so it will only closes when thi method comes to an end
@@ -156,7 +148,11 @@ bool newConnectionClientLoop(int sockfd){
         }
 
         //TODO:
-        //selectRequestMessage(buffer);
+        if (selectRequestMessage(buffer) == false){
+            // The user decided to close the connection
+            close(sockfd);
+            return true;
+        }
 
         //The message was sent correctly - waiting for answer
         if (receiveMessageFromServer(sockfd, buffer) == false) {
@@ -166,4 +162,59 @@ bool newConnectionClientLoop(int sockfd){
     }
 
     return true;
+}
+
+/// TODO:
+/// Here we need to make a request to our server
+/// the user will select from a list of controlled requests
+/// PARAM:  the string where the request will be written
+bool selectRequestMessage(char *request){
+
+    int option; 
+
+    printf("Connected to GioBaiano Server\nMake a Request or send a Message:\n\n");
+    printf("1 - Get all subjects\n");
+    printf("2 - Get subject description\n");
+    printf("3 - Get subject full information\n");
+    printf("4 - Get next class information\n");
+    printf("5 - Get all subjects info\n");
+    // Teacher only:
+    //printf("6 - Set nextClassComment\n");
+    printf("7 - Send custom message\n");
+    printf("0 - Close Connection\n");
+
+    // Get user command
+    scanf(" %d", &option);
+
+    switch (option){
+        case 0:
+            // Close connection
+            return false;
+        case 1:
+            strcpy(request, "1 Get all subjects");
+            return true;
+        case 2:
+            strcpy(request, "2 ");
+            break;
+        case 3:
+            strcpy(request, "3 ");
+            break;
+        case 4:
+            strcpy(request, "4 ");
+            break;
+        case 5:
+            strcpy(request, "5 Get all subjects info");
+            return true;
+        // TODO case 6
+        case 7:
+            printf("Type your message: ");
+            scanf(" %s", request);
+            return true;
+    }
+
+    printf("For which Subject [Type subject Code]: ");
+    scanf(" %s", (request + 1));
+
+
+    return false;
 }
