@@ -10,10 +10,10 @@
 # -------- Como Usar ----------
 #
 # make test: Testar base de dados
-# (TODO) make server: Criar arquivo de servidor
-# (TODO) make client: Criar arquivo de client
-# (TODO) make run_client: Criar e rodar aquivo de client
-# (TODO) make run_server: Criar e rodar aquivo de server
+# make server: Criar arquivo de servidor
+# make client: Criar arquivo de client
+# make run_client: Criar e rodar aquivo de client
+# make run_server: Criar e rodar aquivo de server
 # clean: Limpar todos os arquivos .out
 #
 # ------------------ plz use --

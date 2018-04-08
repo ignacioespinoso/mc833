@@ -1,18 +1,18 @@
-// // Server Code
-// // Reference:   https://www.thegeekstuff.com/2011/12/c-socket-programming/
-// //              https://www.thegeekstuff.com/2011/12/c-socket-programming/
-// /*  Giovani Nascimento Pereira - 168609
-//     Ignacio Espinoso Ribeiro - 
+// Server Code
+// Reference:   https://www.thegeekstuff.com/2011/12/c-socket-programming/
+//              https://www.thegeekstuff.com/2011/12/c-socket-programming/
+/*  Giovani Nascimento Pereira - 168609
+    Ignacio Espinoso Ribeiro - 
 
-//     MC833 - 2S2018
-//     Unicamp
-// */
+    MC833 - 2S2018
+    Unicamp
+*/
 
-#include "libraries.h"
-#include "Data.c"
+#include "libraries.h"  // file with the connection imports
+#include "Data.c"       // database file and functions
 
-#define PORT "3490"  // the port users will be connecting to
-#define BACKLOG 10     // how many pending connections queue will hold
+#define PORT "3490"     // the port users will be connecting to
+#define BACKLOG 10      // how many pending connections queue will hold
 
 void sigchld_handler(int s)
 {
