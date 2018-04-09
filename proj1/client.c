@@ -2,7 +2,7 @@
 // Reference:   https://www.programminglogic.com/example-of-client-server-program-in-c-using-sockets-and-tcp/
 //              https://www.thegeekstuff.com/2011/12/c-socket-programming/
 /*  Giovani Nascimento Pereira - 168609
-  Ignacio Espinoso Ribeiro - 
+    Ignacio Espinoso Ribeiro - 
 
   MC833 - 2S2018
   Unicamp
@@ -21,27 +21,18 @@ bool newConnectionClientLoop(int sockfd);
 bool receiveMessageFromServer(int sockfd, char* buffer);
 bool receiveMessageFromServer(int sockfd, char* buffer);
 bool selectRequestMessage(char *request);
-
-// get sockaddr, IPv4 or IPv6:
-void *get_in_addr(struct sockaddr *sa) {
-    if (sa->sa_family == AF_INET) {
-        return &(((struct sockaddr_in*)sa)->sin_addr);
-    }
-
-    return &(((struct sockaddr_in6*)sa)->sin6_addr);
-}
+void *get_in_addr(struct sockaddr *sa);
+void checkInformation(int numberOfParam);
 
 int main(int argc, char *argv[]) {
     int sockfd, numbytes = 0;  
     char buf[MAXDATASIZE];
-    struct addrinfo hints, *servinfo, *p;
+    addrinfo hints, *servinfo, *p;
     int rv;
     char s[INET6_ADDRSTRLEN];
 
-    if (argc != 2) {
-        fprintf(stderr,"usage: client hostname\n");
-        exit(1);
-    }
+    // CHeck if the code was executed correctly
+    checkInformation(argc);
 
     memset(&hints, 0, sizeof hints);
     hints.ai_family = AF_UNSPEC;
@@ -81,11 +72,10 @@ int main(int argc, char *argv[]) {
     freeaddrinfo(servinfo); // all done with this structure
 
     if (receiveMessageFromServer(sockfd, buf) == false) {
-        perror("recv");
+        perror("error on recieving connect message");
         exit(1);
     }
 
-    printf("client: received '%s'\n",buf);
     // Connection loop - Connection already stablished
     if (newConnectionClientLoop(sockfd) == false){
         perror("Connection error");
@@ -96,6 +86,22 @@ int main(int argc, char *argv[]) {
     close(sockfd);
 
     return 0;
+}
+
+/// Get sockaddr, IPv4 or IPv6:
+void *get_in_addr(struct sockaddr *sa) {
+    if (sa->sa_family == AF_INET) {
+        return &(((struct sockaddr_in*)sa)->sin_addr);
+    }
+    return &(((struct sockaddr_in6*)sa)->sin6_addr);
+}
+
+/// Check if the user typed the hostname
+void checkInformation(int numberOfParam){
+    if (numberOfParam != 2) {
+        fprintf(stderr,"usage: type in the client hostname\n");
+        exit(1);
+    } 
 }
 
 /// Sends a string message to the server

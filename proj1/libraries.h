@@ -20,5 +20,9 @@
 #include <signal.h>
 #include <arpa/inet.h>
 #include <time.h>
+#include <sys/time.h>
 
 #define MAXDATASIZE 2000 // max number of bytes we can get at once 
+
+// Simplifying struct types
+typedef struct addrinfo addrinfo;

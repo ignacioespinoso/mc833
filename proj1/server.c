@@ -1,5 +1,5 @@
 // Server Code
-// Reference:   https://www.thegeekstuff.com/2011/12/c-socket-programming/
+// Reference:   https://www.programminglogic.com/example-of-client-server-program-in-c-using-sockets-and-tcp/
 //              https://www.thegeekstuff.com/2011/12/c-socket-programming/
 /*  Giovani Nascimento Pereira - 168609
     Ignacio Espinoso Ribeiro - 
@@ -24,9 +24,7 @@ void getCodeFromRequest(char *request, char *code);
 void sigchld_handler(int s) {
     // waitpid() might overwrite errno, so we save and restore it:
     int saved_errno = errno;
-
     while(waitpid(-1, NULL, WNOHANG) > 0);
-
     errno = saved_errno;
 }
 
@@ -36,7 +34,6 @@ void *get_in_addr(struct sockaddr *sa) {
     if (sa->sa_family == AF_INET) {
         return &(((struct sockaddr_in*)sa)->sin_addr);
     }
-
     return &(((struct sockaddr_in6*)sa)->sin6_addr);
 }
 
@@ -210,7 +207,7 @@ bool newConnectionServerLoop(int client_fd){
 bool checkReceivedMessage(char *message, char *answer){
     
     int request;
-    char code[6];
+    char code[6]; // The subject code has a limited size 
     request = message[0] - '0';
 
     switch (request) {
@@ -242,13 +239,17 @@ bool checkReceivedMessage(char *message, char *answer){
             break;
         default:
             strcpy(answer, message);
-            strcat(answer, "[Unrecognized Message/Request]");
+            strcat(answer, " [Unrecognized Message/Request]");
             break;
     }
 
     return false;
 }
 
+/// Extract the code from a request of the type
+/// "<int Number> <5 character subject code>"
+/// PARAM:  request - String (char*) with the complete request text
+///         code    - the return of the collected code
 void getCodeFromRequest(char *request, char *code){
     for (int i=0; i<6; i++){
         code[i] = request[i+2];
