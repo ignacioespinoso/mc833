@@ -47,6 +47,11 @@ run_client: client.c
 	gcc client.c -o client.out
 	echo "run the command ./client.out xxx.x.x.x - with the server IP"
 
+# Rodar arquivo de client com conexao local
+run_local_client: client.c
+	gcc client.c -o client.out
+	./client.out 127.0.0.1
+
 # Limpar arquivos de server
 clean_server: server.out
 	rm -rf server.out
