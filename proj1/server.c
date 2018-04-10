@@ -222,6 +222,9 @@ bool checkReceivedMessage(char *message, char *answer){
     char code[6]; // The subject code has a limited size 
     request = message[0] - '0';
 
+    // Set the current operation on the timeConnection values
+    op.operation = request;
+
     switch (request) {
         case 1:
             strcpy(answer, "All Subjects:\n");

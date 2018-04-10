@@ -25,15 +25,15 @@ test: Data.c teste.c
 	rm -rf test.out
 
 # Gerar arquivo do servidor
-server: server.c
+server: server.c Data.c timeManager.c libraries.h
 	gcc server.c -o server.out
 
 # Gerar arquivo do client
-client: client.c
+client: client.c timeManager.c libraries.h
 	gcc client.c -o client.out
 
 # Gerar todos os arquivos - Test only
-all: client.c server.c
+all: client.c server.c Data.c timeManager.c libraries.h
 	gcc client.c -o client.out
 	gcc server.c -o server.out
 
