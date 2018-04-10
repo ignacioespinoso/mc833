@@ -175,7 +175,7 @@ bool receiveMessageFromClient(int sockfd, char* buffer){
         return false;
     // if num == 0 connection closed (?)
     buffer[num] = '\0';
-    printf("server: Message Received From Client -  %s\n", buffer);
+    printf("\nserver: Message Received From Client -  %s\n", buffer);
     return true;
 }
 
