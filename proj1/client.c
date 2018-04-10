@@ -16,6 +16,9 @@
 typedef int bool;
 enum bool {false, true};
 
+// Global variable for time manangement
+connectionTime op;
+
 // Created methods to handle connection
 bool newConnectionClientLoop(int sockfd);
 bool receiveMessageFromServer(int sockfd, char* buffer);
@@ -113,6 +116,8 @@ bool sendMessageToServer(int fd, char *message){
     if ((send(fd, message, strlen(message),0))== -1){
         return false;
     }
+    //Record send Time
+    gettimeofday(&op.sendTime, NULL);
     printf("client: Message being sent: %s\n",message);
     return true;
 }
@@ -127,8 +132,14 @@ bool receiveMessageFromServer(int sockfd, char* buffer){
     num = recv(sockfd, buffer, MAXDATASIZE-1, 0);
     if (num < 0)
         return false;
+    // Get the recieved time
+    gettimeofday(&op.recieveTime, NULL);
     buffer[num] = '\0';
     printf("client: Message Received From Server:\n%s\n",buffer);
+
+    // Print the time
+    printConnectionTimeClient(op);
+
     return true;
 }
 
@@ -191,6 +202,8 @@ bool selectRequestMessage(char *request){
 
     // Get user command
     scanf(" %d", &option);
+    // Save the request on the time operation
+    op.operation = option;
 
     switch (option){
         case 0:

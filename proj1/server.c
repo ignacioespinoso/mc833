@@ -21,6 +21,9 @@ bool newConnectionServerLoop(int client_fd);
 bool checkReceivedMessage(char *message, char *answer);
 void getCodeFromRequest(char *request, char *code);
 
+// Global variable to get system Time
+connectionTime op;
+
 void sigchld_handler(int s) {
     // waitpid() might overwrite errno, so we save and restore it:
     int saved_errno = errno;
@@ -147,7 +150,12 @@ bool sendMessageToClient(int fd, char *message){
     if (send(fd, message, strlen(message), 0) == -1){
         return false;
     }
+    //Get send Time
+    gettimeofday(&op.sendTime, NULL);
     printf("server: Msg being sent: %s [Number of bytes sent: %lu]\n",message, strlen(message));
+
+    //Printing time execution interval
+    printExecutionTimeServer(op);
     return true;
 }
 
@@ -159,6 +167,10 @@ bool sendMessageToClient(int fd, char *message){
 bool receiveMessageFromClient(int sockfd, char* buffer){
     int num;
     num = recv(sockfd, buffer, 1024, 0);
+
+    // Get recieve time
+    gettimeofday(&op.recieveTime, NULL);
+
     if (num <= 0)
         return false;
     // if num == 0 connection closed (?)

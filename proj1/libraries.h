@@ -26,3 +26,23 @@
 
 // Simplifying struct types
 typedef struct addrinfo addrinfo;
+
+typedef struct connectionTime{
+	int operation;
+	struct timeval sendTime;
+	struct timeval recieveTime;
+} connectionTime;
+
+/// Print the connection time from a connectionTime struct variable
+void printConnectionTimeClient(connectionTime op){
+	printf(">>>>>Send Time: %d μs\n", op.sendTime.tv_usec);
+	printf("<<<<<Recieve Time: %d μs\n", op.recieveTime.tv_usec);
+	printf("Total Interval Time: %d μs\n", (op.recieveTime.tv_usec - op.sendTime.tv_usec));
+}
+
+/// Print the connection time from a connectionTime struct variable
+void printExecutionTimeServer(connectionTime op){
+	printf(">>>>>Recieve Time: %d μs\n", op.sendTime.tv_usec);
+	printf("<<<<<Send Time: %d μs\n", op.recieveTime.tv_usec);
+	printf("Total Processing Time: %d μs\n", (op.sendTime.tv_usec - op.recieveTime.tv_usec));
+}
