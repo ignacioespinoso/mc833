@@ -225,7 +225,7 @@ bool checkReceivedMessage(char *message, char *answer){
     switch (request) {
         case 1:
             strcpy(answer, "All Subjects:\n");
-            strcat(answer, getCodigosDisciplinas());
+            strcat(answer, getCodigosNomesDisciplinas());
             break;
         case 2:
             getCodeFromRequest(message, code);

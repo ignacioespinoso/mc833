@@ -42,7 +42,7 @@ void printConnectionTimeClient(connectionTime op){
 
 /// Print the connection time from a connectionTime struct variable
 void printExecutionTimeServer(connectionTime op){
-	printf(">>>>>Recieve Time: %d μs\n", op.sendTime.tv_usec);
-	printf("<<<<<Send Time: %d μs\n", op.recieveTime.tv_usec);
+	printf(">>>>>Recieve Time: %d μs\n", op.recieveTime.tv_usec);
+	printf("<<<<<Send Time: %d μs\n", op.sendTime.tv_usec);
 	printf("Total Processing Time: %d μs\n", (op.sendTime.tv_usec - op.recieveTime.tv_usec));
 }
