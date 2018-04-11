@@ -1,7 +1,7 @@
 // Arquivo de Dados do Servidor - informações das salas e td mais
 
 /*  Giovani Nascimento Pereira - 168609
-	Ignacio Espinoso Ribeiro - 
+	Ignacio Espinoso Ribeiro - 169767
 
 	MC833 - 2S2018
 	Unicamp
@@ -105,7 +105,7 @@ void loadClassData(){
 
 }
 
-/// Checa se os dados ja estao na memoria - 
+/// Checa se os dados ja estao na memoria -
 /// senao, carrega os dados para serem utilizados
 /// Usado como prevenção de erros
 void testIfLoaded(){

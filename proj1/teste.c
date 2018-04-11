@@ -1,6 +1,6 @@
 // Codigo de teste para o arquivo Data.c
 /*  Giovani Nascimento Pereira - 168609
-	Ignacio Espinoso Ribeiro - 
+	Ignacio Espinoso Ribeiro - 169767
 
 	MC833 - 2S2018
 	Unicamp
@@ -50,7 +50,7 @@ int main (){
 	} else {
 		printf("ERROR");
 	}
-	
+
 
 	printf("\n-------- Pegando Informacao total Disciplina\n");
 	printf("%s\n", getInformacaoDisciplinaFromCodigo("MC102"));

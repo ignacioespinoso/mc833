@@ -2,11 +2,11 @@
 /*
 	This file is responsible for the code to
 	get the connection time information
-	print it - 
+	print it -
 	and also save the information on a .txt file
 */
 /*  Giovani Nascimento Pereira - 168609
-  Ignacio Espinoso Ribeiro - 
+  Ignacio Espinoso Ribeiro - 169767
 
   MC833 - 2S2018
   Unicamp
@@ -16,7 +16,7 @@
 typedef struct connectionTime{
 	int operation;
 	struct timeval sendTime;
-	struct timeval recieveTime;
+	struct timeval receiveTime;
 } connectionTime;
 
 int recordCounter = 0;
@@ -27,8 +27,8 @@ void writeServerTimeResults(char* filename, connectionTime op);
 /// Print the connection time from a connectionTime struct variable
 void printConnectionTimeClient(connectionTime op){
 	printf(">>>>>Send Time: %d μs\n", op.sendTime.tv_usec);
-	printf("<<<<<Receive Time: %d μs\n", op.recieveTime.tv_usec);
-	printf("Total Interval Time: %d μs\n", (op.recieveTime.tv_usec - op.sendTime.tv_usec));
+	printf("<<<<<Receive Time: %d μs\n", op.receiveTime.tv_usec);
+	printf("Total Interval Time: %d μs\n", (op.receiveTime.tv_usec - op.sendTime.tv_usec));
 
 	//Write to file - easier to find later
 	writeClientTimeResults("clientTimeLog.txt", op);
@@ -36,9 +36,9 @@ void printConnectionTimeClient(connectionTime op){
 
 /// Print the connection time from a connectionTime struct variable
 void printExecutionTimeServer(connectionTime op){
-	printf(">>>>>Receive Time: %d μs\n", op.recieveTime.tv_usec);
+	printf(">>>>>Receive Time: %d μs\n", op.receiveTime.tv_usec);
 	printf("<<<<<Send Time: %d μs\n", op.sendTime.tv_usec);
-	printf("Total Processing Time: %d μs\n", (op.sendTime.tv_usec - op.recieveTime.tv_usec));
+	printf("Total Processing Time: %d μs\n", (op.sendTime.tv_usec - op.receiveTime.tv_usec));
 
 	//Write to file - easier to find later
 	writeServerTimeResults("serverTimeLog.txt", op);
@@ -65,8 +65,8 @@ void writeClientTimeResults(char* filename, connectionTime op){
 	//Writing the test result
 	fprintf(f, "Operation: %d\n", op.operation);
 	fprintf(f, ">>>>>Send Time: %d μs\n", op.sendTime.tv_usec);
-	fprintf(f, "<<<<<Receive Time: %d μs\n", op.recieveTime.tv_usec);
-	fprintf(f, "Total Interval Time: %d μs\n\n", (op.recieveTime.tv_usec - op.sendTime.tv_usec));
+	fprintf(f, "<<<<<Receive Time: %d μs\n", op.receiveTime.tv_usec);
+	fprintf(f, "Total Interval Time: %d μs\n\n", (op.receiveTime.tv_usec - op.sendTime.tv_usec));
 
 	fclose(f);
 	recordCounter++;
@@ -92,9 +92,9 @@ void writeServerTimeResults(char* filename, connectionTime op){
 
 	//Writing the test result
 	fprintf(f, "Operation: %d\n", op.operation);
-	fprintf(f, ">>>>>Receive Time: %d μs\n", op.recieveTime.tv_usec);
+	fprintf(f, ">>>>>Receive Time: %d μs\n", op.receiveTime.tv_usec);
 	fprintf(f, "<<<<<Send Time: %d μs\n", op.sendTime.tv_usec);
-	fprintf(f, "Total Processing Time: %d μs\n\n", (op.sendTime.tv_usec - op.recieveTime.tv_usec));
+	fprintf(f, "Total Processing Time: %d μs\n\n", (op.sendTime.tv_usec - op.receiveTime.tv_usec));
 
 	fclose(f);
 	recordCounter++;

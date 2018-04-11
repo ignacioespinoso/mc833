@@ -2,7 +2,7 @@
 // Reference:   https://www.programminglogic.com/example-of-client-server-program-in-c-using-sockets-and-tcp/
 //              https://www.thegeekstuff.com/2011/12/c-socket-programming/
 /*  Giovani Nascimento Pereira - 168609
-    Ignacio Espinoso Ribeiro - 
+    Ignacio Espinoso Ribeiro - 169767
 
   MC833 - 2S2018
   Unicamp
@@ -10,7 +10,7 @@
 
 #include "libraries.h"
 
-#define PORT "3490" // the port client will be connecting to 
+#define PORT "3490" // the port client will be connecting to
 
 // Creating Bool type
 typedef int bool;
@@ -30,7 +30,7 @@ void checkTestMode(int sockfd, int argc, char** argv);
 void executeTestMode(int sockfd);
 
 int main(int argc, char *argv[]) {
-    int sockfd, numbytes = 0;  
+    int sockfd, numbytes = 0;
     char buf[MAXDATASIZE];
     addrinfo hints, *servinfo, *p;
     int rv;
@@ -61,7 +61,7 @@ int main(int argc, char *argv[]) {
             perror("client: connect");
             continue;
         }
-        
+
         break;
     }
 
@@ -109,7 +109,7 @@ void checkInformation(int numberOfParam){
     if (numberOfParam < 2) {
         fprintf(stderr,"usage: type in the client hostname\n");
         exit(1);
-    } 
+    }
 }
 
 /// Sends a string message to the server
@@ -118,11 +118,11 @@ void checkInformation(int numberOfParam){
 /// RETURN: bool -  true if the message was sent
 ///                 false if something went wrong
 bool sendMessageToServer(int fd, char *message){
+    //Record send Time
+    gettimeofday(&op.sendTime, NULL);
     if ((send(fd, message, strlen(message),0))== -1){
         return false;
     }
-    //Record send Time
-    gettimeofday(&op.sendTime, NULL);
     printf("client: Message being sent: %s\n",message);
     return true;
 }
@@ -137,8 +137,8 @@ bool receiveMessageFromServer(int sockfd, char* buffer){
     num = recv(sockfd, buffer, MAXDATASIZE-1, 0);
     if (num < 0)
         return false;
-    // Get the recieved time
-    gettimeofday(&op.recieveTime, NULL);
+    // Get the received time
+    gettimeofday(&op.receiveTime, NULL);
     buffer[num] = '\0';
     printf("client: Message Received From Server:\n%s\n",buffer);
 
@@ -192,7 +192,7 @@ bool newConnectionClientLoop(int sockfd){
 /// PARAM:  the string where the request will be written
 bool selectRequestMessage(char *request){
 
-    int option; 
+    int option;
 
     printf("Connected to GioBaiano Server\nMake a Request or send a Message:\n\n");
     printf("1 - Get all subjects\n");
@@ -275,7 +275,7 @@ void checkTestMode(int sockfd, int argc, char** argv){
 }
 
 /// This method is used on TEST MODE
-/// to make 50 connections of all types to get the current 
+/// to make 50 connections of all types to get the current
 /// execution and connection time
 void executeTestMode(int sockfd){
 

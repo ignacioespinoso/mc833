@@ -2,7 +2,7 @@
 // Reference:   https://www.programminglogic.com/example-of-client-server-program-in-c-using-sockets-and-tcp/
 //              https://www.thegeekstuff.com/2011/12/c-socket-programming/
 /*  Giovani Nascimento Pereira - 168609
-    Ignacio Espinoso Ribeiro - 
+    Ignacio Espinoso Ribeiro - 169767
 
     MC833 - 2S2018
     Unicamp
@@ -145,14 +145,14 @@ int main(void) {
 /// Send a message to the client
 /// Param:  fd - the client connection number (?)
 ///         message - a String (char*) for the sending message
-/// RETURN: bool -  true if the message was sent correclty
+/// RETURN: bool -  true if the message was sent correctly
 ///                 false if something went wrong
 bool sendMessageToClient(int fd, char *message){
+    //Get send Time
+    gettimeofday(&op.sendTime, NULL);
     if (send(fd, message, strlen(message), 0) == -1){
         return false;
     }
-    //Get send Time
-    gettimeofday(&op.sendTime, NULL);
     printf("server: Msg being sent: %s [Number of bytes sent: %lu]\n",message, strlen(message));
 
     //Printing time execution interval
@@ -169,8 +169,8 @@ bool receiveMessageFromClient(int sockfd, char* buffer){
     int num;
     num = recv(sockfd, buffer, 1024, 0);
 
-    // Get recieve time
-    gettimeofday(&op.recieveTime, NULL);
+    // Get receive time
+    gettimeofday(&op.receiveTime, NULL);
 
     if (num <= 0)
         return false;
@@ -186,7 +186,7 @@ bool receiveMessageFromClient(int sockfd, char* buffer){
 /// RETURN: bool -  true if the connection was closes properly
 ///                 false if something went wrong
 bool newConnectionServerLoop(int client_fd){
-    
+
     int num;
     char buffer[MAXDATASIZE];
     char answer[MAXDATASIZE];
@@ -218,9 +218,9 @@ bool newConnectionServerLoop(int client_fd){
 /// Return: true    - the correct answer could be found
 ///         false   - the answer was not found
 bool checkReceivedMessage(char *message, char *answer){
-    
+
     int request;
-    char code[6]; // The subject code has a limited size 
+    char code[6]; // The subject code has a limited size
     char comment[200];
     request = message[0] - '0';
 
