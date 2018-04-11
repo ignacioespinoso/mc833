@@ -1,0 +1,1258 @@
+
+-------- SESSION  11/3/118 10:34:18  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 885592 μs
+Total Interval Time: 885592 μs
+
+Operation: 1
+>>>>>Send Time: 886239 μs
+<<<<<Receive Time: 886367 μs
+Total Interval Time: 128 μs
+
+Operation: 1
+>>>>>Send Time: 886551 μs
+<<<<<Receive Time: 886604 μs
+Total Interval Time: 53 μs
+
+Operation: 1
+>>>>>Send Time: 886764 μs
+<<<<<Receive Time: 886820 μs
+Total Interval Time: 56 μs
+
+Operation: 1
+>>>>>Send Time: 886944 μs
+<<<<<Receive Time: 887056 μs
+Total Interval Time: 112 μs
+
+Operation: 1
+>>>>>Send Time: 887190 μs
+<<<<<Receive Time: 887255 μs
+Total Interval Time: 65 μs
+
+Operation: 1
+>>>>>Send Time: 887379 μs
+<<<<<Receive Time: 887476 μs
+Total Interval Time: 97 μs
+
+Operation: 1
+>>>>>Send Time: 887590 μs
+<<<<<Receive Time: 887709 μs
+Total Interval Time: 119 μs
+
+Operation: 1
+>>>>>Send Time: 887872 μs
+<<<<<Receive Time: 887928 μs
+Total Interval Time: 56 μs
+
+Operation: 1
+>>>>>Send Time: 888078 μs
+<<<<<Receive Time: 888133 μs
+Total Interval Time: 55 μs
+
+Operation: 1
+>>>>>Send Time: 888331 μs
+<<<<<Receive Time: 888436 μs
+Total Interval Time: 105 μs
+
+Operation: 1
+>>>>>Send Time: 888598 μs
+<<<<<Receive Time: 888673 μs
+Total Interval Time: 75 μs
+
+Operation: 1
+>>>>>Send Time: 888858 μs
+<<<<<Receive Time: 888897 μs
+Total Interval Time: 39 μs
+
+Operation: 1
+>>>>>Send Time: 889078 μs
+<<<<<Receive Time: 889131 μs
+Total Interval Time: 53 μs
+
+Operation: 1
+>>>>>Send Time: 889286 μs
+<<<<<Receive Time: 889350 μs
+Total Interval Time: 64 μs
+
+Operation: 1
+>>>>>Send Time: 889459 μs
+<<<<<Receive Time: 889565 μs
+Total Interval Time: 106 μs
+
+Operation: 1
+>>>>>Send Time: 889736 μs
+<<<<<Receive Time: 889775 μs
+Total Interval Time: 39 μs
+
+Operation: 1
+>>>>>Send Time: 889935 μs
+<<<<<Receive Time: 889977 μs
+Total Interval Time: 42 μs
+
+Operation: 1
+>>>>>Send Time: 890133 μs
+<<<<<Receive Time: 890194 μs
+Total Interval Time: 61 μs
+
+Operation: 1
+>>>>>Send Time: 890377 μs
+<<<<<Receive Time: 890432 μs
+Total Interval Time: 55 μs
+
+Operation: 1
+>>>>>Send Time: 890646 μs
+<<<<<Receive Time: 890722 μs
+Total Interval Time: 76 μs
+
+Operation: 1
+>>>>>Send Time: 890926 μs
+<<<<<Receive Time: 890994 μs
+Total Interval Time: 68 μs
+
+Operation: 1
+>>>>>Send Time: 891128 μs
+<<<<<Receive Time: 891172 μs
+Total Interval Time: 44 μs
+
+Operation: 1
+>>>>>Send Time: 891290 μs
+<<<<<Receive Time: 891374 μs
+Total Interval Time: 84 μs
+
+Operation: 1
+>>>>>Send Time: 891512 μs
+<<<<<Receive Time: 891567 μs
+Total Interval Time: 55 μs
+
+Operation: 1
+>>>>>Send Time: 891754 μs
+<<<<<Receive Time: 891810 μs
+Total Interval Time: 56 μs
+
+Operation: 1
+>>>>>Send Time: 891951 μs
+<<<<<Receive Time: 892017 μs
+Total Interval Time: 66 μs
+
+Operation: 1
+>>>>>Send Time: 892170 μs
+<<<<<Receive Time: 892238 μs
+Total Interval Time: 68 μs
+
+Operation: 1
+>>>>>Send Time: 892395 μs
+<<<<<Receive Time: 892446 μs
+Total Interval Time: 51 μs
+
+Operation: 1
+>>>>>Send Time: 892620 μs
+<<<<<Receive Time: 892676 μs
+Total Interval Time: 56 μs
+
+Operation: 1
+>>>>>Send Time: 892851 μs
+<<<<<Receive Time: 892927 μs
+Total Interval Time: 76 μs
+
+Operation: 1
+>>>>>Send Time: 893058 μs
+<<<<<Receive Time: 893149 μs
+Total Interval Time: 91 μs
+
+Operation: 1
+>>>>>Send Time: 893288 μs
+<<<<<Receive Time: 893366 μs
+Total Interval Time: 78 μs
+
+Operation: 1
+>>>>>Send Time: 893525 μs
+<<<<<Receive Time: 893600 μs
+Total Interval Time: 75 μs
+
+Operation: 1
+>>>>>Send Time: 893746 μs
+<<<<<Receive Time: 893820 μs
+Total Interval Time: 74 μs
+
+Operation: 1
+>>>>>Send Time: 893958 μs
+<<<<<Receive Time: 894007 μs
+Total Interval Time: 49 μs
+
+Operation: 1
+>>>>>Send Time: 894186 μs
+<<<<<Receive Time: 894232 μs
+Total Interval Time: 46 μs
+
+Operation: 1
+>>>>>Send Time: 894394 μs
+<<<<<Receive Time: 894456 μs
+Total Interval Time: 62 μs
+
+Operation: 1
+>>>>>Send Time: 894617 μs
+<<<<<Receive Time: 894676 μs
+Total Interval Time: 59 μs
+
+Operation: 1
+>>>>>Send Time: 894876 μs
+<<<<<Receive Time: 894933 μs
+Total Interval Time: 57 μs
+
+Operation: 1
+>>>>>Send Time: 895133 μs
+<<<<<Receive Time: 895183 μs
+Total Interval Time: 50 μs
+
+Operation: 1
+>>>>>Send Time: 895490 μs
+<<<<<Receive Time: 895571 μs
+Total Interval Time: 81 μs
+
+Operation: 1
+>>>>>Send Time: 895774 μs
+<<<<<Receive Time: 895821 μs
+Total Interval Time: 47 μs
+
+Operation: 1
+>>>>>Send Time: 896005 μs
+<<<<<Receive Time: 896062 μs
+Total Interval Time: 57 μs
+
+Operation: 1
+>>>>>Send Time: 896257 μs
+<<<<<Receive Time: 896353 μs
+Total Interval Time: 96 μs
+
+Operation: 1
+>>>>>Send Time: 896520 μs
+<<<<<Receive Time: 896588 μs
+Total Interval Time: 68 μs
+
+Operation: 1
+>>>>>Send Time: 896767 μs
+<<<<<Receive Time: 896848 μs
+Total Interval Time: 81 μs
+
+Operation: 1
+>>>>>Send Time: 897030 μs
+<<<<<Receive Time: 897081 μs
+Total Interval Time: 51 μs
+
+Operation: 1
+>>>>>Send Time: 897294 μs
+<<<<<Receive Time: 897353 μs
+Total Interval Time: 59 μs
+
+Operation: 1
+>>>>>Send Time: 897542 μs
+<<<<<Receive Time: 897603 μs
+Total Interval Time: 61 μs
+
+Operation: 1
+>>>>>Send Time: 897744 μs
+<<<<<Receive Time: 897799 μs
+Total Interval Time: 55 μs
+
+Operation: 2
+>>>>>Send Time: 897960 μs
+<<<<<Receive Time: 898009 μs
+Total Interval Time: 49 μs
+
+Operation: 2
+>>>>>Send Time: 898168 μs
+<<<<<Receive Time: 898214 μs
+Total Interval Time: 46 μs
+
+Operation: 2
+>>>>>Send Time: 898380 μs
+<<<<<Receive Time: 898424 μs
+Total Interval Time: 44 μs
+
+Operation: 2
+>>>>>Send Time: 898552 μs
+<<<<<Receive Time: 898592 μs
+Total Interval Time: 40 μs
+
+Operation: 2
+>>>>>Send Time: 898809 μs
+<<<<<Receive Time: 898863 μs
+Total Interval Time: 54 μs
+
+Operation: 2
+>>>>>Send Time: 899002 μs
+<<<<<Receive Time: 899066 μs
+Total Interval Time: 64 μs
+
+Operation: 2
+>>>>>Send Time: 899195 μs
+<<<<<Receive Time: 899240 μs
+Total Interval Time: 45 μs
+
+Operation: 2
+>>>>>Send Time: 899414 μs
+<<<<<Receive Time: 899455 μs
+Total Interval Time: 41 μs
+
+Operation: 2
+>>>>>Send Time: 899567 μs
+<<<<<Receive Time: 899668 μs
+Total Interval Time: 101 μs
+
+Operation: 2
+>>>>>Send Time: 899813 μs
+<<<<<Receive Time: 899844 μs
+Total Interval Time: 31 μs
+
+Operation: 2
+>>>>>Send Time: 899998 μs
+<<<<<Receive Time: 900046 μs
+Total Interval Time: 48 μs
+
+Operation: 2
+>>>>>Send Time: 900209 μs
+<<<<<Receive Time: 900246 μs
+Total Interval Time: 37 μs
+
+Operation: 2
+>>>>>Send Time: 900409 μs
+<<<<<Receive Time: 900448 μs
+Total Interval Time: 39 μs
+
+Operation: 2
+>>>>>Send Time: 900630 μs
+<<<<<Receive Time: 900669 μs
+Total Interval Time: 39 μs
+
+Operation: 2
+>>>>>Send Time: 900833 μs
+<<<<<Receive Time: 900870 μs
+Total Interval Time: 37 μs
+
+Operation: 2
+>>>>>Send Time: 901052 μs
+<<<<<Receive Time: 901102 μs
+Total Interval Time: 50 μs
+
+Operation: 2
+>>>>>Send Time: 901248 μs
+<<<<<Receive Time: 901307 μs
+Total Interval Time: 59 μs
+
+Operation: 2
+>>>>>Send Time: 901471 μs
+<<<<<Receive Time: 901513 μs
+Total Interval Time: 42 μs
+
+Operation: 2
+>>>>>Send Time: 901700 μs
+<<<<<Receive Time: 901744 μs
+Total Interval Time: 44 μs
+
+Operation: 2
+>>>>>Send Time: 901900 μs
+<<<<<Receive Time: 901945 μs
+Total Interval Time: 45 μs
+
+Operation: 2
+>>>>>Send Time: 902094 μs
+<<<<<Receive Time: 902122 μs
+Total Interval Time: 28 μs
+
+Operation: 2
+>>>>>Send Time: 902259 μs
+<<<<<Receive Time: 902317 μs
+Total Interval Time: 58 μs
+
+Operation: 2
+>>>>>Send Time: 902460 μs
+<<<<<Receive Time: 902527 μs
+Total Interval Time: 67 μs
+
+Operation: 2
+>>>>>Send Time: 902709 μs
+<<<<<Receive Time: 902753 μs
+Total Interval Time: 44 μs
+
+Operation: 2
+>>>>>Send Time: 902898 μs
+<<<<<Receive Time: 902942 μs
+Total Interval Time: 44 μs
+
+Operation: 2
+>>>>>Send Time: 903145 μs
+<<<<<Receive Time: 903200 μs
+Total Interval Time: 55 μs
+
+Operation: 2
+>>>>>Send Time: 903337 μs
+<<<<<Receive Time: 903382 μs
+Total Interval Time: 45 μs
+
+Operation: 2
+>>>>>Send Time: 903509 μs
+<<<<<Receive Time: 903553 μs
+Total Interval Time: 44 μs
+
+Operation: 2
+>>>>>Send Time: 903709 μs
+<<<<<Receive Time: 903757 μs
+Total Interval Time: 48 μs
+
+Operation: 2
+>>>>>Send Time: 903906 μs
+<<<<<Receive Time: 903948 μs
+Total Interval Time: 42 μs
+
+Operation: 2
+>>>>>Send Time: 904079 μs
+<<<<<Receive Time: 904287 μs
+Total Interval Time: 208 μs
+
+Operation: 2
+>>>>>Send Time: 904434 μs
+<<<<<Receive Time: 904475 μs
+Total Interval Time: 41 μs
+
+Operation: 2
+>>>>>Send Time: 904731 μs
+<<<<<Receive Time: 904784 μs
+Total Interval Time: 53 μs
+
+Operation: 2
+>>>>>Send Time: 904939 μs
+<<<<<Receive Time: 904993 μs
+Total Interval Time: 54 μs
+
+Operation: 2
+>>>>>Send Time: 905201 μs
+<<<<<Receive Time: 905285 μs
+Total Interval Time: 84 μs
+
+Operation: 2
+>>>>>Send Time: 905458 μs
+<<<<<Receive Time: 905521 μs
+Total Interval Time: 63 μs
+
+Operation: 2
+>>>>>Send Time: 905706 μs
+<<<<<Receive Time: 905806 μs
+Total Interval Time: 100 μs
+
+Operation: 2
+>>>>>Send Time: 906024 μs
+<<<<<Receive Time: 906087 μs
+Total Interval Time: 63 μs
+
+Operation: 2
+>>>>>Send Time: 906227 μs
+<<<<<Receive Time: 906278 μs
+Total Interval Time: 51 μs
+
+Operation: 2
+>>>>>Send Time: 906425 μs
+<<<<<Receive Time: 906474 μs
+Total Interval Time: 49 μs
+
+Operation: 2
+>>>>>Send Time: 906665 μs
+<<<<<Receive Time: 906810 μs
+Total Interval Time: 145 μs
+
+Operation: 2
+>>>>>Send Time: 907083 μs
+<<<<<Receive Time: 907237 μs
+Total Interval Time: 154 μs
+
+Operation: 2
+>>>>>Send Time: 907418 μs
+<<<<<Receive Time: 907658 μs
+Total Interval Time: 240 μs
+
+Operation: 2
+>>>>>Send Time: 907840 μs
+<<<<<Receive Time: 907990 μs
+Total Interval Time: 150 μs
+
+Operation: 2
+>>>>>Send Time: 908201 μs
+<<<<<Receive Time: 908302 μs
+Total Interval Time: 101 μs
+
+Operation: 2
+>>>>>Send Time: 908547 μs
+<<<<<Receive Time: 908624 μs
+Total Interval Time: 77 μs
+
+Operation: 2
+>>>>>Send Time: 909061 μs
+<<<<<Receive Time: 909154 μs
+Total Interval Time: 93 μs
+
+Operation: 2
+>>>>>Send Time: 909312 μs
+<<<<<Receive Time: 909380 μs
+Total Interval Time: 68 μs
+
+Operation: 2
+>>>>>Send Time: 909548 μs
+<<<<<Receive Time: 909624 μs
+Total Interval Time: 76 μs
+
+Operation: 2
+>>>>>Send Time: 909881 μs
+<<<<<Receive Time: 909927 μs
+Total Interval Time: 46 μs
+
+Operation: 3
+>>>>>Send Time: 910081 μs
+<<<<<Receive Time: 910135 μs
+Total Interval Time: 54 μs
+
+Operation: 3
+>>>>>Send Time: 910303 μs
+<<<<<Receive Time: 910375 μs
+Total Interval Time: 72 μs
+
+Operation: 3
+>>>>>Send Time: 910522 μs
+<<<<<Receive Time: 910590 μs
+Total Interval Time: 68 μs
+
+Operation: 3
+>>>>>Send Time: 910728 μs
+<<<<<Receive Time: 910811 μs
+Total Interval Time: 83 μs
+
+Operation: 3
+>>>>>Send Time: 910964 μs
+<<<<<Receive Time: 911027 μs
+Total Interval Time: 63 μs
+
+Operation: 3
+>>>>>Send Time: 911210 μs
+<<<<<Receive Time: 911282 μs
+Total Interval Time: 72 μs
+
+Operation: 3
+>>>>>Send Time: 911488 μs
+<<<<<Receive Time: 911543 μs
+Total Interval Time: 55 μs
+
+Operation: 3
+>>>>>Send Time: 911749 μs
+<<<<<Receive Time: 911811 μs
+Total Interval Time: 62 μs
+
+Operation: 3
+>>>>>Send Time: 912065 μs
+<<<<<Receive Time: 912131 μs
+Total Interval Time: 66 μs
+
+Operation: 3
+>>>>>Send Time: 912263 μs
+<<<<<Receive Time: 912331 μs
+Total Interval Time: 68 μs
+
+Operation: 3
+>>>>>Send Time: 912518 μs
+<<<<<Receive Time: 912699 μs
+Total Interval Time: 181 μs
+
+Operation: 3
+>>>>>Send Time: 912862 μs
+<<<<<Receive Time: 912909 μs
+Total Interval Time: 47 μs
+
+Operation: 3
+>>>>>Send Time: 913076 μs
+<<<<<Receive Time: 913137 μs
+Total Interval Time: 61 μs
+
+Operation: 3
+>>>>>Send Time: 913287 μs
+<<<<<Receive Time: 913339 μs
+Total Interval Time: 52 μs
+
+Operation: 3
+>>>>>Send Time: 913513 μs
+<<<<<Receive Time: 913571 μs
+Total Interval Time: 58 μs
+
+Operation: 3
+>>>>>Send Time: 913715 μs
+<<<<<Receive Time: 913778 μs
+Total Interval Time: 63 μs
+
+Operation: 3
+>>>>>Send Time: 913974 μs
+<<<<<Receive Time: 914100 μs
+Total Interval Time: 126 μs
+
+Operation: 3
+>>>>>Send Time: 914287 μs
+<<<<<Receive Time: 914465 μs
+Total Interval Time: 178 μs
+
+Operation: 3
+>>>>>Send Time: 914630 μs
+<<<<<Receive Time: 914692 μs
+Total Interval Time: 62 μs
+
+Operation: 3
+>>>>>Send Time: 914857 μs
+<<<<<Receive Time: 914910 μs
+Total Interval Time: 53 μs
+
+Operation: 3
+>>>>>Send Time: 915083 μs
+<<<<<Receive Time: 915131 μs
+Total Interval Time: 48 μs
+
+Operation: 3
+>>>>>Send Time: 915285 μs
+<<<<<Receive Time: 915407 μs
+Total Interval Time: 122 μs
+
+Operation: 3
+>>>>>Send Time: 915591 μs
+<<<<<Receive Time: 915643 μs
+Total Interval Time: 52 μs
+
+Operation: 3
+>>>>>Send Time: 915949 μs
+<<<<<Receive Time: 916060 μs
+Total Interval Time: 111 μs
+
+Operation: 3
+>>>>>Send Time: 916193 μs
+<<<<<Receive Time: 916242 μs
+Total Interval Time: 49 μs
+
+Operation: 3
+>>>>>Send Time: 916385 μs
+<<<<<Receive Time: 916444 μs
+Total Interval Time: 59 μs
+
+Operation: 3
+>>>>>Send Time: 916943 μs
+<<<<<Receive Time: 917448 μs
+Total Interval Time: 505 μs
+
+Operation: 3
+>>>>>Send Time: 917648 μs
+<<<<<Receive Time: 917873 μs
+Total Interval Time: 225 μs
+
+Operation: 3
+>>>>>Send Time: 918253 μs
+<<<<<Receive Time: 918666 μs
+Total Interval Time: 413 μs
+
+Operation: 3
+>>>>>Send Time: 918864 μs
+<<<<<Receive Time: 918949 μs
+Total Interval Time: 85 μs
+
+Operation: 3
+>>>>>Send Time: 919161 μs
+<<<<<Receive Time: 919223 μs
+Total Interval Time: 62 μs
+
+Operation: 3
+>>>>>Send Time: 919372 μs
+<<<<<Receive Time: 919424 μs
+Total Interval Time: 52 μs
+
+Operation: 3
+>>>>>Send Time: 919588 μs
+<<<<<Receive Time: 919639 μs
+Total Interval Time: 51 μs
+
+Operation: 3
+>>>>>Send Time: 919780 μs
+<<<<<Receive Time: 919945 μs
+Total Interval Time: 165 μs
+
+Operation: 3
+>>>>>Send Time: 920094 μs
+<<<<<Receive Time: 920157 μs
+Total Interval Time: 63 μs
+
+Operation: 3
+>>>>>Send Time: 920314 μs
+<<<<<Receive Time: 920362 μs
+Total Interval Time: 48 μs
+
+Operation: 3
+>>>>>Send Time: 920519 μs
+<<<<<Receive Time: 920578 μs
+Total Interval Time: 59 μs
+
+Operation: 3
+>>>>>Send Time: 920857 μs
+<<<<<Receive Time: 920916 μs
+Total Interval Time: 59 μs
+
+Operation: 3
+>>>>>Send Time: 921080 μs
+<<<<<Receive Time: 921134 μs
+Total Interval Time: 54 μs
+
+Operation: 3
+>>>>>Send Time: 921296 μs
+<<<<<Receive Time: 921363 μs
+Total Interval Time: 67 μs
+
+Operation: 3
+>>>>>Send Time: 921495 μs
+<<<<<Receive Time: 921560 μs
+Total Interval Time: 65 μs
+
+Operation: 3
+>>>>>Send Time: 921767 μs
+<<<<<Receive Time: 921829 μs
+Total Interval Time: 62 μs
+
+Operation: 3
+>>>>>Send Time: 921972 μs
+<<<<<Receive Time: 922148 μs
+Total Interval Time: 176 μs
+
+Operation: 3
+>>>>>Send Time: 922300 μs
+<<<<<Receive Time: 922377 μs
+Total Interval Time: 77 μs
+
+Operation: 3
+>>>>>Send Time: 922565 μs
+<<<<<Receive Time: 922616 μs
+Total Interval Time: 51 μs
+
+Operation: 3
+>>>>>Send Time: 922930 μs
+<<<<<Receive Time: 922943 μs
+Total Interval Time: 13 μs
+
+Operation: 3
+>>>>>Send Time: 923095 μs
+<<<<<Receive Time: 923144 μs
+Total Interval Time: 49 μs
+
+Operation: 3
+>>>>>Send Time: 923286 μs
+<<<<<Receive Time: 923459 μs
+Total Interval Time: 173 μs
+
+Operation: 3
+>>>>>Send Time: 923605 μs
+<<<<<Receive Time: 923653 μs
+Total Interval Time: 48 μs
+
+Operation: 3
+>>>>>Send Time: 923810 μs
+<<<<<Receive Time: 923874 μs
+Total Interval Time: 64 μs
+
+Operation: 4
+>>>>>Send Time: 924038 μs
+<<<<<Receive Time: 924088 μs
+Total Interval Time: 50 μs
+
+Operation: 4
+>>>>>Send Time: 924240 μs
+<<<<<Receive Time: 924287 μs
+Total Interval Time: 47 μs
+
+Operation: 4
+>>>>>Send Time: 924452 μs
+<<<<<Receive Time: 924500 μs
+Total Interval Time: 48 μs
+
+Operation: 4
+>>>>>Send Time: 924644 μs
+<<<<<Receive Time: 924689 μs
+Total Interval Time: 45 μs
+
+Operation: 4
+>>>>>Send Time: 924940 μs
+<<<<<Receive Time: 924992 μs
+Total Interval Time: 52 μs
+
+Operation: 4
+>>>>>Send Time: 925108 μs
+<<<<<Receive Time: 925167 μs
+Total Interval Time: 59 μs
+
+Operation: 4
+>>>>>Send Time: 925347 μs
+<<<<<Receive Time: 925401 μs
+Total Interval Time: 54 μs
+
+Operation: 4
+>>>>>Send Time: 925532 μs
+<<<<<Receive Time: 925664 μs
+Total Interval Time: 132 μs
+
+Operation: 4
+>>>>>Send Time: 925790 μs
+<<<<<Receive Time: 925832 μs
+Total Interval Time: 42 μs
+
+Operation: 4
+>>>>>Send Time: 926025 μs
+<<<<<Receive Time: 926078 μs
+Total Interval Time: 53 μs
+
+Operation: 4
+>>>>>Send Time: 926210 μs
+<<<<<Receive Time: 926264 μs
+Total Interval Time: 54 μs
+
+Operation: 4
+>>>>>Send Time: 927553 μs
+<<<<<Receive Time: 927702 μs
+Total Interval Time: 149 μs
+
+Operation: 4
+>>>>>Send Time: 927898 μs
+<<<<<Receive Time: 927966 μs
+Total Interval Time: 68 μs
+
+Operation: 4
+>>>>>Send Time: 928150 μs
+<<<<<Receive Time: 928221 μs
+Total Interval Time: 71 μs
+
+Operation: 4
+>>>>>Send Time: 928478 μs
+<<<<<Receive Time: 928543 μs
+Total Interval Time: 65 μs
+
+Operation: 4
+>>>>>Send Time: 928695 μs
+<<<<<Receive Time: 928744 μs
+Total Interval Time: 49 μs
+
+Operation: 4
+>>>>>Send Time: 928908 μs
+<<<<<Receive Time: 931556 μs
+Total Interval Time: 2648 μs
+
+Operation: 4
+>>>>>Send Time: 931736 μs
+<<<<<Receive Time: 931781 μs
+Total Interval Time: 45 μs
+
+Operation: 4
+>>>>>Send Time: 931885 μs
+<<<<<Receive Time: 932016 μs
+Total Interval Time: 131 μs
+
+Operation: 4
+>>>>>Send Time: 932162 μs
+<<<<<Receive Time: 932204 μs
+Total Interval Time: 42 μs
+
+Operation: 4
+>>>>>Send Time: 932349 μs
+<<<<<Receive Time: 932384 μs
+Total Interval Time: 35 μs
+
+Operation: 4
+>>>>>Send Time: 932488 μs
+<<<<<Receive Time: 932537 μs
+Total Interval Time: 49 μs
+
+Operation: 4
+>>>>>Send Time: 932749 μs
+<<<<<Receive Time: 932792 μs
+Total Interval Time: 43 μs
+
+Operation: 4
+>>>>>Send Time: 932946 μs
+<<<<<Receive Time: 933002 μs
+Total Interval Time: 56 μs
+
+Operation: 4
+>>>>>Send Time: 933184 μs
+<<<<<Receive Time: 933270 μs
+Total Interval Time: 86 μs
+
+Operation: 4
+>>>>>Send Time: 933409 μs
+<<<<<Receive Time: 933463 μs
+Total Interval Time: 54 μs
+
+Operation: 4
+>>>>>Send Time: 933648 μs
+<<<<<Receive Time: 933695 μs
+Total Interval Time: 47 μs
+
+Operation: 4
+>>>>>Send Time: 933865 μs
+<<<<<Receive Time: 933928 μs
+Total Interval Time: 63 μs
+
+Operation: 4
+>>>>>Send Time: 934081 μs
+<<<<<Receive Time: 934110 μs
+Total Interval Time: 29 μs
+
+Operation: 4
+>>>>>Send Time: 934250 μs
+<<<<<Receive Time: 934302 μs
+Total Interval Time: 52 μs
+
+Operation: 4
+>>>>>Send Time: 934452 μs
+<<<<<Receive Time: 934491 μs
+Total Interval Time: 39 μs
+
+Operation: 4
+>>>>>Send Time: 934642 μs
+<<<<<Receive Time: 934687 μs
+Total Interval Time: 45 μs
+
+Operation: 4
+>>>>>Send Time: 934797 μs
+<<<<<Receive Time: 934867 μs
+Total Interval Time: 70 μs
+
+Operation: 4
+>>>>>Send Time: 934988 μs
+<<<<<Receive Time: 935053 μs
+Total Interval Time: 65 μs
+
+Operation: 4
+>>>>>Send Time: 935189 μs
+<<<<<Receive Time: 935224 μs
+Total Interval Time: 35 μs
+
+Operation: 4
+>>>>>Send Time: 935384 μs
+<<<<<Receive Time: 935435 μs
+Total Interval Time: 51 μs
+
+Operation: 4
+>>>>>Send Time: 935620 μs
+<<<<<Receive Time: 935671 μs
+Total Interval Time: 51 μs
+
+Operation: 4
+>>>>>Send Time: 935790 μs
+<<<<<Receive Time: 935859 μs
+Total Interval Time: 69 μs
+
+Operation: 4
+>>>>>Send Time: 936013 μs
+<<<<<Receive Time: 936062 μs
+Total Interval Time: 49 μs
+
+Operation: 4
+>>>>>Send Time: 936192 μs
+<<<<<Receive Time: 936229 μs
+Total Interval Time: 37 μs
+
+Operation: 4
+>>>>>Send Time: 936373 μs
+<<<<<Receive Time: 936427 μs
+Total Interval Time: 54 μs
+
+Operation: 4
+>>>>>Send Time: 936560 μs
+<<<<<Receive Time: 936614 μs
+Total Interval Time: 54 μs
+
+Operation: 4
+>>>>>Send Time: 936786 μs
+<<<<<Receive Time: 936837 μs
+Total Interval Time: 51 μs
+
+Operation: 4
+>>>>>Send Time: 936948 μs
+<<<<<Receive Time: 937016 μs
+Total Interval Time: 68 μs
+
+Operation: 4
+>>>>>Send Time: 937176 μs
+<<<<<Receive Time: 937219 μs
+Total Interval Time: 43 μs
+
+Operation: 4
+>>>>>Send Time: 937412 μs
+<<<<<Receive Time: 937471 μs
+Total Interval Time: 59 μs
+
+Operation: 4
+>>>>>Send Time: 937660 μs
+<<<<<Receive Time: 937720 μs
+Total Interval Time: 60 μs
+
+Operation: 4
+>>>>>Send Time: 937836 μs
+<<<<<Receive Time: 937899 μs
+Total Interval Time: 63 μs
+
+Operation: 4
+>>>>>Send Time: 938035 μs
+<<<<<Receive Time: 938083 μs
+Total Interval Time: 48 μs
+
+Operation: 4
+>>>>>Send Time: 938241 μs
+<<<<<Receive Time: 938286 μs
+Total Interval Time: 45 μs
+
+Operation: 5
+>>>>>Send Time: 938439 μs
+<<<<<Receive Time: 938507 μs
+Total Interval Time: 68 μs
+
+Operation: 5
+>>>>>Send Time: 938842 μs
+<<<<<Receive Time: 938901 μs
+Total Interval Time: 59 μs
+
+Operation: 5
+>>>>>Send Time: 939199 μs
+<<<<<Receive Time: 939553 μs
+Total Interval Time: 354 μs
+
+Operation: 5
+>>>>>Send Time: 939742 μs
+<<<<<Receive Time: 940033 μs
+Total Interval Time: 291 μs
+
+Operation: 5
+>>>>>Send Time: 940240 μs
+<<<<<Receive Time: 940510 μs
+Total Interval Time: 270 μs
+
+Operation: 5
+>>>>>Send Time: 940724 μs
+<<<<<Receive Time: 941019 μs
+Total Interval Time: 295 μs
+
+Operation: 5
+>>>>>Send Time: 941499 μs
+<<<<<Receive Time: 941804 μs
+Total Interval Time: 305 μs
+
+Operation: 5
+>>>>>Send Time: 942057 μs
+<<<<<Receive Time: 942359 μs
+Total Interval Time: 302 μs
+
+Operation: 5
+>>>>>Send Time: 942624 μs
+<<<<<Receive Time: 942962 μs
+Total Interval Time: 338 μs
+
+Operation: 5
+>>>>>Send Time: 943206 μs
+<<<<<Receive Time: 943607 μs
+Total Interval Time: 401 μs
+
+Operation: 5
+>>>>>Send Time: 944037 μs
+<<<<<Receive Time: 944321 μs
+Total Interval Time: 284 μs
+
+Operation: 5
+>>>>>Send Time: 944596 μs
+<<<<<Receive Time: 945406 μs
+Total Interval Time: 810 μs
+
+Operation: 5
+>>>>>Send Time: 946208 μs
+<<<<<Receive Time: 947344 μs
+Total Interval Time: 1136 μs
+
+Operation: 5
+>>>>>Send Time: 947837 μs
+<<<<<Receive Time: 948046 μs
+Total Interval Time: 209 μs
+
+Operation: 5
+>>>>>Send Time: 948298 μs
+<<<<<Receive Time: 948476 μs
+Total Interval Time: 178 μs
+
+Operation: 5
+>>>>>Send Time: 948945 μs
+<<<<<Receive Time: 949044 μs
+Total Interval Time: 99 μs
+
+Operation: 5
+>>>>>Send Time: 949653 μs
+<<<<<Receive Time: 949765 μs
+Total Interval Time: 112 μs
+
+Operation: 5
+>>>>>Send Time: 950034 μs
+<<<<<Receive Time: 950135 μs
+Total Interval Time: 101 μs
+
+Operation: 5
+>>>>>Send Time: 950377 μs
+<<<<<Receive Time: 950430 μs
+Total Interval Time: 53 μs
+
+Operation: 5
+>>>>>Send Time: 950668 μs
+<<<<<Receive Time: 950713 μs
+Total Interval Time: 45 μs
+
+Operation: 5
+>>>>>Send Time: 950937 μs
+<<<<<Receive Time: 950983 μs
+Total Interval Time: 46 μs
+
+Operation: 5
+>>>>>Send Time: 951340 μs
+<<<<<Receive Time: 951499 μs
+Total Interval Time: 159 μs
+
+Operation: 5
+>>>>>Send Time: 951987 μs
+<<<<<Receive Time: 952142 μs
+Total Interval Time: 155 μs
+
+Operation: 5
+>>>>>Send Time: 952389 μs
+<<<<<Receive Time: 952486 μs
+Total Interval Time: 97 μs
+
+Operation: 5
+>>>>>Send Time: 952763 μs
+<<<<<Receive Time: 952845 μs
+Total Interval Time: 82 μs
+
+Operation: 5
+>>>>>Send Time: 953057 μs
+<<<<<Receive Time: 953140 μs
+Total Interval Time: 83 μs
+
+Operation: 5
+>>>>>Send Time: 953642 μs
+<<<<<Receive Time: 953721 μs
+Total Interval Time: 79 μs
+
+Operation: 5
+>>>>>Send Time: 953974 μs
+<<<<<Receive Time: 954050 μs
+Total Interval Time: 76 μs
+
+Operation: 5
+>>>>>Send Time: 954320 μs
+<<<<<Receive Time: 954372 μs
+Total Interval Time: 52 μs
+
+Operation: 5
+>>>>>Send Time: 954608 μs
+<<<<<Receive Time: 954701 μs
+Total Interval Time: 93 μs
+
+Operation: 5
+>>>>>Send Time: 955039 μs
+<<<<<Receive Time: 955156 μs
+Total Interval Time: 117 μs
+
+Operation: 5
+>>>>>Send Time: 955458 μs
+<<<<<Receive Time: 955560 μs
+Total Interval Time: 102 μs
+
+Operation: 5
+>>>>>Send Time: 955853 μs
+<<<<<Receive Time: 955922 μs
+Total Interval Time: 69 μs
+
+Operation: 5
+>>>>>Send Time: 956212 μs
+<<<<<Receive Time: 956333 μs
+Total Interval Time: 121 μs
+
+Operation: 5
+>>>>>Send Time: 956589 μs
+<<<<<Receive Time: 956677 μs
+Total Interval Time: 88 μs
+
+Operation: 5
+>>>>>Send Time: 957086 μs
+<<<<<Receive Time: 957285 μs
+Total Interval Time: 199 μs
+
+Operation: 5
+>>>>>Send Time: 957853 μs
+<<<<<Receive Time: 958115 μs
+Total Interval Time: 262 μs
+
+Operation: 5
+>>>>>Send Time: 958364 μs
+<<<<<Receive Time: 958441 μs
+Total Interval Time: 77 μs
+
+Operation: 5
+>>>>>Send Time: 958669 μs
+<<<<<Receive Time: 958731 μs
+Total Interval Time: 62 μs
+
+Operation: 5
+>>>>>Send Time: 958938 μs
+<<<<<Receive Time: 959069 μs
+Total Interval Time: 131 μs
+
+Operation: 5
+>>>>>Send Time: 959287 μs
+<<<<<Receive Time: 959375 μs
+Total Interval Time: 88 μs
+
+Operation: 5
+>>>>>Send Time: 959648 μs
+<<<<<Receive Time: 959761 μs
+Total Interval Time: 113 μs
+
+Operation: 5
+>>>>>Send Time: 960195 μs
+<<<<<Receive Time: 960432 μs
+Total Interval Time: 237 μs
+
+Operation: 5
+>>>>>Send Time: 960972 μs
+<<<<<Receive Time: 961195 μs
+Total Interval Time: 223 μs
+
+Operation: 5
+>>>>>Send Time: 961862 μs
+<<<<<Receive Time: 962715 μs
+Total Interval Time: 853 μs
+
+Operation: 5
+>>>>>Send Time: 963461 μs
+<<<<<Receive Time: 963796 μs
+Total Interval Time: 335 μs
+
+Operation: 5
+>>>>>Send Time: 964136 μs
+<<<<<Receive Time: 964347 μs
+Total Interval Time: 211 μs
+
+Operation: 5
+>>>>>Send Time: 964787 μs
+<<<<<Receive Time: 964890 μs
+Total Interval Time: 103 μs
+
+Operation: 5
+>>>>>Send Time: 966954 μs
+<<<<<Receive Time: 967089 μs
+Total Interval Time: 135 μs
+
+Operation: 5
+>>>>>Send Time: 967428 μs
+<<<<<Receive Time: 967480 μs
+Total Interval Time: 52 μs
+

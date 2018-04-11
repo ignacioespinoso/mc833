@@ -1,8 +1,7 @@
-### MC833 1S2018 - Projeto 1
-## Unicamp
-
-### Giovani Nascimento Pereira - 168609
-### Ignacio Ribeiro Espinoso - 
+# MC833 1S2018 - Projeto 1
+### Unicamp
+Giovani Nascimento Pereira - 168609
+Ignacio Ribeiro Espinoso - 
 
 
 ## Introdução
@@ -27,7 +26,7 @@ Para executar o programa e os testes, baixe esta pasta de arquivos - ela contem 
 ### Executando Localmente
 
 Em uma máquina execute **make run_server** para compilar e executar o socket do servidor,
-e depois execute, eum um terminal diferente, **make run_local_client**. Isso vai fazer os dois programas executarem e *conversarem entre si*, o cliente estará se conectando na porta local 127.0.0.1.
+e depois execute, em um terminal diferente, **make run_local_client**. Isso vai fazer os dois programas executarem e *conversarem entre si*, o cliente estará se conectando na porta local 127.0.0.1.
 
 O cliente irá abrir um Menu de opções para aconexão, que reflete as requeste que podem ser feitas para o nosso modelo de servidor.
 
@@ -46,7 +45,7 @@ Certifique-se que a conexão é possível entre essas duas máquinas.
 
 ### Executando em TEST MODE (Modo de teste)
 
-O TEST MODE, foi o modo de execução criado para simular todas as iterações necessárias para calcular os tempos médios de conexão do programa. Ele executa 50 vezes cada request.
+O TEST MODE, foi o modo de execução criado para simular todas as iterações necessárias para calcular os tempos médios de conexão do programa. Ele executa 50 vezes cada request especificado pelo projeto.
 
 Para realizar *teste local*, rode em um terminal o servidor com **make run_server**, e em outro execute o cliente em modo de teste com **make client_local_test**, isso fará automaticamente todas as iterações de envio e recebimento de mensagem.
 
@@ -59,17 +58,17 @@ Para realizar *teste remoto*, execute o servidor em uma máquina com **make run_
 
 As requests que o cliente pode mandar para o servidor foram categorizadas para facilitar a identificação (conforme dados na especificação do laboratório):
 
-| Categoria | Request                                 | Mensagem*                 |
+| Categoria | Request                                 | Mensagem**                |
 |-----------|-----------------------------------------|---------------------------|
 | 1         | Pegar todas as disciplinas e códigos    | "1 Get all subjects"      |
-| 2         | Pegar ementa de uma disciplina          |  "2 XXXX**"               |
+| 2         | Pegar ementa de uma disciplina          |  "2 XXXX***"              |
 | 3         | Pegar toda informação de uma disciplina | "3 XXXX"                  |
 | 4         | Pegar comentário da próxima aula        | "4 XXXX"                  |
 | 5         | Pegar toda a informação disponível      | "5 Get all subjects info" |
 | 6         | Configurar comentário da próxima aula   | "6 XXXX txt"              |
-* Mensagem enviada para o servidor
+** Mensagem enviada para o servidor
 
-** XXXX é um substituto para o código da disciplina que será requisitada
+*** XXXX é um substituto para o código da disciplina que será requisitada
 
 ## Saídas
 
@@ -99,7 +98,7 @@ Operation: 1
 Total Interval Time: 324 μs
 
 ```
-Note o horário em que o Logo foi criado, a operação que foi feita. O número da operação está com descrito na seção II - Mensages/Requests (A operação 0 é a operação de conectar um ao outro - sempre aparece no início de um novo Log). O tempo é medido em microssegundos.
+Note o horário em que o Log foi criado, a operação que foi feita. O número da operação está com descrito na seção II - Mensages/Requests (A operação 0 é a operação de conectar um ao outro - sempre aparece no início de um novo Log). O tempo é medido em microssegundos.
 
 
 ## III - Resultados
