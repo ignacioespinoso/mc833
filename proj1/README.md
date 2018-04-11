@@ -1,5 +1,4 @@
-# MC833 1S2018 - Projeto 1
-### Unicamp
+# MC833 1S2018 Unicamp - Projeto 1
 ### [Giovani Nascimento Pereira](github.com/giovaninppc) - 168609
 ### [Ignacio Ribeiro Espinoso](github.com/ignacioespinoso) - 
 
@@ -36,11 +35,11 @@ Caso você execute o cliente sem o servidor estar rodando, ele irá dar um erro 
 ### Executando em 2 máquinas
 
 Em uma máquina execute **make run_server** para compilar e executar o socket do servidor,
-e em outra máquina execute **make client** e depois execute o programa com **\.client.out xxx.xx.xx**, onde x é o endereço IP da máquina com o servidor.
+e em outra máquina execute **make client** e depois execute o programa com **./client.out xxx.xx.xx**, onde x é o endereço IP da máquina com o servidor.
 
 Certifique-se que a conexão é possível entre essas duas máquinas.
 
-(Para mais informações sobre o Makefile, abra o arquivo e leia a documentação interna.)
+> Para mais informações sobre o Makefile, [abra o arquivo](https://github.com/ignacioespinoso/mc833/blob/master/proj1/Makefile) e leia a documentação interna.
 
 
 ### Executando em TEST MODE (Modo de teste)
@@ -106,7 +105,7 @@ Note o horário em que o Log foi criado, a operação que foi feita. O número d
 
 ### Teste Local
 
-Executando o programa localmente, em TEST MODE, pegamos informações sobre o tempo de comunicação entre os processos distintos **cliente** e  **servidor** se comunicando.
+Executando o programa localmente, em TEST MODE, pegamos informações sobre o tempo de comunicação entre os processos distintos **cliente** e  **servidor**. Os dados completos da comunicação podem ser encontrados [nesta tabela](https://docs.google.com/spreadsheets/d/1hvKi968pbDjVrS7xe3ppGN2-uGI_9jBCDU_SB1ZoQUE/edit?usp=sharing) online.
 
 O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
 
@@ -119,7 +118,7 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 | 5         | 68.24      | 47.76              |
 | 6         | 94.48      | 109.52             |
 
-A operação que mais demorou, analisando os resultados da *Média* foi a operação 6 **Configurar comentário da próxima aula**, que é a única que envolve a escrita de informações na base de dados - e não apenas leitura. Isso mostra como a escrita é mais custosa que operações de leitura.
+A operação que mais demorou, analisando os resultados da *Média*, foi a operação 6 **Configurar comentário da próxima aula**, que é a única que envolve a escrita de informações na base de dados - e não apenas leitura. Isso mostra como a escrita é mais custosa que operações de leitura.
 
 > É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos porcessos, IO, dentre outras coisas.
 
