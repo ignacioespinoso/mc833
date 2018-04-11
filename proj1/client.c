@@ -26,6 +26,8 @@ bool receiveMessageFromServer(int sockfd, char* buffer);
 bool selectRequestMessage(char *request);
 void *get_in_addr(struct sockaddr *sa);
 void checkInformation(int numberOfParam);
+void checkTestMode(int sockfd, int argc, char** argv);
+void executeTestMode(int sockfd);
 
 int main(int argc, char *argv[]) {
     int sockfd, numbytes = 0;  
@@ -79,6 +81,9 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
 
+    // Check if the user run the program on automatic TEST MODE
+    checkTestMode(sockfd, argc, argv);
+
     // Connection loop - Connection already stablished
     if (newConnectionClientLoop(sockfd) == false){
         perror("Connection error");
@@ -101,7 +106,7 @@ void *get_in_addr(struct sockaddr *sa) {
 
 /// Check if the user typed the hostname
 void checkInformation(int numberOfParam){
-    if (numberOfParam != 2) {
+    if (numberOfParam < 2) {
         fprintf(stderr,"usage: type in the client hostname\n");
         exit(1);
     } 
@@ -240,4 +245,106 @@ bool selectRequestMessage(char *request){
     strcat(request, code);
 
     return true;
+}
+
+/// Check if the user run the program on TEST MODE
+///
+void checkTestMode(int sockfd, int argc, char** argv){
+    if (argc > 2){
+        if (strcmp(argv[2], "TEST") == 0){
+            executeTestMode(sockfd);
+        }
+    }
+}
+
+/// This method is used on TEST MODE
+/// to make 50 connections of all types to get the current 
+/// execution and connection time
+void executeTestMode(int sockfd){
+
+    char buffer[MAXDATASIZE];
+
+    printf("-------- TEST MODE ---------\n\n");
+
+    printf(">>>>>>> Category 1 Messages:\nGet all subjects and names\n\n");
+    op.operation = 1;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer(sockfd, "1 Get all subjects") == false) {
+            close(sockfd);
+            break;
+        }
+
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sockfd, buffer) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
+
+    printf(">>>>>>> Category 2 Messages:\nGet subject description\n\n");
+    op.operation = 2;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer(sockfd, "2 MC102") == false) {
+            close(sockfd);
+            break;
+        }
+
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sockfd, buffer) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
+
+    printf(">>>>>>> Category 3 Messages:\nGet subject full information\n\n");
+    op.operation = 3;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer(sockfd, "3 MA111") == false) {
+            close(sockfd);
+            break;
+        }
+
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sockfd, buffer) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
+
+    printf(">>>>>>> Category 4 Messages:\nGet nex class information\n\n");
+    op.operation = 4;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer(sockfd, "4 EE532") == false) {
+            close(sockfd);
+            break;
+        }
+
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sockfd, buffer) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
+
+    printf(">>>>>>> Category 5 Messages:\nGet all Subjects info\n\n");
+    op.operation = 5;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer(sockfd, "5 Get all subjects info") == false) {
+            close(sockfd);
+            break;
+        }
+
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sockfd, buffer) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
+
+    printf("\n\n-------- TEST MODE FINISHED ---------\n");
+    printf("check the Log file to get the system time easily\n\n");
+
+    //Finish connection and stop the program
+    close(sockfd);
+    exit(0);
 }
