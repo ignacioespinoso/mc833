@@ -201,7 +201,7 @@ bool selectRequestMessage(char *request){
     printf("4 - Get next class information\n");
     printf("5 - Get all subjects info\n");
     // Teacher only:
-    //printf("6 - Set nextClassComment\n");
+    printf("6 - Set nextClassComment\n");
     printf("7 - Send custom message\n");
     printf("0 - Close Connection\n");
 
@@ -347,6 +347,21 @@ void executeTestMode(int sockfd){
     op.operation = 5;
     for (int i=0; i<50; i++){
         if (sendMessageToServer(sockfd, "5 Get all subjects info") == false) {
+            close(sockfd);
+            break;
+        }
+
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sockfd, buffer) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
+
+    printf(">>>>>>> Category 6 Messages:\nWrite new Nwxt Class information\n\n");
+    op.operation = 6;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer(sockfd, "6 EE532 Trocando comentario por este daqui") == false) {
             close(sockfd);
             break;
         }
