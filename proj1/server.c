@@ -20,6 +20,7 @@ bool receiveMessageFromClient(int sockfd, char* buffer);
 bool newConnectionServerLoop(int client_fd);
 bool checkReceivedMessage(char *message, char *answer);
 void getCodeFromRequest(char *request, char *code);
+void getCommentFromRequest(char *request, char *comment);
 
 // Global variable to get system Time
 connectionTime op;
@@ -220,6 +221,7 @@ bool checkReceivedMessage(char *message, char *answer){
     
     int request;
     char code[6]; // The subject code has a limited size 
+    char comment[200];
     request = message[0] - '0';
 
     // Set the current operation on the timeConnection values
@@ -252,6 +254,19 @@ bool checkReceivedMessage(char *message, char *answer){
             strcpy(answer, "All Subjects:\n");
             strcat(answer, getAllInfo());
             break;
+        case 6:
+            getCodeFromRequest(message, code);
+            printf("\n\nCODE: %s\n\n", code);
+            strcpy(answer, "Next class ");
+            strcat(answer, code);
+            strcat(answer, ": ");
+            getCommentFromRequest(message, comment);
+            printf("\n\nCOMMENT: %s\n\n", comment);
+            strcat(answer, comment);
+            if (setComentarioForCode(code, comment) == false){
+                strcpy(answer, "The comment couldnt be written. Check the subject code\n");
+            }
+            break;
         default:
             strcpy(answer, message);
             strcat(answer, " [Unrecognized Message/Request]");
@@ -269,5 +284,18 @@ void getCodeFromRequest(char *request, char *code){
     for (int i=0; i<6; i++){
         code[i] = request[i+2];
     }
-    code[6] = 0;
+    code[5] = 0;
+}
+
+/// Extract the comment from a request of the type
+/// "<int Number> <5 character subject code> <message request>"
+/// PARAM:  request - String (char*) with the complete request text
+///         code    - the return of the collected code
+void getCommentFromRequest(char *request, char *comment){
+    int i =0;
+    do {
+        comment[i] = request[i+8];
+        i++;
+    } while(request[i+8] != '\0');
+    comment[i] = '\0';
 }

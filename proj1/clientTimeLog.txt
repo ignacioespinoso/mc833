@@ -1256,3 +1256,259 @@ Operation: 5
 <<<<<Receive Time: 967480 μs
 Total Interval Time: 52 μs
 
+
+-------- SESSION  11/3/118 10:55:0  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 98411 μs
+Total Interval Time: 98411 μs
+
+Operation: 6
+>>>>>Send Time: 580060 μs
+<<<<<Receive Time: 580247 μs
+Total Interval Time: 187 μs
+
+Operation: 4
+>>>>>Send Time: 821240 μs
+<<<<<Receive Time: 821335 μs
+Total Interval Time: 95 μs
+
+
+-------- SESSION  11/3/118 10:56:8  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 980274 μs
+Total Interval Time: 980274 μs
+
+Operation: 6
+>>>>>Send Time: 131505 μs
+<<<<<Receive Time: 131706 μs
+Total Interval Time: 201 μs
+
+
+-------- SESSION  11/3/118 10:56:51  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 62284 μs
+Total Interval Time: 62284 μs
+
+Operation: 6
+>>>>>Send Time: 485113 μs
+<<<<<Receive Time: 485390 μs
+Total Interval Time: 277 μs
+
+
+-------- SESSION  11/3/118 10:58:43  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 996187 μs
+Total Interval Time: 996187 μs
+
+Operation: 6
+>>>>>Send Time: 920851 μs
+<<<<<Receive Time: 921146 μs
+Total Interval Time: 295 μs
+
+Operation: 4
+>>>>>Send Time: 951716 μs
+<<<<<Receive Time: 951840 μs
+Total Interval Time: 124 μs
+
+
+-------- SESSION  11/3/118 11:0:36  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 701691 μs
+Total Interval Time: 701691 μs
+
+Operation: 6
+>>>>>Send Time: 85859 μs
+<<<<<Receive Time: 86054 μs
+Total Interval Time: 195 μs
+
+
+-------- SESSION  11/3/118 11:3:0  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 239519 μs
+Total Interval Time: 239519 μs
+
+Operation: 6
+>>>>>Send Time: 246565 μs
+<<<<<Receive Time: 246864 μs
+Total Interval Time: 299 μs
+
+
+-------- SESSION  11/3/118 11:3:43  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 725693 μs
+Total Interval Time: 725693 μs
+
+Operation: 6
+>>>>>Send Time: 777171 μs
+<<<<<Receive Time: 777371 μs
+Total Interval Time: 200 μs
+
+Operation: 1
+>>>>>Send Time: 582529 μs
+<<<<<Receive Time: 582645 μs
+Total Interval Time: 116 μs
+
+Operation: 2
+>>>>>Send Time: 282099 μs
+<<<<<Receive Time: 282218 μs
+Total Interval Time: 119 μs
+
+
+-------- SESSION  11/3/118 11:5:44  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 640957 μs
+Total Interval Time: 640957 μs
+
+Operation: 1
+>>>>>Send Time: 636085 μs
+<<<<<Receive Time: 636303 μs
+Total Interval Time: 218 μs
+
+Operation: 6
+>>>>>Send Time: 616817 μs
+<<<<<Receive Time: 616995 μs
+Total Interval Time: 178 μs
+
+Operation: 1
+>>>>>Send Time: 666152 μs
+<<<<<Receive Time: 666296 μs
+Total Interval Time: 144 μs
+
+Operation: 6
+>>>>>Send Time: 278240 μs
+<<<<<Receive Time: 278383 μs
+Total Interval Time: 143 μs
+
+
+-------- SESSION  11/3/118 11:7:17  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 809940 μs
+Total Interval Time: 809940 μs
+
+Operation: 6
+>>>>>Send Time: 423043 μs
+<<<<<Receive Time: 423328 μs
+Total Interval Time: 285 μs
+
+
+-------- SESSION  11/3/118 11:7:55  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 438731 μs
+Total Interval Time: 438731 μs
+
+Operation: 6
+>>>>>Send Time: 928336 μs
+<<<<<Receive Time: 928618 μs
+Total Interval Time: 282 μs
+
+
+-------- SESSION  11/3/118 11:8:58  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 806428 μs
+Total Interval Time: 806428 μs
+
+
+-------- SESSION  11/3/118 11:9:9  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 416748 μs
+Total Interval Time: 416748 μs
+
+Operation: 6
+>>>>>Send Time: 762559 μs
+<<<<<Receive Time: 762847 μs
+Total Interval Time: 288 μs
+
+
+-------- SESSION  11/3/118 11:9:58  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 961025 μs
+Total Interval Time: 961025 μs
+
+Operation: 3
+>>>>>Send Time: 911908 μs
+<<<<<Receive Time: 912159 μs
+Total Interval Time: 251 μs
+
+
+-------- SESSION  11/3/118 11:10:51  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 370187 μs
+Total Interval Time: 370187 μs
+
+Operation: 6
+>>>>>Send Time: 6199 μs
+<<<<<Receive Time: 6501 μs
+Total Interval Time: 302 μs
+
+
+-------- SESSION  11/3/118 11:12:2  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 308747 μs
+Total Interval Time: 308747 μs
+
+Operation: 6
+>>>>>Send Time: 486479 μs
+<<<<<Receive Time: 486688 μs
+Total Interval Time: 209 μs
+
+
+-------- SESSION  11/3/118 11:12:56  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 223199 μs
+Total Interval Time: 223199 μs
+
+Operation: 6
+>>>>>Send Time: 123366 μs
+<<<<<Receive Time: 123743 μs
+Total Interval Time: 377 μs
+
+
+-------- SESSION  11/3/118 11:14:21  --------
+
+Operation: 0
+>>>>>Send Time: 0 μs
+<<<<<Receive Time: 55313 μs
+Total Interval Time: 55313 μs
+
+Operation: 6
+>>>>>Send Time: 590853 μs
+<<<<<Receive Time: 591182 μs
+Total Interval Time: 329 μs
+
+Operation: 4
+>>>>>Send Time: 238207 μs
+<<<<<Receive Time: 238332 μs
+Total Interval Time: 125 μs
+

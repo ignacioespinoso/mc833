@@ -1256,3 +1256,259 @@ Operation: 5
 <<<<<Send Time: 967466 μs
 Total Processing Time: 30 μs
 
+
+-------- SESSION  11/3/118 10:55:0  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 98404 μs
+Total Processing Time: 98404 μs
+
+Operation: 6
+>>>>>Receive Time: 580087 μs
+<<<<<Send Time: 580228 μs
+Total Processing Time: 141 μs
+
+Operation: 4
+>>>>>Receive Time: 821265 μs
+<<<<<Send Time: 821327 μs
+Total Processing Time: 62 μs
+
+
+-------- SESSION  11/3/118 10:56:8  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 980232 μs
+Total Processing Time: 980232 μs
+
+Operation: 6
+>>>>>Receive Time: 131532 μs
+<<<<<Send Time: 131679 μs
+Total Processing Time: 147 μs
+
+
+-------- SESSION  11/3/118 10:56:51  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 62260 μs
+Total Processing Time: 62260 μs
+
+Operation: 6
+>>>>>Receive Time: 485149 μs
+<<<<<Send Time: 485375 μs
+Total Processing Time: 226 μs
+
+
+-------- SESSION  11/3/118 10:58:43  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 996131 μs
+Total Processing Time: 996131 μs
+
+Operation: 6
+>>>>>Receive Time: 920889 μs
+<<<<<Send Time: 921115 μs
+Total Processing Time: 226 μs
+
+Operation: 4
+>>>>>Receive Time: 951756 μs
+<<<<<Send Time: 951799 μs
+Total Processing Time: 43 μs
+
+
+-------- SESSION  11/3/118 11:0:36  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 701655 μs
+Total Processing Time: 701655 μs
+
+Operation: 6
+>>>>>Receive Time: 85898 μs
+<<<<<Send Time: 86022 μs
+Total Processing Time: 124 μs
+
+
+-------- SESSION  11/3/118 11:3:0  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 239474 μs
+Total Processing Time: 239474 μs
+
+Operation: 6
+>>>>>Receive Time: 246647 μs
+<<<<<Send Time: 246847 μs
+Total Processing Time: 200 μs
+
+
+-------- SESSION  11/3/118 11:3:43  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 725648 μs
+Total Processing Time: 725648 μs
+
+Operation: 6
+>>>>>Receive Time: 777204 μs
+<<<<<Send Time: 777344 μs
+Total Processing Time: 140 μs
+
+Operation: 1
+>>>>>Receive Time: 582551 μs
+<<<<<Send Time: 582622 μs
+Total Processing Time: 71 μs
+
+Operation: 2
+>>>>>Receive Time: 282137 μs
+<<<<<Send Time: 282174 μs
+Total Processing Time: 37 μs
+
+
+-------- SESSION  11/3/118 11:5:44  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 640912 μs
+Total Processing Time: 640912 μs
+
+Operation: 1
+>>>>>Receive Time: 636129 μs
+<<<<<Send Time: 636275 μs
+Total Processing Time: 146 μs
+
+Operation: 6
+>>>>>Receive Time: 616879 μs
+<<<<<Send Time: 616986 μs
+Total Processing Time: 107 μs
+
+Operation: 1
+>>>>>Receive Time: 666189 μs
+<<<<<Send Time: 666262 μs
+Total Processing Time: 73 μs
+
+Operation: 6
+>>>>>Receive Time: 278258 μs
+<<<<<Send Time: 278350 μs
+Total Processing Time: 92 μs
+
+
+-------- SESSION  11/3/118 11:7:17  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 809896 μs
+Total Processing Time: 809896 μs
+
+Operation: 6
+>>>>>Receive Time: 423087 μs
+<<<<<Send Time: 423313 μs
+Total Processing Time: 226 μs
+
+
+-------- SESSION  11/3/118 11:7:55  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 438693 μs
+Total Processing Time: 438693 μs
+
+Operation: 6
+>>>>>Receive Time: 928362 μs
+<<<<<Send Time: 928581 μs
+Total Processing Time: 219 μs
+
+
+-------- SESSION  11/3/118 11:8:58  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 806411 μs
+Total Processing Time: 806411 μs
+
+
+-------- SESSION  11/3/118 11:9:9  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 416702 μs
+Total Processing Time: 416702 μs
+
+Operation: 6
+>>>>>Receive Time: 762577 μs
+<<<<<Send Time: 762809 μs
+Total Processing Time: 232 μs
+
+
+-------- SESSION  11/3/118 11:9:58  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 960975 μs
+Total Processing Time: 960975 μs
+
+Operation: 3
+>>>>>Receive Time: 911949 μs
+<<<<<Send Time: 912146 μs
+Total Processing Time: 197 μs
+
+
+-------- SESSION  11/3/118 11:10:51  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 370137 μs
+Total Processing Time: 370137 μs
+
+Operation: 6
+>>>>>Receive Time: 6238 μs
+<<<<<Send Time: 6488 μs
+Total Processing Time: 250 μs
+
+
+-------- SESSION  11/3/118 11:12:2  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 308704 μs
+Total Processing Time: 308704 μs
+
+Operation: 6
+>>>>>Receive Time: 486501 μs
+<<<<<Send Time: 486668 μs
+Total Processing Time: 167 μs
+
+
+-------- SESSION  11/3/118 11:12:56  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 223083 μs
+Total Processing Time: 223083 μs
+
+Operation: 6
+>>>>>Receive Time: 123394 μs
+<<<<<Send Time: 123724 μs
+Total Processing Time: 330 μs
+
+
+-------- SESSION  11/3/118 11:14:21  --------
+
+Operation: 0
+>>>>>Receive Time: 0 μs
+<<<<<Send Time: 55200 μs
+Total Processing Time: 55200 μs
+
+Operation: 6
+>>>>>Receive Time: 590887 μs
+<<<<<Send Time: 591150 μs
+Total Processing Time: 263 μs
+
+Operation: 4
+>>>>>Receive Time: 238248 μs
+<<<<<Send Time: 238300 μs
+Total Processing Time: 52 μs
+

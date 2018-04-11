@@ -1,7 +1,7 @@
 # MC833 1S2018 - Projeto 1
 ### Unicamp
-Giovani Nascimento Pereira - 168609
-Ignacio Ribeiro Espinoso - 
+### Giovani Nascimento Pereira - 168609
+### Ignacio Ribeiro Espinoso - 
 
 
 ## Introdução
@@ -66,6 +66,7 @@ As requests que o cliente pode mandar para o servidor foram categorizadas para f
 | 4         | Pegar comentário da próxima aula        | "4 XXXX"                  |
 | 5         | Pegar toda a informação disponível      | "5 Get all subjects info" |
 | 6         | Configurar comentário da próxima aula   | "6 XXXX txt"              |
+
 ** Mensagem enviada para o servidor
 
 *** XXXX é um substituto para o código da disciplina que será requisitada

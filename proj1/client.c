@@ -229,7 +229,24 @@ bool selectRequestMessage(char *request){
         case 5:
             strcpy(request, "5 Get all subjects info");
             return true;
-        // TODO case 6
+        case 6:
+            strcpy(request, "6 ");
+            char change[200];
+
+            // Get the subject
+            printf("Type the subject you want to change next class commentary: ");
+            scanf(" %s", change);
+            strcat(request, change);
+            strcat(request, " ");
+
+            // Get the next calss comment
+            printf("Type the new Commentary: ");
+            scanf(" ");
+            fgets(change, 200, stdin);
+            strcat(request, change);
+
+            printf("MESSAGE: %s", request);
+            return true;
         case 7:
             printf("Type your message: ");
             scanf(" %s", request);
