@@ -256,12 +256,10 @@ bool checkReceivedMessage(char *message, char *answer){
             break;
         case 6:
             getCodeFromRequest(message, code);
-            printf("\n\nCODE: %s\n\n", code);
             strcpy(answer, "Next class ");
             strcat(answer, code);
             strcat(answer, ": ");
             getCommentFromRequest(message, comment);
-            printf("\n\nCOMMENT: %s\n\n", comment);
             strcat(answer, comment);
             if (setComentarioForCode(code, comment) == false){
                 strcpy(answer, "The comment couldnt be written. Check the subject code\n");

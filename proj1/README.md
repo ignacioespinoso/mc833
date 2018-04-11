@@ -1,7 +1,7 @@
 # MC833 1S2018 - Projeto 1
 ### Unicamp
-### Giovani Nascimento Pereira - 168609
-### Ignacio Ribeiro Espinoso - 
+### [Giovani Nascimento Pereira](github.com/giovaninppc) - 168609
+### [Ignacio Ribeiro Espinoso](github.com/ignacioespinoso) - 
 
 
 ## Introdução
@@ -18,7 +18,7 @@ O **Cliente** é composto pelos arquivos:
 - timeManager.c: Faz o gerenciamente de IO com arquivos e o controle da medição do tempo no programa 
 - libraries.h: Contém todos os imports necessários
 
-O arquivo test.c, é utilizado apenas para testar a base de dados Data.c.
+> O arquivo test.c, é utilizado apenas para testar a base de dados Data.c.
 
 ## I - Metodologia
 Para executar o programa e os testes, baixe esta pasta de arquivos - ela contem o arquivo do tipo **Makefile**, que simplifica a execução do código.
@@ -103,3 +103,26 @@ Note o horário em que o Log foi criado, a operação que foi feita. O número d
 
 
 ## III - Resultados
+
+### Teste Local
+
+Executando o programa localmente, em TEST MODE, pegamos informações sobre o tempo de comunicação entre os processos distintos **cliente** e  **servidor** se comunicando.
+
+O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
+
+| Categoria | Media (μs) | Desvio Padrão (μs) |
+|-----------|------------|--------------------|
+| 1         | 33.49      | 15.81              |
+| 2         | 80.00      | 70.38              |
+| 3         | 81.73      | 62.24              |
+| 4         | 76.33      | 60.41              |
+| 5         | 68.24      | 47.76              |
+| 6         | 94.48      | 109.52             |
+
+A operação que mais demorou, analisando os resultados da *Média* foi a operação 6 **Configurar comentário da próxima aula**, que é a única que envolve a escrita de informações na base de dados - e não apenas leitura. Isso mostra como a escrita é mais custosa que operações de leitura.
+
+> É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos porcessos, IO, dentre outras coisas.
+
+
+### Teste com máquinas separadas
+
