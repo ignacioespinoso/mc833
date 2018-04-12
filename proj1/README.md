@@ -109,14 +109,14 @@ Executando o programa localmente, em TEST MODE, pegamos informações sobre o te
 
 O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
 
-| Categoria | Media (μs) | Desvio Padrão (μs) |
-|-----------|------------|--------------------|
-| 1         | 33.49      | 15.81              |
-| 2         | 80.00      | 70.38              |
-| 3         | 81.73      | 62.24              |
-| 4         | 76.33      | 60.41              |
-| 5         | 68.24      | 47.76              |
-| 6         | 94.48      | 109.52             |
+| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
+|-----------|------------|--------------------|------------------------|
+| 1         | 66.65      | 14.14              | 4                      |
+| 2         | 61.15      | 12.08              | 3                      |
+| 3         | 74.92      | 65.15              | 18                     |
+| 4         | 74.08      | 32.72              | 9                      |
+| 5         | 140.76     | 128.64             | 36                     |
+| 6         | 183.78     | 176.78             | 49                     |
 
 A operação que mais demorou, analisando os resultados da *Média*, foi a operação 6 **Configurar comentário da próxima aula**, que é a única que envolve a escrita de informações na base de dados - e não apenas leitura. Isso mostra como a escrita é mais custosa que operações de leitura.
 
