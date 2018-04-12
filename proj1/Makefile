@@ -69,10 +69,12 @@ clean_test: test.out
 	rm -rf test.out
 
 # Limpar arquivos de log
-clean_log: 
+clean_log:
 	rm -rf clientTimeLog.txt
 	rm -rf serverTimeLog.txt
 
 # Limpar todos os arquivo
 clean:
 	rm -rf *.out
+	rm -rf clientTimeLog.txt
+	rm -rf serverTimeLog.txt
