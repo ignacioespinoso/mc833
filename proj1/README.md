@@ -127,12 +127,16 @@ A operação que mais demorou, analisando os resultados da *Média*, foi a opera
 
 ### Teste com máquinas separadas
 
-O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente nos computadores do Instituto de Computação.
+O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente nos computadores do Instituto de Computação\*\*.
 
 
 
 
 > \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
+> Conectado na rede *Eduroam* por Wi-Fi. IP: 177.220.84.48
+
+> \*\* Computador "Ira" foi usado para a coleta de dados.
+> Conectado à rede cabeada. IP: 143.106.16.25
 
 
 ## IV - Conclusão

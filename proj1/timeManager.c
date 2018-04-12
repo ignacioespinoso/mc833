@@ -62,11 +62,22 @@ void writeClientTimeResults(char* filename, connectionTime op){
 		fprintf(f, " --------\n\n");
 	}
 
+	//Calculating Time - considering seconds and u seconds
+	int seconds = op.sendTime.tv_sec;
+	int useconds = op.sendTime.tv_usec;
+	double sendTime = (double)seconds + (double)useconds * 0.00001;
+
+	seconds = op.receiveTime.tv_sec;
+	useconds = op.receiveTime.tv_usec;
+	double receiveTime = (double)seconds + (double)useconds * 0.00001;
+
 	//Writing the test result
 	fprintf(f, "Operation: %d\n", op.operation);
-	fprintf(f, ">>>>>Send Time: %d μs\n", op.sendTime.tv_usec);
-	fprintf(f, "<<<<<Receive Time: %d μs\n", op.receiveTime.tv_usec);
-	fprintf(f, "Total Interval Time: %d μs\n\n", (op.receiveTime.tv_usec - op.sendTime.tv_usec));
+	// fprintf(f, ">>>>>Send Time: %lf s\n", sendTime);
+	// fprintf(f, "<<<<<Receive Time: %lf s\n", receiveTime);
+	// fprintf(f, "Total Interval Time: %lf μs\n\n", (receiveTime - sendTime));
+
+	fprintf(f, "%lf\n\n", (receiveTime - sendTime));
 
 	fclose(f);
 	recordCounter++;
@@ -90,11 +101,24 @@ void writeServerTimeResults(char* filename, connectionTime op){
 		fprintf(f, " --------\n\n");
 	}
 
+	//Calculating Time - considering seconds and u seconds
+	int seconds = op.sendTime.tv_sec;
+	int useconds = op.sendTime.tv_usec;
+	double sendTime = (double)seconds + (double)useconds * 0.00001;
+
+	seconds = op.receiveTime.tv_sec;
+	useconds = op.receiveTime.tv_usec;
+	double receiveTime = (double)seconds + (double)useconds * 0.00001;
+
 	//Writing the test result
 	fprintf(f, "Operation: %d\n", op.operation);
-	fprintf(f, ">>>>>Receive Time: %d μs\n", op.receiveTime.tv_usec);
-	fprintf(f, "<<<<<Send Time: %d μs\n", op.sendTime.tv_usec);
-	fprintf(f, "Total Processing Time: %d μs\n\n", (op.sendTime.tv_usec - op.receiveTime.tv_usec));
+	// fprintf(f, ">>>>>Receive Time: %lf s\n", receiveTime);
+	// fprintf(f, "<<<<<Send Time: %lf s\n", sendTime);
+	// fprintf(f, "Total Processing Time: %lf s\n\n", (sendTime - receiveTime));
+
+
+	fprintf(f, "%lf\n", (sendTime - receiveTime));
+
 
 	fclose(f);
 	recordCounter++;
