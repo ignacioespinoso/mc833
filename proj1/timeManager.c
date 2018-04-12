@@ -73,11 +73,12 @@ void writeClientTimeResults(char* filename, connectionTime op){
 
 	//Writing the test result
 	fprintf(f, "Operation: %d\n", op.operation);
-	// fprintf(f, ">>>>>Send Time: %lf s\n", sendTime);
-	// fprintf(f, "<<<<<Receive Time: %lf s\n", receiveTime);
-	// fprintf(f, "Total Interval Time: %lf μs\n\n", (receiveTime - sendTime));
+	fprintf(f, ">>>>>Send Time: %lf s\n", sendTime);
+	fprintf(f, "<<<<<Receive Time: %lf s\n", receiveTime);
+	fprintf(f, "Total Interval Time: %lf μs\n\n", (receiveTime - sendTime));
 
-	fprintf(f, "%lf\n\n", (receiveTime - sendTime));
+	// Test mode
+	//fprintf(f, "%lf\n", (receiveTime - sendTime));
 
 	fclose(f);
 	recordCounter++;
@@ -112,12 +113,12 @@ void writeServerTimeResults(char* filename, connectionTime op){
 
 	//Writing the test result
 	fprintf(f, "Operation: %d\n", op.operation);
-	// fprintf(f, ">>>>>Receive Time: %lf s\n", receiveTime);
-	// fprintf(f, "<<<<<Send Time: %lf s\n", sendTime);
-	// fprintf(f, "Total Processing Time: %lf s\n\n", (sendTime - receiveTime));
+	fprintf(f, ">>>>>Receive Time: %lf s\n", receiveTime);
+	fprintf(f, "<<<<<Send Time: %lf s\n", sendTime);
+	fprintf(f, "Total Processing Time: %lf s\n\n", (sendTime - receiveTime));
 
-
-	fprintf(f, "%lf\n", (sendTime - receiveTime));
+	// Test mode
+	// fprintf(f, "%lf\n", (sendTime - receiveTime));
 
 
 	fclose(f);
