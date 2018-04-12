@@ -2,7 +2,7 @@
 # use o Makefile para compilar o codigo corretamente
 
 #  Giovani Nascimento Pereira - 168609
-#	Ignacio Espinoso Ribeiro - 
+#	Ignacio Espinoso Ribeiro - 169767
 #
 #	MC833 - 2S2018
 #	Unicamp

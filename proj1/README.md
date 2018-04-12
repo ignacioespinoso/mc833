@@ -1,6 +1,6 @@
 # MC833 1S2018 Unicamp - Projeto 1
 ### [Giovani Nascimento Pereira](github.com/giovaninppc) - 168609
-### [Ignacio Ribeiro Espinoso](github.com/ignacioespinoso) - 
+### [Ignacio Ribeiro Espinoso](github.com/ignacioespinoso) - 169767
 
 
 ## Introdução
@@ -107,16 +107,18 @@ Note o horário em que o Log foi criado, a operação que foi feita. O número d
 
 Executando o programa localmente, em TEST MODE, pegamos informações sobre o tempo de comunicação entre os processos distintos **cliente** e  **servidor**. Os dados completos da comunicação podem ser encontrados [nesta tabela](https://docs.google.com/spreadsheets/d/1hvKi968pbDjVrS7xe3ppGN2-uGI_9jBCDU_SB1ZoQUE/edit?usp=sharing) online.
 
+Cada operação foi executada 50 vezes neste teste.
+
 O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
 
 | Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
 |-----------|------------|--------------------|------------------------|
-| 1         | 66.65      | 14.14              | 4                      |
-| 2         | 61.15      | 12.08              | 3                      |
-| 3         | 74.92      | 65.15              | 18                     |
-| 4         | 74.08      | 32.72              | 9                      |
-| 5         | 140.76     | 128.64             | 36                     |
-| 6         | 183.78     | 176.78             | 49                     |
+| 1         | 66.65      | 14.14              | 3.92                   |
+| 2         | 61.15      | 12.08              | 3.40                   |
+| 3         | 74.92      | 65.15              | 17.89                  |
+| 4         | 74.08      | 32.72              | 8.98                   |
+| 5         | 140.76     | 128.64             | 35.98                  |
+| 6         | 183.78     | 176.78             | 49.28                  |
 
 A operação que mais demorou, analisando os resultados da *Média*, foi a operação 6 **Configurar comentário da próxima aula**, que é a única que envolve a escrita de informações na base de dados - e não apenas leitura. Isso mostra como a escrita é mais custosa que operações de leitura.
 
@@ -125,3 +127,22 @@ A operação que mais demorou, analisando os resultados da *Média*, foi a opera
 
 ### Teste com máquinas separadas
 
+O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente nos computadores do Instituto de Computação.
+
+
+
+
+> \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
+
+
+## IV - Conclusão
+
+
+
+## V - Referências
+
+[1] Guide to Network Programming, Brian "Beej Jorgensen" Hall 2016. Disponível em: http://beej.us/guide/bgnet/html/multi/index.html 
+
+[2] C Socket Programming for Linux with a Server and Client Example Code,  Himanshu Arora 2011. Disponível em: https://www.thegeekstuff.com/2011/12/c-socket-programming/
+
+[3] Example of Client-Server Program in C, Daniel Scocco 2014. Disponível em: https://www.programminglogic.com/example-of-client-server-program-in-c-using-sockets-and-tcp/
