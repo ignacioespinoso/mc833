@@ -3,7 +3,7 @@
 ### [Ignacio Ribeiro Espinoso](github.com/ignacioespinoso) - 169767
 
 
-## Introdução
+# I - Introdução
 O conteúdo desse projeto visa simular as interações entre um socket de servidor, com uma aplicação simples rodando por trás e um socket de cliente.
 
 O **Servidor** é composto pelos arquivos:
@@ -19,7 +19,7 @@ O **Cliente** é composto pelos arquivos:
 
 > O arquivo test.c, é utilizado apenas para testar a base de dados Data.c.
 
-## I - Sistema / Metodologia
+# II - Sistema / Metodologia
 
 Para executar o programa e os testes, baixe esta pasta de arquivos - ela contem o arquivo do tipo **Makefile**, que simplifica a execução do código.
 
@@ -52,7 +52,7 @@ Para realizar *teste local*, rode em um terminal o servidor com **make run_serve
 Para realizar *teste remoto*, execute o servidor em uma máquina com **make run_server**, e em outra compile o cliente com **make client** e execute com **./client xxx.xx.xx TEST**, o último identificador avisa o programa para entrar em modo de teste.
 
 
-## II - Estrutura
+# III - Estrutura
 
 ### Armazenamento de Dados do Servidor
 
@@ -74,7 +74,7 @@ typedef struct ClassData{
 } Disciplina;
 ```
 
-E toda a informação é armazenada em um vetor dessa *struct*, que é manipulado em memória durante a execução. Para fazer acesso e alterações aos dados, o servidor usa um conjunto de operações definidas no mesmo arquivo que executam em conjunto com o restante d código do servidor, no mesmo processo/thread, havendo assim menos problemas com comunicação.
+E toda a informação é armazenada em um vetor dessa *struct*, que é manipulado em memória durante a execução. Para fazer acesso e alterações aos dados, o servidor usa um conjunto de operações definidas no mesmo arquivo que executam em conjunto com o restante do código do servidor, no mesmo processo/thread, havendo assim menos problemas com comunicação.
 
 Essa abordagem foi selecionada, pois para os resultados esperados, a maneira como os dados estavam sendo armazenados ou dispostos, não interferia no resultado final esperado, que é o tempo de comunicação entre sistemas.
 E, além de ser uma abordagem simples, e de fácil implementação, ela executa mais rápida que requisições a bancos de dados, ou leituras em arquivos.
@@ -101,13 +101,11 @@ As requests que o cliente pode mandar para o servidor foram categorizadas para f
 
 *** XXXX é um substituto para o código da disciplina que será requisitada
 
-**[Adicionar suposições feitas e justificar decisões de implementação]**
-
 Note que a primeira informação de cada mensagem é um número, referente ao identificador (categoria) da operação. Essa é a informação que é inicialmente analisada pelo servidor, para identificar qual o tipo de requisição o usuário está fazendo, e depois, o restante da mensagem de acordo com a operação.
 
 Como a troca de mensagens é feita inteiramente por Strings, esse método foi escolhido por formar uma maneira simples de identificar as mensagens (decodificar a requisição), e definir quais repostas deveriam partir do servidor em cada caso.
 
-Mensagens não identificadas nesta tabela, são respondidas com uma emsnagem padrão do servidor *[[Unrecognized Message/Request]]*, precedida da mensagem recebida.
+Mensagens não identificadas nesta tabela, ou fora deste formato, são respondidas com uma mensagem padrão do servidor *[[Unrecognized Message/Request]]*, precedida da mensagem recebida.
 
 E as resposta padrão, para todas as mensagens identificadas na tabela acima, é uma string contendo a resposta esperada pelo cliente.
 
@@ -147,7 +145,7 @@ Total Interval Time: 324 μs
 Note o horário em que o Log foi criado, a operação que foi feita. O número da operação está com descrito na seção II - Mensages/Requests (A operação 0 é a operação de conectar um ao outro - sempre aparece no início de um novo Log). O tempo é medido em microssegundos.
 
 
-## III - Resultados
+# IV - Resultados
 
 ### Teste Local
 
@@ -199,18 +197,18 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 > Conectado à rede cabeada. IP: 143.106.16.25
 
 
-## IV - Comparação
+# V - Comparação
 
 É possível perceber que o tempo de comunicação através da rede é bem maior que o tempo de comunicação local em uma máquina, como esperado.
 
 ![Gráfico 3 - Comparação dos tempos de comunicação entre os dois testes](https://github.com/ignacioespinoso/mc833/blob/master/proj1/resources/compare_plot.png)
 
 
-## V - Conclusão
+# VI - Conclusão
 
 >>>>>>> TODO
 
-## VI - Referências
+# VII - Referências
 
 [1] Guide to Network Programming, Brian "Beej Jorgensen" Hall 2016. Disponível em: http://beej.us/guide/bgnet/html/multi/index.html 
 
