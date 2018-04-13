@@ -19,15 +19,16 @@ O **Cliente** é composto pelos arquivos:
 
 > O arquivo test.c, é utilizado apenas para testar a base de dados Data.c.
 
-## I - Metodologia
+## I - Sistema / Metodologia
+
 Para executar o programa e os testes, baixe esta pasta de arquivos - ela contem o arquivo do tipo **Makefile**, que simplifica a execução do código.
 
 ### Executando Localmente
 
 Em uma máquina execute **make run_server** para compilar e executar o socket do servidor,
-e depois execute, em um terminal diferente, **make run_local_client**. Isso vai fazer os dois programas executarem e *conversarem entre si*, o cliente estará se conectando na porta local 127.0.0.1.
+e depois execute, em um terminal diferente, **make run_local_client**. Isso vai fazer os dois programas executarem e *conversarem entre si*, o cliente estará se conectando no IP 127.0.0.1.
 
-O cliente irá abrir um Menu de opções para aconexão, que reflete as requeste que podem ser feitas para o nosso modelo de servidor.
+O cliente irá abrir um Menu de opções para a conexão, que reflete as *requests* que podem ser feitas para o nosso modelo de servidor.
 
 Caso você execute o cliente sem o servidor estar rodando, ele irá dar um erro por não conseguir conectar.
 
@@ -53,6 +54,8 @@ Para realizar *teste remoto*, execute o servidor em uma máquina com **make run_
 
 ## II - Estrutura
 
+### Armazenamento de Dados do Servidor
+
 ### Mensagens / Requests
 
 As requests que o cliente pode mandar para o servidor foram categorizadas para facilitar a identificação (conforme dados na especificação do laboratório):
@@ -60,7 +63,7 @@ As requests que o cliente pode mandar para o servidor foram categorizadas para f
 | Categoria | Request                                 | Mensagem**                |
 |-----------|-----------------------------------------|---------------------------|
 | 1         | Pegar todas as disciplinas e códigos    | "1 Get all subjects"      |
-| 2         | Pegar ementa de uma disciplina          |  "2 XXXX***"              |
+| 2         | Pegar ementa de uma disciplina          | "2 XXXX***"               |
 | 3         | Pegar toda informação de uma disciplina | "3 XXXX"                  |
 | 4         | Pegar comentário da próxima aula        | "4 XXXX"                  |
 | 5         | Pegar toda a informação disponível      | "5 Get all subjects info" |
@@ -69,6 +72,8 @@ As requests que o cliente pode mandar para o servidor foram categorizadas para f
 ** Mensagem enviada para o servidor
 
 *** XXXX é um substituto para o código da disciplina que será requisitada
+
+**[Adicionar suposições feitas e justificar decisões de implementação]**
 
 ## Saídas
 
@@ -122,32 +127,49 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 A operação que mais demorou, analisando os resultados da *Média*, foi a operação 5 **Pegar toda a infromação disponível**, que é a operação que envolve a maior tranferência de dados, dentre todas as operações realizadas. Os dados podem ser observados no Gráfico 1.
 
-![Gráfico 1 - comparação do tempo médio das 6 operações realizadas]()
+![Gráfico 1 - Tempo médio de comunicação para o teste local](https://github.com/ignacioespinoso/mc833/blob/master/proj1/resources/local_plot.png)
 
-> É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos porcessos, IO, dentre outras coisas.
+É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos porcessos, IO, dentre outras coisas.
 
 
 ### Teste com máquinas separadas
 
 O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente nos computadores do Instituto de Computação\*\*. O Macbook estava conectado a rede Wi-Fi do instituto, e o computador conectado à rede cabeada - os dois em IPs diferentes.
 
+O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
+
+| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
+|-----------|------------|--------------------|------------------------|
+| 1         | 16921      | 5908               | 1638                   |
+| 2         | 18134      | 8534               | 2366                   |
+| 3         | 18771      | 8248               | 2310                   |
+| 4         | 18502      | 6838               | 1896                   |
+| 5         | 18122      | 3916               | 1132                   |
+| 6         | 21475      | 32398              | 9269                   |
 
 
-
+![Gráfico 2 - Tempo médio de comunicação para o teste remoto](https://github.com/ignacioespinoso/mc833/blob/master/proj1/resources/remote_plot.png)
 
 
 > \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
 > Conectado na rede *Eduroam* por Wi-Fi. IP: 177.220.84.48
-
+>
 > \*\* Computador "Ira" foi usado para a coleta de dados.
 > Conectado à rede cabeada. IP: 143.106.16.25
 
 
-## IV - Conclusão
+## IV - Comparação
+
+É possível perceber que o tempo de comunicação através da rede é bem maior que o tempo de comunicação local em uma máquina, como esperado.
+
+![Gráfico 3 - Comparação dos tempos de comunicação entre os dois testes](https://github.com/ignacioespinoso/mc833/blob/master/proj1/resources/compare_plot.png)
 
 
+## V - Conclusão
 
-## V - Referências
+>>>>>>> TODO
+
+## VI - Referências
 
 [1] Guide to Network Programming, Brian "Beej Jorgensen" Hall 2016. Disponível em: http://beej.us/guide/bgnet/html/multi/index.html 
 
