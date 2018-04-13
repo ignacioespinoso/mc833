@@ -122,14 +122,16 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 A operação que mais demorou, analisando os resultados da *Média*, foi a operação 5 **Pegar toda a infromação disponível**, que é a operação que envolve a maior tranferência de dados, dentre todas as operações realizadas. Os dados podem ser observados no Gráfico 1.
 
-![]()
+![Gráfico 1 - comparação do tempo médio das 6 operações realizadas]()
 
 > É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos porcessos, IO, dentre outras coisas.
 
 
 ### Teste com máquinas separadas
 
-O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente nos computadores do Instituto de Computação\*\*.
+O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente nos computadores do Instituto de Computação\*\*. O Macbook estava conectado a rede Wi-Fi do instituto, e o computador conectado à rede cabeada - os dois em IPs diferentes.
+
+
 
 
 
