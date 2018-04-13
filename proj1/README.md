@@ -56,6 +56,34 @@ Para realizar *teste remoto*, execute o servidor em uma máquina com **make run_
 
 ### Armazenamento de Dados do Servidor
 
+Para armazenar os dados do servidor, foi feita a simulação de uma base de dados, que é carregada na memória junto com o programa do servidor (essa parte do código está disponível no arquivo *Data.c*).
+
+Para cada aula, foi definida uma *struct* que contém todas as informações que o usuário pode requisitar, de acordo com cada disciplina.
+
+```C
+//Creating struct for Subject information
+typedef struct ClassData{
+
+	char codigo[10];
+	char nome[100];
+	char ementa[500];
+	char professor[100];
+	char sala[100];
+	char comentario[500];
+
+} Disciplina;
+```
+
+E toda a informação é armazenada em um vetor dessa *struct*, que é manipulado em memória durante a execução. Para fazer acesso e alterações aos dados, o servidor usa um conjunto de operações definidas no mesmo arquivo que executam em conjunto com o restante d código do servidor, no mesmo processo/thread, havendo assim menos problemas com comunicação.
+
+Essa abordagem foi selecionada, pois para os resultados esperados, a maneira como os dados estavam sendo armazenados ou dispostos, não interferia no resultado final esperado, que é o tempo de comunicação entre sistemas.
+E, além de ser uma abordagem simples, e de fácil implementação, ela executa mais rápida que requisições a bancos de dados, ou leituras em arquivos.
+
+Um dos problemas que ela acarreta, é o aumento do tamanho do código do servidor, pois toda a base de dados faz parte desse conjunto de instruções, então não é uma abordagem viável para um sistema real - ou que contenha um volume maior de dados.
+
+
+> Não há persistência dos dados neste sistema.
+
 ### Mensagens / Requests
 
 As requests que o cliente pode mandar para o servidor foram categorizadas para facilitar a identificação (conforme dados na especificação do laboratório):
@@ -75,7 +103,20 @@ As requests que o cliente pode mandar para o servidor foram categorizadas para f
 
 **[Adicionar suposições feitas e justificar decisões de implementação]**
 
-## Saídas
+Note que a primeira informação de cada mensagem é um número, referente ao identificador (categoria) da operação. Essa é a informação que é inicialmente analisada pelo servidor, para identificar qual o tipo de requisição o usuário está fazendo, e depois, o restante da mensagem de acordo com a operação.
+
+Como a troca de mensagens é feita inteiramente por Strings, esse método foi escolhido por formar uma maneira simples de identificar as mensagens (decodificar a requisição), e definir quais repostas deveriam partir do servidor em cada caso.
+
+Mensagens não identificadas nesta tabela, são respondidas com uma emsnagem padrão do servidor *[[Unrecognized Message/Request]]*, precedida da mensagem recebida.
+
+E as resposta padrão, para todas as mensagens identificadas na tabela acima, é uma string contendo a resposta esperada pelo cliente.
+
+### Usuários Aluno/Professor
+
+>>>>>>>>> TODO
+(ainda não implementado)
+
+### Saídas
 
 Toda mensagem enviada e recebida - pelo cliente e servidor, é mostrada na saída padrão, bem como o tempo de cada execução.
 
