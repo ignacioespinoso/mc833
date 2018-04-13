@@ -113,14 +113,16 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 | Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
 |-----------|------------|--------------------|------------------------|
-| 1         | 66.65      | 14.14              | 3.92                   |
-| 2         | 61.15      | 12.08              | 3.40                   |
-| 3         | 74.92      | 65.15              | 17.89                  |
-| 4         | 74.08      | 32.72              | 8.98                   |
-| 5         | 140.76     | 128.64             | 35.98                  |
-| 6         | 183.78     | 176.78             | 49.28                  |
+| 1         | 1186       | 1026               | 310                    |
+| 2         | 754        | 350                | 97                     |
+| 3         | 1016       | 781                | 216                    |
+| 4         | 896        | 1396               | 387                    |
+| 5         | 2514       | 439                | 861                    |
+| 6         | 799        | 59                 | 116                    |
 
-A operação que mais demorou, analisando os resultados da *Média*, foi a operação 6 **Configurar comentário da próxima aula**, que é a única que envolve a escrita de informações na base de dados - e não apenas leitura. Isso mostra como a escrita é mais custosa que operações de leitura.
+A operação que mais demorou, analisando os resultados da *Média*, foi a operação 5 **Pegar toda a infromação disponível**, que é a operação que envolve a maior tranferência de dados, dentre todas as operações realizadas. Os dados podem ser observados no Gráfico 1.
+
+![]()
 
 > É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos porcessos, IO, dentre outras coisas.
 

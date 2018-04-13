@@ -1,603 +1,605 @@
 
--------- SESSION  12/3/118 11:15:21  --------
+-------- SESSION  13/3/118 10:3:17  --------
 
 Operation: 0
-1523542528.458720
+1523624606.623310
 Operation: 1
-0.001220
+0.000970
 Operation: 1
-0.000550
+0.000100
 Operation: 1
-0.001090
+0.000120
 Operation: 1
-0.000440
+0.002670
 Operation: 1
-0.000440
+0.000240
 Operation: 1
-0.000670
+0.000250
 Operation: 1
-0.000410
+0.000200
 Operation: 1
-0.000440
+0.000230
 Operation: 1
-0.000480
+0.000120
 Operation: 1
-0.000630
+0.000210
 Operation: 1
-0.000320
+0.000200
 Operation: 1
-0.000310
+0.000210
 Operation: 1
-0.000380
+0.000200
 Operation: 1
-0.000720
+0.000540
 Operation: 1
 0.000660
 Operation: 1
-0.000410
-Operation: 1
-0.000410
-Operation: 1
-0.000450
-Operation: 1
-0.000570
-Operation: 1
-0.000590
-Operation: 1
-0.003410
-Operation: 1
-0.000300
-Operation: 1
-0.000350
-Operation: 1
-0.000320
-Operation: 1
-0.000380
-Operation: 1
-0.000890
-Operation: 1
-0.000470
-Operation: 1
-0.000500
-Operation: 1
-0.000590
-Operation: 1
-0.000570
-Operation: 1
-0.000710
-Operation: 1
-0.001010
-Operation: 1
-0.000400
-Operation: 1
-0.000380
-Operation: 1
-0.000410
-Operation: 1
-0.000390
-Operation: 1
-0.000980
-Operation: 1
-0.000740
-Operation: 1
-0.000560
-Operation: 1
-0.000580
-Operation: 1
-0.000380
-Operation: 1
-0.000890
-Operation: 1
-0.000350
-Operation: 1
-0.000920
-Operation: 1
-0.000700
-Operation: 1
-0.000560
+0.000360
 Operation: 1
 0.000360
 Operation: 1
-0.000430
+0.000350
 Operation: 1
-0.000630
+0.000200
 Operation: 1
-0.000560
-Operation: 2
-0.000560
-Operation: 2
-0.000290
-Operation: 2
-0.000260
-Operation: 2
-0.000390
-Operation: 2
-0.000240
-Operation: 2
-0.000440
-Operation: 2
-0.000600
-Operation: 2
-0.000340
-Operation: 2
-0.000350
-Operation: 2
-0.000350
-Operation: 2
-0.000390
-Operation: 2
-0.000270
-Operation: 2
-0.000180
-Operation: 2
-0.000240
-Operation: 2
-0.000230
-Operation: 2
-0.000420
-Operation: 2
-0.000470
-Operation: 2
-0.000240
-Operation: 2
-0.000360
-Operation: 2
-0.000350
-Operation: 2
-0.000380
-Operation: 2
-0.000310
-Operation: 2
-0.000310
-Operation: 2
-0.000210
-Operation: 2
 0.000370
-Operation: 2
-0.000420
-Operation: 2
-0.000410
-Operation: 2
-0.000550
-Operation: 2
-0.000520
-Operation: 2
-0.000250
-Operation: 2
-0.000250
-Operation: 2
-0.000290
-Operation: 2
-0.000340
-Operation: 2
+Operation: 1
+0.000380
+Operation: 1
+0.000220
+Operation: 1
 0.000190
-Operation: 2
+Operation: 1
 0.000220
-Operation: 2
-0.000280
-Operation: 2
+Operation: 1
+0.000140
+Operation: 1
+0.000180
+Operation: 1
 0.000240
-Operation: 2
-0.000240
-Operation: 2
-0.000540
-Operation: 2
-0.000610
-Operation: 2
-0.000320
-Operation: 2
-0.000400
-Operation: 2
-0.000840
-Operation: 2
-0.000350
-Operation: 2
+Operation: 1
 0.000210
-Operation: 2
-0.000360
-Operation: 2
-0.000260
-Operation: 2
-0.000450
-Operation: 2
-0.000230
-Operation: 2
-0.000390
-Operation: 3
-0.000420
-Operation: 3
-0.000530
-Operation: 3
-0.000880
-Operation: 3
-0.000380
-Operation: 3
-0.000550
-Operation: 3
-0.000680
-Operation: 3
-0.000490
-Operation: 3
-0.000500
-Operation: 3
-0.000600
-Operation: 3
-0.000280
-Operation: 3
-0.000430
-Operation: 3
-0.000440
-Operation: 3
-0.000530
-Operation: 3
-0.000390
-Operation: 3
-0.000630
-Operation: 3
-0.000410
-Operation: 3
-0.000350
-Operation: 3
-0.000290
-Operation: 3
-0.000420
-Operation: 3
-0.000450
-Operation: 3
-0.000960
-Operation: 3
-0.000270
-Operation: 3
-0.000270
-Operation: 3
-0.000270
-Operation: 3
-0.000420
-Operation: 3
-0.000540
-Operation: 3
-0.000360
-Operation: 3
-0.000230
-Operation: 3
-0.000220
-Operation: 3
-0.000390
-Operation: 3
-0.000680
-Operation: 3
-0.000240
-Operation: 3
-0.000630
-Operation: 3
-0.000520
-Operation: 3
-0.000280
-Operation: 3
-0.000290
-Operation: 3
-0.000330
-Operation: 3
-0.000350
-Operation: 3
-0.000350
-Operation: 3
-0.000380
-Operation: 3
-0.000530
-Operation: 3
-0.000530
-Operation: 3
-0.000390
-Operation: 3
-0.000790
-Operation: 3
-0.000420
-Operation: 3
-0.000560
-Operation: 3
-0.000200
-Operation: 3
-0.000230
-Operation: 3
-0.000250
-Operation: 3
-0.001700
-Operation: 4
-0.000260
-Operation: 4
-0.001290
-Operation: 4
-0.000250
-Operation: 4
-0.000270
-Operation: 4
-0.000290
-Operation: 4
-0.000240
-Operation: 4
-0.000250
-Operation: 4
-0.000370
-Operation: 4
-0.000280
-Operation: 4
-0.000550
-Operation: 4
-0.000250
-Operation: 4
-0.000390
-Operation: 4
-0.000240
-Operation: 4
+Operation: 1
 0.000610
-Operation: 4
-0.000210
-Operation: 4
-0.000250
-Operation: 4
-0.000420
-Operation: 4
-0.000410
-Operation: 4
-0.000430
-Operation: 4
+Operation: 1
 0.000480
-Operation: 4
-0.000330
-Operation: 4
-0.000390
-Operation: 4
-0.000260
-Operation: 4
-0.000280
-Operation: 4
-0.000200
-Operation: 4
-0.000520
-Operation: 4
-0.000360
-Operation: 4
-0.000220
-Operation: 4
-0.000440
-Operation: 4
+Operation: 1
+0.001420
+Operation: 1
 0.000270
-Operation: 4
-0.000240
-Operation: 4
+Operation: 1
+0.000260
+Operation: 1
+0.000250
+Operation: 1
+0.000180
+Operation: 1
+0.000210
+Operation: 1
+0.000260
+Operation: 1
+0.000210
+Operation: 1
+0.000180
+Operation: 1
+0.000150
+Operation: 1
+0.000190
+Operation: 1
+0.000170
+Operation: 1
+0.000180
+Operation: 1
+0.000170
+Operation: 1
+0.000180
+Operation: 1
+0.000150
+Operation: 1
+0.000170
+Operation: 1
+0.000170
+Operation: 1
+0.000180
+Operation: 1
+0.000170
+Operation: 2
+0.000270
+Operation: 2
+0.000080
+Operation: 2
+0.000100
+Operation: 2
+0.000090
+Operation: 2
+0.000100
+Operation: 2
+0.000100
+Operation: 2
+0.000110
+Operation: 2
+0.000090
+Operation: 2
+0.000380
+Operation: 2
+0.000080
+Operation: 2
+0.000100
+Operation: 2
+0.000100
+Operation: 2
+0.000090
+Operation: 2
+0.000100
+Operation: 2
+0.000090
+Operation: 2
+0.000100
+Operation: 2
+0.000100
+Operation: 2
+0.000070
+Operation: 2
+0.000110
+Operation: 2
+0.000080
+Operation: 2
+0.000070
+Operation: 2
+0.000110
+Operation: 2
+0.000100
+Operation: 2
+0.000120
+Operation: 2
+0.000070
+Operation: 2
+0.000090
+Operation: 2
+0.000110
+Operation: 2
+0.000100
+Operation: 2
+0.000070
+Operation: 2
+0.000080
+Operation: 2
+0.000080
+Operation: 2
+0.000100
+Operation: 2
+0.000090
+Operation: 2
+0.000080
+Operation: 2
+0.000100
+Operation: 2
+0.000080
+Operation: 2
+0.000080
+Operation: 2
+0.000080
+Operation: 2
+0.000100
+Operation: 2
+0.000120
+Operation: 2
+0.000130
+Operation: 2
+0.000080
+Operation: 2
+0.000110
+Operation: 2
+0.000080
+Operation: 2
+0.000090
+Operation: 2
+0.000090
+Operation: 2
+0.000070
+Operation: 2
+0.000070
+Operation: 2
+0.000130
+Operation: 2
+0.000100
+Operation: 3
+0.000220
+Operation: 3
+0.000150
+Operation: 3
+0.000130
+Operation: 3
+0.000080
+Operation: 3
 0.000330
+Operation: 3
+0.000090
+Operation: 3
+0.000100
+Operation: 3
+0.000320
+Operation: 3
+0.000150
+Operation: 3
+0.000090
+Operation: 3
+0.000140
+Operation: 3
+0.000200
+Operation: 3
+0.000100
+Operation: 3
+0.000150
+Operation: 3
+0.000110
+Operation: 3
+0.000160
+Operation: 3
+0.000100
+Operation: 3
+0.000090
+Operation: 3
+0.000200
+Operation: 3
+0.000110
+Operation: 3
+0.000090
+Operation: 3
+0.000110
+Operation: 3
+0.000110
+Operation: 3
+0.000090
+Operation: 3
+0.000100
+Operation: 3
+0.000120
+Operation: 3
+0.000160
+Operation: 3
+0.000110
+Operation: 3
+0.000170
+Operation: 3
+0.000170
+Operation: 3
+0.000090
+Operation: 3
+0.000100
+Operation: 3
+0.000100
+Operation: 3
+0.000100
+Operation: 3
+0.000090
+Operation: 3
+0.000080
+Operation: 3
+0.000180
+Operation: 3
+0.000080
+Operation: 3
+0.000130
+Operation: 3
+0.000120
+Operation: 3
+0.000220
+Operation: 3
+0.000090
+Operation: 3
+0.000190
+Operation: 3
+0.000110
+Operation: 3
+0.000100
+Operation: 3
+0.000090
+Operation: 3
+0.000160
+Operation: 3
+0.000090
+Operation: 3
+0.000100
+Operation: 3
+0.000130
+Operation: 4
+0.000080
+Operation: 4
+0.000180
+Operation: 4
+0.000080
+Operation: 4
+0.000100
+Operation: 4
+0.000100
+Operation: 4
+0.000080
+Operation: 4
+0.032250
+Operation: 4
+0.000100
+Operation: 4
+0.000110
+Operation: 4
+0.000130
+Operation: 4
+0.000090
+Operation: 4
+0.000110
+Operation: 4
+0.000100
+Operation: 4
+0.000090
+Operation: 4
+0.000100
+Operation: 4
+0.000090
+Operation: 4
+0.000070
+Operation: 4
+0.000090
+Operation: 4
+0.000090
+Operation: 4
+0.000080
+Operation: 4
+0.000070
+Operation: 4
+0.000070
+Operation: 4
+0.000080
+Operation: 4
+0.000090
+Operation: 4
+0.000080
+Operation: 4
+0.000090
+Operation: 4
+0.000080
+Operation: 4
+0.000100
+Operation: 4
+0.000090
+Operation: 4
+0.000130
 Operation: 4
 0.000300
 Operation: 4
-0.000230
+0.000100
 Operation: 4
+0.000100
+Operation: 4
+0.000080
+Operation: 4
+0.000110
+Operation: 4
+0.000070
+Operation: 4
+0.000090
+Operation: 4
+0.000100
+Operation: 4
+0.000110
+Operation: 4
+0.000110
+Operation: 4
+0.000080
+Operation: 4
+0.000090
+Operation: 4
+0.000080
+Operation: 4
+0.000070
+Operation: 4
+0.000100
+Operation: 4
+0.000080
+Operation: 4
+0.000110
+Operation: 4
+0.000100
+Operation: 4
+0.000080
+Operation: 4
+0.000080
+Operation: 5
 0.000270
-Operation: 4
-0.000500
-Operation: 4
-0.000360
-Operation: 4
-0.000370
-Operation: 4
-0.000420
-Operation: 4
-0.000410
-Operation: 4
-0.000360
-Operation: 4
-0.000440
-Operation: 4
-0.000940
-Operation: 4
-0.000230
-Operation: 4
-0.000240
-Operation: 4
-0.000240
-Operation: 4
-0.000450
-Operation: 4
-0.000620
-Operation: 4
-0.000350
-Operation: 4
-0.000330
 Operation: 5
-0.000630
+0.000480
 Operation: 5
-0.000710
+0.000320
 Operation: 5
-0.000410
+0.000280
 Operation: 5
-0.000370
-Operation: 5
-0.000840
-Operation: 5
-0.000770
-Operation: 5
-0.000770
-Operation: 5
-0.001130
-Operation: 5
-0.000450
-Operation: 5
-0.000380
-Operation: 5
-0.000710
+0.000290
 Operation: 5
 0.000520
-Operation: 5
-0.000740
-Operation: 5
-0.000660
-Operation: 5
-0.001040
-Operation: 5
-0.000770
-Operation: 5
-0.000710
-Operation: 5
-0.001210
-Operation: 5
-0.000470
-Operation: 5
-0.000410
 Operation: 5
 0.000610
 Operation: 5
-0.002270
+0.000740
 Operation: 5
-0.000420
+0.000530
 Operation: 5
-0.000460
+0.000440
 Operation: 5
-0.000630
+0.000220
 Operation: 5
-0.005100
+0.000480
 Operation: 5
-0.000550
+0.000470
 Operation: 5
-0.000670
+0.000340
 Operation: 5
-0.000460
+0.000250
 Operation: 5
-0.000420
+0.000250
+Operation: 5
+0.000440
+Operation: 5
+0.000680
+Operation: 5
+0.000330
+Operation: 5
+0.000340
+Operation: 5
+0.000340
+Operation: 5
+0.000260
+Operation: 5
+0.000400
+Operation: 5
+0.000270
 Operation: 5
 0.000360
 Operation: 5
-0.000520
+0.000260
 Operation: 5
-0.000840
+0.000230
+Operation: 5
+0.000220
+Operation: 5
+0.000230
+Operation: 5
+0.000480
+Operation: 5
+0.000320
+Operation: 5
+0.000240
+Operation: 5
+0.000290
+Operation: 5
+0.000280
+Operation: 5
+0.000260
+Operation: 5
+0.000200
+Operation: 5
+0.000280
+Operation: 5
+0.000220
+Operation: 5
+0.000300
+Operation: 5
+0.000210
+Operation: 5
+0.000300
+Operation: 5
+0.000370
 Operation: 5
 0.000650
 Operation: 5
-0.000670
-Operation: 5
-0.000420
-Operation: 5
-0.000810
-Operation: 5
-0.000480
-Operation: 5
-0.000600
-Operation: 5
-0.000460
-Operation: 5
-0.000460
-Operation: 5
-0.000700
-Operation: 5
-0.000660
-Operation: 5
-0.000910
-Operation: 5
-0.001170
-Operation: 5
-0.000730
-Operation: 5
-0.000690
-Operation: 5
-0.000680
-Operation: 5
-0.000660
-Operation: 5
-0.001080
-Operation: 6
-0.000170
-Operation: 6
-0.000200
-Operation: 6
-0.000270
-Operation: 6
-0.000230
-Operation: 6
-0.000360
-Operation: 6
-0.000360
-Operation: 6
-0.000640
-Operation: 6
-0.000350
-Operation: 6
-0.001130
-Operation: 6
-0.000260
-Operation: 6
-0.000240
-Operation: 6
-0.000250
-Operation: 6
-0.000470
-Operation: 6
-0.000270
-Operation: 6
-0.000870
-Operation: 6
-0.000210
-Operation: 6
-0.000260
-Operation: 6
-0.000690
-Operation: 6
-0.000330
-Operation: 6
-0.000340
-Operation: 6
-0.000380
-Operation: 6
-0.000360
-Operation: 6
-0.000360
-Operation: 6
-0.000250
-Operation: 6
-0.000410
-Operation: 6
-0.000270
-Operation: 6
-0.000210
-Operation: 6
-0.000410
-Operation: 6
-0.000580
-Operation: 6
-0.000410
-Operation: 6
-0.000280
-Operation: 6
-0.000210
-Operation: 6
-0.000280
-Operation: 6
-0.000480
-Operation: 6
-0.000200
-Operation: 6
-0.000220
-Operation: 6
-0.000250
-Operation: 6
-0.000210
-Operation: 6
-0.000230
-Operation: 6
-0.000320
-Operation: 6
-0.000300
-Operation: 6
-0.000190
-Operation: 6
-0.000200
-Operation: 6
-0.000260
-Operation: 6
 0.000290
-Operation: 6
-0.000430
-Operation: 6
-0.000220
-Operation: 6
+Operation: 5
+0.000570
+Operation: 5
+0.000500
+Operation: 5
+0.000400
+Operation: 5
 0.000280
+Operation: 5
+0.000340
+Operation: 5
+0.000370
 Operation: 6
-0.000420
+0.000150
+Operation: 6
+0.000100
+Operation: 6
+0.000070
+Operation: 6
+0.000100
+Operation: 6
+0.000110
+Operation: 6
+0.000100
+Operation: 6
+0.000110
+Operation: 6
+0.000090
+Operation: 6
+0.000090
+Operation: 6
+0.000120
+Operation: 6
+0.000100
+Operation: 6
+0.000080
+Operation: 6
+0.000100
+Operation: 6
+0.000090
+Operation: 6
+0.000090
+Operation: 6
+0.000090
+Operation: 6
+0.000080
+Operation: 6
+0.000090
+Operation: 6
+0.000100
+Operation: 6
+0.000090
+Operation: 6
+0.000070
+Operation: 6
+0.000090
+Operation: 6
+0.000090
+Operation: 6
+0.000100
+Operation: 6
+0.000100
+Operation: 6
+0.000070
+Operation: 6
+0.000080
+Operation: 6
+0.000070
+Operation: 6
+0.000140
+Operation: 6
+0.000090
+Operation: 6
+0.000100
+Operation: 6
+0.000110
+Operation: 6
+0.000080
+Operation: 6
+0.000090
+Operation: 6
+0.000090
+Operation: 6
+0.000090
+Operation: 6
+0.000100
+Operation: 6
+0.000080
+Operation: 6
+0.000090
+Operation: 6
+0.000090
+Operation: 6
+0.000080
+Operation: 6
+0.000080
+Operation: 6
+0.000080
+Operation: 6
+0.000120
+Operation: 6
+0.000080
+Operation: 6
+0.000090
+Operation: 6
+0.000110
+Operation: 6
+0.000070
+Operation: 6
+0.000080
+Operation: 6
+0.000080
