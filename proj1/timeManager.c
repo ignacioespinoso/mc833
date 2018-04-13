@@ -78,7 +78,7 @@ void writeClientTimeResults(char* filename, connectionTime op){
 	fprintf(f, "Total Interval Time: %lf μs\n\n", (receiveTime - sendTime));
 
 	// Test mode
-	//fprintf(f, "%lf\n", (receiveTime - sendTime));
+	// fprintf(f, "%lf\n", (receiveTime - sendTime));
 
 	fclose(f);
 	recordCounter++;
