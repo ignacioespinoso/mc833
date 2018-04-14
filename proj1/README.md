@@ -13,6 +13,7 @@ As seguintes operações podem ser realizadas por qualquer tipo de usuário:
 - Obter informação da próxima aula de uma disciplina específica.
 - Obter todas as informações de todas as disciplinas.
 - Fechar conexão.
+
 Operações restritas a professores:
 - Definir comentário da próxima aula.
 - Enviar mensagem.
