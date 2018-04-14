@@ -4,22 +4,34 @@
 
 
 # I - Introdução
-O conteúdo desse projeto visa simular as interações entre um socket de servidor, com uma aplicação simples rodando por trás e um socket de cliente.
+O projeto 1 consiste em implementar uma conexão TCP entre cliente e servidor. Para tal, foram implementadas e testadas as interações entre um socket de servidor, com uma aplicação simples rodando por trás e um socket de cliente.
+No caso, a aplicação do servidor consiste em um sistema que armazena dados relativos a disciplinas (códigos, ementas e comentários) para consulta e alterações por parte do cliente. Vale notar que existem dois tipos de usuário: aluno e professor, de forma que somente um professor pode executar determinadas operações.
+As seguintes operações podem ser realizadas por qualquer tipo de usuário:
+- Obter todas as disciplinas
+- Obter descrição de uma disciplina específica.
+- Obter informação completa de uma disciplina específica.
+- Obter informação da próxima aula de uma disciplina específica.
+- Obter todas as informações de todas as disciplinas.
+- Fechar conexão.
+Operações restritas a professores:
+- Definir comentário da próxima aula.
+- Enviar mensagem.
+
+# II - Sistema / Metodologia
+A execução pode ser separada em atividades do **Servidor** e do **Cliente**.
 
 O **Servidor** é composto pelos arquivos:
 - server.c: [Programa principal] Faz a base das conexões
 - Data.c: Simula uma base de dados
-- timeManager.c: Faz o gerenciamente de IO com arquivos e o controle da medição do tempo no programa 
+- timeManager.c: Faz o gerenciamente de IO com arquivos e o controle da medição do tempo no programa
 - libraries.h: Contém todos os imports necessários
 
 O **Cliente** é composto pelos arquivos:
 - client.c: [Programa principal] Faz a base das conexões
-- timeManager.c: Faz o gerenciamente de IO com arquivos e o controle da medição do tempo no programa 
+- timeManager.c: Faz o gerenciamente de IO com arquivos e o controle da medição do tempo no programa
 - libraries.h: Contém todos os imports necessários
 
 > O arquivo test.c, é utilizado apenas para testar a base de dados Data.c.
-
-# II - Sistema / Metodologia
 
 Para executar o programa e os testes, baixe esta pasta de arquivos - ela contem o arquivo do tipo **Makefile**, que simplifica a execução do código.
 
@@ -77,12 +89,18 @@ typedef struct ClassData{
 E toda a informação é armazenada em um vetor dessa *struct*, que é manipulado em memória durante a execução. Para fazer acesso e alterações aos dados, o servidor usa um conjunto de operações definidas no mesmo arquivo que executam em conjunto com o restante do código do servidor, no mesmo processo/thread, havendo assim menos problemas com comunicação.
 
 Essa abordagem foi selecionada, pois para os resultados esperados, a maneira como os dados estavam sendo armazenados ou dispostos, não interferia no resultado final esperado, que é o tempo de comunicação entre sistemas.
-E, além de ser uma abordagem simples, e de fácil implementação, ela executa mais rápida que requisições a bancos de dados, ou leituras em arquivos.
+E, além de ser uma abordagem simples, e de fácil implementação, ela é executada mais rápidamente que requisições a bancos de dados, ou leituras em arquivos.
 
-Um dos problemas que ela acarreta, é o aumento do tamanho do código do servidor, pois toda a base de dados faz parte desse conjunto de instruções, então não é uma abordagem viável para um sistema real - ou que contenha um volume maior de dados.
+Um dos problemas que ela acarreta, por outro lado, é o aumento do tamanho do código do servidor, pois toda a base de dados faz parte desse conjunto de instruções, então não é uma abordagem viável para um sistema real - ou que contenha um volume maior de dados.
 
 
 > Não há persistência dos dados neste sistema.
+
+# IV - Implementação
+
+### Formato
+
+A comunicação entre cliente e servidor se deu através de uma conexão TCP, assim todo o processo de *handshake* foi implementado. Para cada novo cliente, o servidor dá um *fork*, de forma que que as requisições são processadas e respondidas de acordo com o cliente de origem.
 
 ### Mensagens / Requests
 
@@ -145,7 +163,7 @@ Total Interval Time: 324 μs
 Note o horário em que o Log foi criado, a operação que foi feita. O número da operação está com descrito na seção II - Mensages/Requests (A operação 0 é a operação de conectar um ao outro - sempre aparece no início de um novo Log). O tempo é medido em microssegundos.
 
 
-# IV - Resultados
+# V - Resultados
 
 ### Teste Local
 
@@ -197,20 +215,18 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 > Conectado à rede cabeada. IP: 143.106.16.25
 
 
-# V - Comparação
+# VI - Conclusão
 
-É possível perceber que o tempo de comunicação através da rede é bem maior que o tempo de comunicação local em uma máquina, como esperado.
+Tal como esperado, podemos observar que a implementação de uma conexão TCP de fato resultou numa aplicação de comportamento confiável. Assim, a troca de mensagens ocorreu como esperado, sem ocorrer perdas nas requisições do usuário ou respostas do servidor. Sobre os resultados obtidos, é possível perceber que o tempo de comunicação através da rede é bem maior que o tempo de comunicação local em uma máquina, de acordo com as expectativas.
 
 ![Gráfico 3 - Comparação dos tempos de comunicação entre os dois testes](https://github.com/ignacioespinoso/mc833/blob/master/proj1/resources/compare_plot.png)
 
-
-# VI - Conclusão
-
->>>>>>> TODO
+Como adversidade, vale notar que a tomada de tempo envolveu alguns valores muito fora do esperado, de forma que esses tempos excessivamente grandes ou pequenos foram removidos dos cálculos dos resultados para maior consistência e marcados na tabela de resultados já disponibilizada.
+Mesmo com tal adversidade, os resultados gerais foram bem consistentes e satisfatórios, reforçando o que foi aprendido na teoria de redes vista em sala.
 
 # VII - Referências
 
-[1] Guide to Network Programming, Brian "Beej Jorgensen" Hall 2016. Disponível em: http://beej.us/guide/bgnet/html/multi/index.html 
+[1] Guide to Network Programming, Brian "Beej Jorgensen" Hall 2016. Disponível em: http://beej.us/guide/bgnet/html/multi/index.html
 
 [2] C Socket Programming for Linux with a Server and Client Example Code,  Himanshu Arora 2011. Disponível em: https://www.thegeekstuff.com/2011/12/c-socket-programming/
 
