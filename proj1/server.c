@@ -18,7 +18,7 @@
 bool sendMessageToClient(int fd, char *message);
 bool receiveMessageFromClient(int sockfd, char* buffer);
 bool newConnectionServerLoop(int client_fd);
-bool checkReceivedMessage(char *message, char *answer);
+bool checkReceivedMessage(char *message, char *answer, int* usr_type);
 void getCodeFromRequest(char *request, char *code);
 void getCommentFromRequest(char *request, char *comment);
 
@@ -187,7 +187,7 @@ bool receiveMessageFromClient(int sockfd, char* buffer){
 ///                 false if something went wrong
 bool newConnectionServerLoop(int client_fd){
 
-    int num;
+    int num, usr_type = 2;          //2 is the code for student.
     char buffer[MAXDATASIZE];
     char answer[MAXDATASIZE];
 
@@ -200,7 +200,7 @@ bool newConnectionServerLoop(int client_fd){
         }
 
         // Check the request
-        checkReceivedMessage(buffer, answer);
+        checkReceivedMessage(buffer, answer, &usr_type);
 
         if (sendMessageToClient(client_fd, answer) == false) {
             fprintf(stderr, "Failure Sending Message\n");
@@ -217,7 +217,7 @@ bool newConnectionServerLoop(int client_fd){
 ///         answer  - the answer string
 /// Return: true    - the correct answer could be found
 ///         false   - the answer was not found
-bool checkReceivedMessage(char *message, char *answer){
+bool checkReceivedMessage(char *message, char *answer, int* usr_type){
 
     int request;
     char code[6]; // The subject code has a limited size
@@ -256,14 +256,22 @@ bool checkReceivedMessage(char *message, char *answer){
             break;
         case 6:
             getCodeFromRequest(message, code);
-            strcpy(answer, "Next class ");
-            strcat(answer, code);
-            strcat(answer, ": ");
-            getCommentFromRequest(message, comment);
-            strcat(answer, comment);
-            if (setComentarioForCode(code, comment) == false){
-                strcpy(answer, "The comment couldnt be written. Check the subject code\n");
+            if(*usr_type == 1) {
+                strcpy(answer, "Next class ");
+                strcat(answer, code);
+                strcat(answer, ": ");
+                getCommentFromRequest(message, comment);
+                strcat(answer, comment);
+                if (setComentarioForCode(code, comment) == false){
+                    strcpy(answer, "The comment couldnt be written. Check the subject code\n");
+                }
+            } else {
+                strcpy(answer, "Only teachers can set comments.\n");
             }
+            break;
+        case 9:
+            strcpy(answer, "You are now logged as a teacher!\n");
+            *usr_type = 1;
             break;
         default:
             strcpy(answer, message);

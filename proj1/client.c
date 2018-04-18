@@ -194,7 +194,7 @@ bool selectRequestMessage(char *request){
 
     int option;
 
-    printf("Connected to GioBaiano Server\nMake a Request or send a Message:\n\n");
+    printf("Connected to GioBaiano Server!\nMake a Request or send a Message:\n\n");
     printf("1 - Get all subjects\n");
     printf("2 - Get subject description\n");
     printf("3 - Get subject full information\n");
@@ -249,7 +249,11 @@ bool selectRequestMessage(char *request){
             return true;
         case 7:
             printf("Type your message: ");
-            scanf(" %s", request);
+            strcpy(request, "6 ");
+            return true;
+        case 9:
+            printf("Logging as a teacher...");
+            strcpy(request, "9 ");
             return true;
         default:
             printf("Invalid request... Closing connection\n");
