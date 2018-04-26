@@ -130,8 +130,8 @@ E as resposta padrão, para todas as mensagens identificadas na tabela acima, é
 
 ### Usuários Aluno/Professor
 
->>>>>>>>> TODO
-(ainda não implementado)
+A implementação dos tipos de usuário foi adotada de forma que o acesso padrão ao sistema é feito por um aluno. Este tipo de usuário tem acesso a todas operações, exceto poder definir comentários sobre uma disciplina. Outro tipo de usuário é o professor, que tem acesso a todas as operações do sistema.
+Para que um usuário acesse o sistema como professor, o mesmo precisa executar uma operação oculta '9'. A operação faz com que o servidor reconheça o usuário como professor, permitindo um acesso às demais operações do sistema como tal.
 
 ### Saídas
 
