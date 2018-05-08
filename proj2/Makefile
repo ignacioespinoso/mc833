@@ -35,6 +35,11 @@ run_local_client: client.c
 	gcc client.c -o client.out
 	./client.out 127.0.0.1
 
+# Testar o cliente
+client_local_test: client.c timeManager.c libraries.h
+	gcc client.c -o client.out
+	./client.out 127.0.0.1 TEST
+
 # Limpar arquivos de log
 clean_log:
 	rm -rf clientTimeLog.txt

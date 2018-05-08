@@ -20,8 +20,8 @@ enum bool {false, true};
 bool selectRequestMessage(char *request);
 void die(char *s);
 void checkInformation(int numberOfParam);
-void checkTestMode(int sockfd, int argc, char** argv);
-void executeTestMode(int sockfd);
+void checkTestMode(int sockfd, int argc, char** argv, struct sockaddr_in si_other, unsigned int slen);
+void executeTestMode(int sock, struct sockaddr_in si_other, unsigned int slen);
 bool sendMessageToServer(char *message, struct sockaddr_in si_other, unsigned int slen, int sock);
 bool receiveMessageFromServer(int sock, char* buffer, struct sockaddr_in si_other, unsigned int slen);
 
@@ -53,8 +53,9 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
 
-    //checkTestMode(?, argc, argv);
+    checkTestMode(sock, argc, argv, si_other, slen);
  
+ 	// Message Loop
     while(1) {
 
         // Check if the user tried to disconnect
@@ -63,8 +64,15 @@ int main(int argc, char *argv[]) {
         	break;
         }
 
-        sendMessageToServer(message, si_other, slen, sock);
-        receiveMessageFromServer(sock, buf, si_other, slen);
+        // Send message
+        if (sendMessageToServer(message, si_other, slen, sock) == false) {
+        	die("sendto()");
+        }
+
+        // Receive message
+        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+        	die("recvfrom()");
+        }
 
         //Make a little stop
         printf("\n(Press Enter to continue)\n\n");
@@ -77,8 +85,6 @@ int main(int argc, char *argv[]) {
 }
 
 /// Sends a string message to the server
-/// PARAM:  fd - the server connection identifier
-///         message - the string message
 /// RETURN: bool -  true if the message was sent
 ///                 false if something went wrong
 bool sendMessageToServer(char *message, struct sockaddr_in si_other, unsigned int slen, int sock){
@@ -86,23 +92,18 @@ bool sendMessageToServer(char *message, struct sockaddr_in si_other, unsigned in
 	gettimeofday(&op.sendTime, NULL);
 	//Send the message
     if (sendto(sock, message, strlen(message), 0, (struct sockaddr *) &si_other, slen)==-1) {
-        die("sendto()");
+        return false;
     }
     return true;
 }
 
 /// Waits to receive a message from the server
-/// PARAM:  sockfd - the server connection idetifier
-///         buffer - a char* to insert the message
 /// RETURN: bool -  true if the message was received correclty
 ///                 false if something went wrong
 bool receiveMessageFromServer(int sock, char* buffer, struct sockaddr_in si_other, unsigned int slen){
-    //receive a reply and print it
-    //clear the buffer by filling null, it might have previously received data
-    memset(buffer,'\0', BUFLEN);
     //try to receive some data, this is a blocking call
     if (recvfrom(sock, buffer, BUFLEN, 0, (struct sockaddr *) &si_other, &slen) == -1) {
-        die("recvfrom()");
+        return false;
     }
     // Get the received time
 	gettimeofday(&op.receiveTime, NULL);
@@ -211,120 +212,120 @@ void checkInformation(int numberOfParam){
     }
 }
 
-// /// Check if the user run the program on TEST MODE
-// ///
-// void checkTestMode(int sockfd, int argc, char** argv){
-//     if (argc > 2){
-//         if (strcmp(argv[2], "TEST") == 0){
-//             executeTestMode(sockfd);
-//         }
-//     }
-// }
+/// Check if the user run the program on TEST MODE
+///
+void checkTestMode(int sockfd, int argc, char** argv, struct sockaddr_in si_other, unsigned int slen){
+    if (argc > 2){
+        if (strcmp(argv[2], "TEST") == 0){
+            executeTestMode(sockfd, si_other, slen);
+        }
+    }
+}
 
-// /// This method is used on TEST MODE
-// /// to make 50 connections of all types to get the current
-// /// execution and connection time
-// void executeTestMode(int sockfd){
+/// This method is used on TEST MODE
+/// to make 50 connections of all types to get the current
+/// execution and connection time
+void executeTestMode(int sock, struct sockaddr_in si_other, unsigned int slen){
 
-//     char buffer[BUFLEN];
+    char buf[BUFLEN];
 
-//     printf("-------- TEST MODE ---------\n\n");
+    printf("-------- TEST MODE ---------\n\n");
 
-//     printf(">>>>>>> Category 1 Messages:\nGet all subjects and names\n\n");
-//     op.operation = 1;
-//     for (int i=0; i<50; i++){
-//         if (sendMessageToServer(sockfd, "1 Get all subjects") == false) {
-//             close(sockfd);
-//             break;
-//         }
+    printf(">>>>>>> Category 1 Messages:\nGet all subjects and names\n\n");
+    op.operation = 1;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer("1 Get all Subjects", si_other, slen, sock) == false) {
+            close(sock);
+            break;
+        }
 
-//         //The message was sent correctly - waiting for answer
-//         if (receiveMessageFromServer(sockfd, buffer) == false) {
-//             printf("Either Connection Closed or Error\n");
-//             break;
-//         }
-//     }
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
 
-//     printf(">>>>>>> Category 2 Messages:\nGet subject description\n\n");
-//     op.operation = 2;
-//     for (int i=0; i<50; i++){
-//         if (sendMessageToServer(sockfd, "2 MC102") == false) {
-//             close(sockfd);
-//             break;
-//         }
+    printf(">>>>>>> Category 2 Messages:\nGet subject description\n\n");
+    op.operation = 2;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer("2 MC102", si_other, slen, sock) == false) {
+            close(sock);
+            break;
+        }
 
-//         //The message was sent correctly - waiting for answer
-//         if (receiveMessageFromServer(sockfd, buffer) == false) {
-//             printf("Either Connection Closed or Error\n");
-//             break;
-//         }
-//     }
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
 
-//     printf(">>>>>>> Category 3 Messages:\nGet subject full information\n\n");
-//     op.operation = 3;
-//     for (int i=0; i<50; i++){
-//         if (sendMessageToServer(sockfd, "3 MA111") == false) {
-//             close(sockfd);
-//             break;
-//         }
+    printf(">>>>>>> Category 3 Messages:\nGet subject full information\n\n");
+    op.operation = 3;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer("3 MA111", si_other, slen, sock) == false) {
+            close(sock);
+            break;
+        }
 
-//         //The message was sent correctly - waiting for answer
-//         if (receiveMessageFromServer(sockfd, buffer) == false) {
-//             printf("Either Connection Closed or Error\n");
-//             break;
-//         }
-//     }
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
 
-//     printf(">>>>>>> Category 4 Messages:\nGet nex class information\n\n");
-//     op.operation = 4;
-//     for (int i=0; i<50; i++){
-//         if (sendMessageToServer(sockfd, "4 EE532") == false) {
-//             close(sockfd);
-//             break;
-//         }
+    printf(">>>>>>> Category 4 Messages:\nGet nex class information\n\n");
+    op.operation = 4;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer("4 EE532", si_other, slen, sock) == false) {
+            close(sock);
+            break;
+        }
 
-//         //The message was sent correctly - waiting for answer
-//         if (receiveMessageFromServer(sockfd, buffer) == false) {
-//             printf("Either Connection Closed or Error\n");
-//             break;
-//         }
-//     }
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
 
-//     printf(">>>>>>> Category 5 Messages:\nGet all Subjects info\n\n");
-//     op.operation = 5;
-//     for (int i=0; i<50; i++){
-//         if (sendMessageToServer(sockfd, "5 Get all subjects info") == false) {
-//             close(sockfd);
-//             break;
-//         }
+    printf(">>>>>>> Category 5 Messages:\nGet all Subjects info\n\n");
+    op.operation = 5;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer("5 Get all subjects info", si_other, slen, sock) == false) {
+            close(sock);
+            break;
+        }
 
-//         //The message was sent correctly - waiting for answer
-//         if (receiveMessageFromServer(sockfd, buffer) == false) {
-//             printf("Either Connection Closed or Error\n");
-//             break;
-//         }
-//     }
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
 
-//     printf(">>>>>>> Category 6 Messages:\nWrite new Nwxt Class information\n\n");
-//     op.operation = 6;
-//     for (int i=0; i<50; i++){
-//         if (sendMessageToServer(sockfd, "6 EE532 Trocando comentario por este daqui") == false) {
-//             close(sockfd);
-//             break;
-//         }
+    printf(">>>>>>> Category 6 Messages:\nWrite new Next Class information\n\n");
+    op.operation = 6;
+    for (int i=0; i<50; i++){
+        if (sendMessageToServer("6 EE532 Trocando esse comentario por esse daqui", si_other, slen, sock) == false) {
+            close(sock);
+            break;
+        }
 
-//         //The message was sent correctly - waiting for answer
-//         if (receiveMessageFromServer(sockfd, buffer) == false) {
-//             printf("Either Connection Closed or Error\n");
-//             break;
-//         }
-//     }
+        //The message was sent correctly - waiting for answer
+        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+            printf("Either Connection Closed or Error\n");
+            break;
+        }
+    }
 
-//     printf("\n\n-------- TEST MODE FINISHED ---------\n");
-//     printf("check the Log file to get the system time easily\n\n");
+    printf("\n\n-------- TEST MODE FINISHED ---------\n");
+    printf("check the Log file to get the system time easily\n\n");
 
-//     //Finish connection and stop the program
-//     close(sockfd);
-//     exit(0);
-// }
+    //Finish connection and stop the program
+    close(sock);
+    exit(0);
+}
 
