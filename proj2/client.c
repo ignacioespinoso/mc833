@@ -8,8 +8,7 @@
 */
 
 #include "libraries.h"
- 
-#define SERVER "127.0.0.1"
+
 #define BUFLEN 2000  //Max length of buffer
 #define PORT 8888   //The port on which to send data
 
@@ -20,17 +19,23 @@ enum bool {false, true};
 // Auxiliar Methods
 bool selectRequestMessage(char *request);
 void die(char *s);
+void checkInformation(int numberOfParam);
 
 // Global variable for time manangement
 connectionTime op;
  
-int main(void) {
+int main(int argc, char *argv[]) {
     struct sockaddr_in si_other;
     int s;
     unsigned int slen=sizeof(si_other);
     char buf[BUFLEN];
     char message[BUFLEN];
+
+    // Get server IP address
+    checkInformation(argc);
+    char *server = argv[1];
  
+ 	// Create UDP socket
     if ( (s=socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) == -1) {
         die("socket");
     }
@@ -38,22 +43,23 @@ int main(void) {
     memset((char *) &si_other, 0, sizeof(si_other));
     si_other.sin_family = AF_INET;
     si_other.sin_port = htons(PORT);
-     
-    if (inet_aton(SERVER , &si_other.sin_addr) == 0) {
+    
+    if (inet_aton(server , &si_other.sin_addr) == 0) {
         fprintf(stderr, "inet_aton() failed\n");
         exit(1);
     }
  
     while(1) {
-    	bool continueOn = true;
-        continueOn = selectRequestMessage(message);
 
-        // Check if the user tryed to disconnect
-        if (continueOn == false) {
+        // Check if the user tried to disconnect
+        // or get the next servre request
+        if (selectRequestMessage(message) == false) {
         	break;
         }
          
-        //send the message
+        //Record send Time
+    	gettimeofday(&op.sendTime, NULL);
+    	//Send the message
         if (sendto(s, message, strlen(message), 0, (struct sockaddr *) &si_other, slen)==-1) {
             die("sendto()");
         }
@@ -65,8 +71,13 @@ int main(void) {
         if (recvfrom(s, buf, BUFLEN, 0, (struct sockaddr *) &si_other, &slen) == -1) {
             die("recvfrom()");
         }
-         
+        // Get the received time
+    	gettimeofday(&op.receiveTime, NULL);
+
         puts(buf);
+
+        // Print the time
+    	printConnectionTimeClient(op);
 
         //Make a little stop
         printf("\n(Press Enter to continue)\n\n");
@@ -85,7 +96,7 @@ bool selectRequestMessage(char *request){
 
     int option;
 
-    printf("Connected to GioBaiano UDP Server!\nMake a Request or send a Message:\n\n");
+    printf("Make a Request or send a Message:\n\n");
     printf("1 - Get all subjects\n");
     printf("2 - Get subject description\n");
     printf("3 - Get subject full information\n");
@@ -164,4 +175,12 @@ bool selectRequestMessage(char *request){
 void die(char *s) {
     perror(s);
     exit(1);
+}
+
+/// Check if the user typed the hostname
+void checkInformation(int numberOfParam){
+    if (numberOfParam < 2) {
+        fprintf(stderr,"usage: type in the client hostname\n");
+        exit(1);
+    }
 }

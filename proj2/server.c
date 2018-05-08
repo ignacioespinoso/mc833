@@ -57,6 +57,8 @@ int main(void) {
         if ((recv_len = recvfrom(s, buf, BUFLEN, 0, (struct sockaddr *) &si_other, &slen)) == -1) {
             die("recvfrom()");
         }
+        // Get receive time
+        gettimeofday(&op.receiveTime, NULL);
          
         //print details of the client/peer and the data received
         printf("Received packet from %s:%d\n", inet_ntoa(si_other.sin_addr), ntohs(si_other.sin_port));
@@ -66,11 +68,16 @@ int main(void) {
         checkReceivedMessage(buf, answer, NULL);
         printf("Answering...\n");
          
+        //Get send Time
+        gettimeofday(&op.sendTime, NULL);
         //now reply the client with the same data
         if (sendto(s, answer, BUFLEN, 0, (struct sockaddr*) &si_other, slen) == -1) {
             die("sendto()");
         }
         printf("Done!\n\n");
+
+        //Printing time execution interval
+        printExecutionTimeServer(op);
     }
  
     close(s);

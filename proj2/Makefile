@@ -28,7 +28,12 @@ run_server: server.c
 # Gerar e rodar o cliente
 run_client: client.c
 	gcc client.c -o client.out
-	./client.out
+	echo "run the command ./client.out xxx.x.x.x - with the server IP"
+
+# Rodar o cliente localmente
+run_local_client: client.c
+	gcc client.c -o client.out
+	./client.out 127.0.0.1
 
 # Limpar arquivos de log
 clean_log:
