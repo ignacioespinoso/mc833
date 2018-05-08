@@ -18,6 +18,7 @@ connectionTime op;
 
 // Auxiliar Methods
 bool receiveMessageFromClient(int sockfd, char* buffer, struct sockaddr_in *si_other, unsigned int slen);
+bool sendMessageToClient(int sock, char *message, struct sockaddr_in si_other, unsigned int slen);
 bool checkReceivedMessage(char *message, char *answer, int* usr_type);
 void getCodeFromRequest(char *request, char *code);
 void getCommentFromRequest(char *request, char *comment);
@@ -59,20 +60,16 @@ int main(void) {
             die("recieve from client");
         }
 
+        // Decode message
         char answer[BUFLEN];
         checkReceivedMessage(buf, answer, NULL);
         printf("Answering...\n");
          
-        //Get send Time
-        gettimeofday(&op.sendTime, NULL);
-        //now reply the client with the same data
-        if (sendto(s, answer, BUFLEN, 0, (struct sockaddr*) &si_other, slen) == -1) {
-            die("sendto()");
+        // Send answer
+        if (sendMessageToClient(s, answer, si_other, slen) == false) {
+            die("send message to client");
         }
         printf("Done!\n\n");
-
-        //Printing time execution interval
-        printExecutionTimeServer(op);
     }
  
     close(s);
@@ -82,16 +79,16 @@ int main(void) {
 /// Send a message to the client
 /// RETURN: bool -  true if the message was sent correctly
 ///                 false if something went wrong
-bool sendMessageToClient(int fd, char *message){
+bool sendMessageToClient(int sock, char *message, struct sockaddr_in si_other, unsigned int slen){
     //Get send Time
     gettimeofday(&op.sendTime, NULL);
-    if (send(fd, message, strlen(message), 0) == -1){
+    //now reply the client with the same data
+    if (sendto(sock, message, BUFLEN, 0, (struct sockaddr*) &si_other, slen) == -1) {
         return false;
     }
-    printf("server: Msg being sent: %s [Number of bytes sent: %lu]\n",message, strlen(message));
-
     //Printing time execution interval
     printExecutionTimeServer(op);
+
     return true;
 }
 
