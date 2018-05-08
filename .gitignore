@@ -4,3 +4,4 @@
 *.out
 clientTimeLog.txt
 serverTimeLog.txt
+vgcore.*

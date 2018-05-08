@@ -185,7 +185,7 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 A operação que mais demorou, analisando os resultados da *Média*, foi a operação 5 **Pegar toda a infromação disponível**, que é a operação que envolve a maior tranferência de dados, dentre todas as operações realizadas. Os dados podem ser observados no Gráfico 1.
 
-![Gráfico 1 - Tempo médio de comunicação para o teste local](https://github.com/ignacioespinoso/mc833/blob/master/proj1/resources/local_plot.png)
+![Gráfico 1 - Tempo médio de comunicação para o teste local](resources/local_plot.png)
 
 É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos porcessos, IO, dentre outras coisas.
 
@@ -206,7 +206,7 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 | 6         | 21475      | 32398              | 9269                   |
 
 
-![Gráfico 2 - Tempo médio de comunicação para o teste remoto](https://github.com/ignacioespinoso/mc833/blob/master/proj1/resources/remote_plot.png)
+![Gráfico 2 - Tempo médio de comunicação para o teste remoto](resources/remote_plot.png)
 
 
 > \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
@@ -220,7 +220,7 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 Tal como esperado, podemos observar que a implementação de uma conexão TCP de fato resultou numa aplicação de comportamento confiável. Assim, a troca de mensagens ocorreu como esperado, sem ocorrer perdas nas requisições do usuário ou respostas do servidor. Sobre os resultados obtidos, é possível perceber que o tempo de comunicação através da rede é bem maior que o tempo de comunicação local em uma máquina, de acordo com as expectativas.
 
-![Gráfico 3 - Comparação dos tempos de comunicação entre os dois testes](https://github.com/ignacioespinoso/mc833/blob/master/proj1/resources/compare_plot.png)
+![Gráfico 3 - Comparação dos tempos de comunicação entre os dois testes](resources/compare_plot.png)
 
 Como adversidade, vale notar que a tomada de tempo envolveu alguns valores muito fora do esperado, de forma que esses tempos excessivamente grandes ou pequenos foram removidos dos cálculos dos resultados para maior consistência e marcados na tabela de resultados já disponibilizada.
 Mesmo com tal adversidade, os resultados gerais foram bem consistentes e satisfatórios, reforçando o que foi aprendido na teoria de redes vista em sala.
