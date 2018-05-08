@@ -130,17 +130,14 @@ bool checkReceivedMessage(char *message, char *answer, int* usr_type){
             break;
         case 6:
             getCodeFromRequest(message, code);
-            if(*usr_type == 1) {
-                strcpy(answer, "Next class ");
-                strcat(answer, code);
-                strcat(answer, ": ");
-                getCommentFromRequest(message, comment);
-                strcat(answer, comment);
-                if (setComentarioForCode(code, comment) == false){
-                    strcpy(answer, "The comment couldnt be written. Check the subject code\n");
-                }
-            } else {
-                strcpy(answer, "Only teachers can set comments.\n");
+            // Não tem conexão, não precisa do usr_type
+            strcpy(answer, "Next class ");
+            strcat(answer, code);
+            strcat(answer, ": ");
+            getCommentFromRequest(message, comment);
+            strcat(answer, comment);
+            if (setComentarioForCode(code, comment) == false){
+                strcpy(answer, "The comment couldnt be written. Check the subject code\n");
             }
             break;
         case 9:
