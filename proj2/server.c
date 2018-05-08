@@ -20,13 +20,7 @@ connectionTime op;
 bool checkReceivedMessage(char *message, char *answer, int* usr_type);
 void getCodeFromRequest(char *request, char *code);
 void getCommentFromRequest(char *request, char *comment);
-
-// Default error method
-// print error message and kill the program
-void die(char *s) {
-    perror(s);
-    exit(1);
-}
+void die(char *s);
  
 int main(void) {
     struct sockaddr_in si_me, si_other;
@@ -70,12 +64,13 @@ int main(void) {
 
         char answer[BUFLEN];
         checkReceivedMessage(buf, answer, NULL);
-        printf("Sending %s", answer);
+        printf("Answering...\n");
          
         //now reply the client with the same data
         if (sendto(s, answer, BUFLEN, 0, (struct sockaddr*) &si_other, slen) == -1) {
             die("sendto()");
         }
+        printf("Done!\n\n");
     }
  
     close(s);
@@ -176,4 +171,11 @@ void getCommentFromRequest(char *request, char *comment){
         i++;
     } while(request[i+8] != '\0');
     comment[i] = '\0';
+}
+
+/// Default error method
+/// print error message and kill the program
+void die(char *s) {
+    perror(s);
+    exit(1);
 }

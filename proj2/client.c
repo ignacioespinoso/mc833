@@ -19,14 +19,10 @@ enum bool {false, true};
 
 // Auxiliar Methods
 bool selectRequestMessage(char *request);
+void die(char *s);
 
 // Global variable for time manangement
 connectionTime op;
- 
-void die(char *s) {
-    perror(s);
-    exit(1);
-}
  
 int main(void) {
     struct sockaddr_in si_other;
@@ -161,4 +157,11 @@ bool selectRequestMessage(char *request){
     strcat(request, code);
 
     return true;
+}
+
+/// Default error method
+/// print error message and kill the program
+void die(char *s) {
+    perror(s);
+    exit(1);
 }

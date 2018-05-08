@@ -120,7 +120,6 @@ void writeServerTimeResults(char* filename, connectionTime op){
 	// Test mode
 	// fprintf(f, "%lf\n", (sendTime - receiveTime));
 
-
 	fclose(f);
 	recordCounter++;
 }
