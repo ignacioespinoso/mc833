@@ -49,7 +49,13 @@ int main(void) {
     }
  
     while(1) {
-        selectRequestMessage(message);
+    	bool continueOn = true;
+        continueOn = selectRequestMessage(message);
+
+        // Check if the user tryed to disconnect
+        if (continueOn == false) {
+        	break;
+        }
          
         //send the message
         if (sendto(s, message, strlen(message), 0, (struct sockaddr *) &si_other, slen)==-1) {
