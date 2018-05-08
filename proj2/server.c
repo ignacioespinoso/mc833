@@ -73,7 +73,7 @@ int main(void) {
         printf("Sending %s", answer);
          
         //now reply the client with the same data
-        if (sendto(s, answer, recv_len, 0, (struct sockaddr*) &si_other, slen) == -1) {
+        if (sendto(s, answer, BUFLEN, 0, (struct sockaddr*) &si_other, slen) == -1) {
             die("sendto()");
         }
     }
