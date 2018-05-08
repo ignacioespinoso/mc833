@@ -29,7 +29,7 @@ int main(void) {
      
     int s;
     unsigned int slen = sizeof(si_other);
-    char buf[BUFLEN];
+    char buf[BUFLEN]; 
      
     //create a UDP socket
     if ((s=socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) == -1) {
