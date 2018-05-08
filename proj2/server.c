@@ -17,6 +17,7 @@
 connectionTime op;
 
 // Auxiliar Methods
+bool receiveMessageFromClient(int sockfd, char* buffer, struct sockaddr_in *si_other, unsigned int slen);
 bool checkReceivedMessage(char *message, char *answer, int* usr_type);
 void getCodeFromRequest(char *request, char *code);
 void getCommentFromRequest(char *request, char *comment);
@@ -25,7 +26,7 @@ void die(char *s);
 int main(void) {
     struct sockaddr_in si_me, si_other;
      
-    int s, recv_len;
+    int s;
     unsigned int slen = sizeof(si_other);
     char buf[BUFLEN];
      
@@ -53,16 +54,10 @@ int main(void) {
         printf("Waiting for data...");
         fflush(stdout);
          
-        //try to receive some data, this is a blocking call
-        if ((recv_len = recvfrom(s, buf, BUFLEN, 0, (struct sockaddr *) &si_other, &slen)) == -1) {
-            die("recvfrom()");
+        // Wait for message
+        if (receiveMessageFromClient(s, buf, &si_other, slen) == false ) {
+            die("recieve from client");
         }
-        // Get receive time
-        gettimeofday(&op.receiveTime, NULL);
-         
-        //print details of the client/peer and the data received
-        printf("Received packet from %s:%d\n", inet_ntoa(si_other.sin_addr), ntohs(si_other.sin_port));
-        printf("Data: %s\n" , buf);
 
         char answer[BUFLEN];
         checkReceivedMessage(buf, answer, NULL);
@@ -82,6 +77,40 @@ int main(void) {
  
     close(s);
     return 0;
+}
+
+/// Send a message to the client
+/// RETURN: bool -  true if the message was sent correctly
+///                 false if something went wrong
+bool sendMessageToClient(int fd, char *message){
+    //Get send Time
+    gettimeofday(&op.sendTime, NULL);
+    if (send(fd, message, strlen(message), 0) == -1){
+        return false;
+    }
+    printf("server: Msg being sent: %s [Number of bytes sent: %lu]\n",message, strlen(message));
+
+    //Printing time execution interval
+    printExecutionTimeServer(op);
+    return true;
+}
+
+/// Waits to receive a message from the client
+/// RETURN: bool   - true if the message was received correclty
+///                  false if something went wrong
+bool receiveMessageFromClient(int sock, char* buffer, struct sockaddr_in *si_other, unsigned int slen){
+    int recv_len;
+    //try to receive some data, this is a blocking call
+    if ((recv_len = recvfrom(sock, buffer, BUFLEN, 0, (struct sockaddr *) si_other, &slen)) == -1) {
+        return false;
+    }
+    // Get receive time
+    gettimeofday(&op.receiveTime, NULL);
+
+    //print details of the client/peer and the data received
+    printf("Received packet from %s:%d\n", inet_ntoa(si_other->sin_addr), ntohs(si_other->sin_port));
+    printf("Data: %s\n" , buffer);
+    return true;
 }
 
 // AUXILIAR METHODS
