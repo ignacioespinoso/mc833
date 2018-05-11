@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
     unsigned int slen=sizeof(si_other);
     char buf[BUFLEN];
     char message[BUFLEN];
-    fd_set read_fds, write_fds;
+
 
     // Get server IP address
     checkInformation(argc);
@@ -55,23 +55,10 @@ int main(int argc, char *argv[]) {
     }
 
     checkTestMode(sock, argc, argv, si_other, slen);
-    int n;
 
-    // Sets timeout values.
-    struct timeval tv;
-    tv.tv_sec = 5;
-    tv.tv_usec = 0;
  	// Message Loop
     while(1) {
-        FD_ZERO(&read_fds);
-		FD_SET(sock, &read_fds);
-        n = select(sock+1, &read_fds, &write_fds, 0, &tv);
-		if(n < 0)
-		{
-			perror("ERROR Server : select()\n");
-			close(sock);
-			exit(1);
-        }
+
         // Check if the user tried to disconnect
         // or get the next servre request
         if (selectRequestMessage(message) == false) {
@@ -84,12 +71,10 @@ int main(int argc, char *argv[]) {
         }
 
         // Receive message
-        if(FD_ISSET(sock, &read_fds)) {
-            if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
-            	die("recvfrom()");
-            }
-            FD_CLR(sock, &read_fds);
+        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+        	die("recvfrom()");
         }
+
 
         //Make a little stop
         printf("\n(Press Enter to continue)\n\n");
@@ -118,9 +103,28 @@ bool sendMessageToServer(char *message, struct sockaddr_in si_other, unsigned in
 /// RETURN: bool -  true if the message was received correclty
 ///                 false if something went wrong
 bool receiveMessageFromServer(int sock, char* buffer, struct sockaddr_in si_other, unsigned int slen){
+    int n;
+    fd_set read_fds, write_fds;
+    // Sets timeout values.
+    struct timeval tv;
+    tv.tv_sec = 5;
+    tv.tv_usec = 0;
+    FD_ZERO(&read_fds);
+    FD_SET(sock, &read_fds);
+    n = select(sock+1, &read_fds, &write_fds, 0, &tv);
+    if(n < 0)
+    {
+        perror("ERROR Server : select()\n");
+        close(sock);
+        exit(1);
+    }
     //try to receive some data, this is a blocking call
-    if (recvfrom(sock, buffer, BUFLEN, 0, (struct sockaddr *) &si_other, &slen) == -1) {
-        return false;
+    if(FD_ISSET(sock, &read_fds)) {
+        if (recvfrom(sock, buffer, BUFLEN, 0, (struct sockaddr *) &si_other, &slen) == -1) {
+            return false;
+        }
+
+        FD_CLR(sock, &read_fds);
     }
     // Get the received time
 	gettimeofday(&op.receiveTime, NULL);
