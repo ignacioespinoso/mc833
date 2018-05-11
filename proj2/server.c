@@ -9,7 +9,7 @@
 
 #include "libraries.h"  // file with the connection imports
 #include "Data.c"       // database file and functions
- 
+
 #define BUFLEN 2000  //Max length of buffer
 #define PORT 8888   //The port on which to listen for incoming data
 
@@ -23,38 +23,38 @@ bool checkReceivedMessage(char *message, char *answer, int* usr_type);
 void getCodeFromRequest(char *request, char *code);
 void getCommentFromRequest(char *request, char *comment);
 void die(char *s);
- 
+
 int main(void) {
     struct sockaddr_in si_me, si_other;
-     
+
     int s;
     unsigned int slen = sizeof(si_other);
-    char buf[BUFLEN]; 
-     
+    char buf[BUFLEN];
+
     //create a UDP socket
     if ((s=socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) == -1) {
         die("socket");
     }
-     
+
     // zero out the structure
     memset((char *) &si_me, 0, sizeof(si_me));
-     
+
     si_me.sin_family = AF_INET;
     si_me.sin_port = htons(PORT);
     si_me.sin_addr.s_addr = htonl(INADDR_ANY);
-     
+
     //bind socket to port
     if( bind(s , (struct sockaddr*)&si_me, sizeof(si_me) ) == -1) {
         die("bind");
     }
-     
+
     // keep listening for data
     // no need to fork into another process - there is no connection
     // just answer and keep living
     while(1) {
         printf("Waiting for data...");
         fflush(stdout);
-         
+
         // Wait for message
         if (receiveMessageFromClient(s, buf, &si_other, slen) == false ) {
             die("recieve from client");
@@ -64,14 +64,14 @@ int main(void) {
         char answer[BUFLEN];
         checkReceivedMessage(buf, answer, NULL);
         printf("Answering...\n");
-         
+
         // Send answer
         if (sendMessageToClient(s, answer, si_other, slen) == false) {
             die("send message to client");
         }
         printf("Done!\n\n");
     }
- 
+
     close(s);
     return 0;
 }

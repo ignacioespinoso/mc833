@@ -20,44 +20,58 @@ enum bool {false, true};
 bool selectRequestMessage(char *request);
 void die(char *s);
 void checkInformation(int numberOfParam);
-void checkTestMode(int sockfd, int argc, char** argv, struct sockaddr_in si_other, unsigned int slen);
+void checkTestMode(int sock, int argc, char** argv, struct sockaddr_in si_other, unsigned int slen);
 void executeTestMode(int sock, struct sockaddr_in si_other, unsigned int slen);
 bool sendMessageToServer(char *message, struct sockaddr_in si_other, unsigned int slen, int sock);
 bool receiveMessageFromServer(int sock, char* buffer, struct sockaddr_in si_other, unsigned int slen);
 
 // Global variable for time manangement
 connectionTime op;
- 
+
 int main(int argc, char *argv[]) {
     struct sockaddr_in si_other;
     int sock;
     unsigned int slen=sizeof(si_other);
     char buf[BUFLEN];
     char message[BUFLEN];
+    fd_set read_fds, write_fds;
 
     // Get server IP address
     checkInformation(argc);
     char *server = argv[1];
- 
+
  	// Create UDP socket
     if ( (sock=socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) == -1) {
         die("socket");
     }
- 
+
     memset((char *) &si_other, 0, sizeof(si_other));
     si_other.sin_family = AF_INET;
     si_other.sin_port = htons(PORT);
-    
+
     if (inet_aton(server , &si_other.sin_addr) == 0) {
         fprintf(stderr, "inet_aton() failed\n");
         exit(1);
     }
 
     checkTestMode(sock, argc, argv, si_other, slen);
- 
+    int n;
+
+    // Sets timeout values.
+    struct timeval tv;
+    tv.tv_sec = 5;
+    tv.tv_usec = 0;
  	// Message Loop
     while(1) {
-
+        FD_ZERO(&read_fds);
+		FD_SET(sock, &read_fds);
+        n = select(sock+1, &read_fds, &write_fds, 0, &tv);
+		if(n < 0)
+		{
+			perror("ERROR Server : select()\n");
+			close(sock);
+			exit(1);
+        }
         // Check if the user tried to disconnect
         // or get the next servre request
         if (selectRequestMessage(message) == false) {
@@ -70,8 +84,11 @@ int main(int argc, char *argv[]) {
         }
 
         // Receive message
-        if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
-        	die("recvfrom()");
+        if(FD_ISSET(sock, &read_fds)) {
+            if (receiveMessageFromServer(sock, buf, si_other, slen) == false) {
+            	die("recvfrom()");
+            }
+            FD_CLR(sock, &read_fds);
         }
 
         //Make a little stop
@@ -79,7 +96,7 @@ int main(int argc, char *argv[]) {
         getchar();
         getchar();
     }
- 
+
     close(sock);
     return 0;
 }
@@ -214,10 +231,10 @@ void checkInformation(int numberOfParam){
 
 /// Check if the user run the program on TEST MODE
 ///
-void checkTestMode(int sockfd, int argc, char** argv, struct sockaddr_in si_other, unsigned int slen){
+void checkTestMode(int sock, int argc, char** argv, struct sockaddr_in si_other, unsigned int slen){
     if (argc > 2){
         if (strcmp(argv[2], "TEST") == 0){
-            executeTestMode(sockfd, si_other, slen);
+            executeTestMode(sock, si_other, slen);
         }
     }
 }
@@ -328,4 +345,3 @@ void executeTestMode(int sock, struct sockaddr_in si_other, unsigned int slen){
     close(sock);
     exit(0);
 }
-
