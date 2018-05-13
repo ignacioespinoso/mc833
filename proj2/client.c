@@ -183,6 +183,16 @@ bool selectRequestMessage(char *request){
             strcpy(request, "6 ");
             char change[200];
 
+            //Verifies if the user is a teacher.
+            char verification[5];
+            printf("WARNING: Only teachers may set comments. Are you a teacher? y/n  ");
+            scanf(" %s", verification);
+            if(strcmp(verification, "y") != 0) {
+                printf("You are not a teacher! Aborting operation.\n");
+                return false;
+            }
+
+            printf("Ok! Proceeding operation...\n");
             // Get the subject
             printf("Type the subject you want to change next class commentary: ");
             scanf(" %s", change);
