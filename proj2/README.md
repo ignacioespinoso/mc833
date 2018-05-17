@@ -168,8 +168,53 @@ Total Interval Time: 324 μs
 Note o horário em que o Log foi criado, a operação que foi feita. O número da operação está com descrito na seção II - Mensages/Requests (A operação 0 é a operação de conectar um ao outro - sempre aparece no início de um novo Log). O tempo é medido em microssegundos.
 
 # V - Resultados
-### Teste Local
+### Teste local
+Executando o programa localmente, em TEST MODE, pegamos informações sobre o tempo de comunicação entre os processos distintos **cliente** e  **servidor**. Os dados completos da comunicação podem ser encontrados [nesta tabela](https://docs.google.com/spreadsheets/d/1hvKi968pbDjVrS7xe3ppGN2-uGI_9jBCDU_SB1ZoQUE/edit?usp=sharing) online.
+
+Cada operação foi executada 50 vezes neste teste.
+
+O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
+
+| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
+|-----------|------------|--------------------|------------------------|
+| 1         | 156        | 178                | 49                     |
+| 2         | 393        | 549                | 152                    |
+| 3         | 734        | 3425               | 494                    |
+| 4         | 628        | 1588               | 440                    |
+| 5         | 433        | 1440               | 416                    |
+| 6         | 593        | 794                | 227                    |
+
+A operação que mais demorou, analisando os resultados da *Média*, curiosamente foi a operação 3 **Obter informação completa de uma disciplina específica**, que também obteve (por grande margem) o maior desvio padrão, dentre todas as operações realizadas. Os dados podem ser observados no Gráfico 1.
+
+![Gráfico 1 - Tempo médio de comunicação para o teste local](resources/Times_plot_local.png)
+
+É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos processos, IO, dentre outros fatores.
+
+
 ### Teste com máquinas separadas
+
+O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente nos computadores do Instituto de Computação\*\*. O Macbook estava conectado a rede Wi-Fi do instituto, e o computador conectado à rede cabeada - os dois em IPs diferentes.
+
+O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
+
+| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
+|-----------|------------|--------------------|------------------------|
+| 1         | 152        | 93                 | 26                     |
+| 2         | 10685      | 960                | 266                    |
+| 3         | 395        | 443                | 124                    |
+| 4         | 357        | 564                | 156                    |
+| 5         | *2081*     | *3423*             | *989*                  |
+| 6         | 389        | 476                | 136                    |
+
+
+![Gráfico 2 - Tempo médio de comunicação para o teste remoto](resources/Times_plot_remote.png)
+
+
+> \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
+> Conectado na rede *Eduroam* por Wi-Fi. IP: 177.220.84.48
+>
+> \*\* Computador "Iron" foi usado para a coleta de dados.
+> Conectado à rede cabeada. IP: 143.106.16.18
 
 # VI - Conclusão
 
