@@ -100,7 +100,7 @@ Um dos problemas que ela acarreta, por outro lado, é o aumento do tamanho do c�
 
 > Não há persistência dos dados neste sistema.
 
-# IV - Implementação 
+# IV - Implementação
 
 ### Formato
 
@@ -133,8 +133,9 @@ E as resposta padrão, para todas as mensagens identificadas na tabela acima, é
 
 ### Usuários Aluno/Professor
 
-A implementação dos tipos de usuário foi adotada de forma que o acesso padrão ao sistema é feito por um aluno. Este tipo de usuário tem acesso a todas operações, exceto poder definir comentários sobre uma disciplina. Outro tipo de usuário é o professor, que tem acesso a todas as operações do sistema.
-Para que um usuário acesse o sistema como professor (TODO).
+A implementação dos tipos de usuário foi adotada de forma que o acesso padrão ao sistema é feito por um aluno. Este tipo de usuário tem acesso a todas operações, exceto poder definir comentários sobre uma disciplina, a qual somente professores tem acesso.
+
+Dessa forma, para evitar o armazenamento de dados do usuário no servidor, a autenticação foi feita do lado do cliente. Assim, quando o cliente tenta definir comentários sobre uma disciplina, o sistema faz uma verificação se o mesmo é um professor (que é quem tem privilégio para tal operação). Caso o usuário confirme que é um professor, a operação prossegue normalmente e a requisição é enviada ao servidor.
 
 ### Saídas
 
