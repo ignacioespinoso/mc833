@@ -203,7 +203,7 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 | 2         | 10685      | 960                | 266                    |
 | 3         | 395        | 443                | 124                    |
 | 4         | 357        | 564                | 156                    |
-| 5         | *2081*     | *3423*             | *989*                  |
+| 5         | 2081(update)     | 3423(update)           | 989(update)                |
 | 6         | 389        | 476                | 136                    |
 
 
