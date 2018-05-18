@@ -123,11 +123,11 @@ bool receiveMessageFromServer(int sock, char* buffer, struct sockaddr_in si_othe
         if (recvfrom(sock, buffer, BUFLEN, 0, (struct sockaddr *) &si_other, &slen) == -1) {
             return false;
         }
+        // Get the received time
+        gettimeofday(&op.receiveTime, NULL);
 
         FD_CLR(sock, &read_fds);
     }
-    // Get the received time
-	gettimeofday(&op.receiveTime, NULL);
 
     puts(buffer);
 
