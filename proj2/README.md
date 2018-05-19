@@ -5,9 +5,8 @@
 ## [Projeto 2](https://github.com/ignacioespinoso/mc833/proj2)
 
 # TODO
->Atualizar links do comparativo TCP-UDP.
->Finalizar conclusão.
->Descrever melhor a estrutura da mensagem.
+1. Atualizar links do comparativo TCP-UDP.
+2. Descrever melhor a estrutura da mensagem.
 
 # I - Introdução
 
@@ -227,6 +226,9 @@ Tal como esperado, os resultados do segundo projeto, por implementar uma comunic
 > Conectado à rede cabeada. IP: 143.106.16.18
 
 # VI - Conclusão
+Dos resultados obtidos e da comparação da comunicação UDP com a comunicação TCP, é possível notar que a primeira, tal como visto na teoria, realmente consiste em um protocolo não confiável e sem garantias, em troca de obter maior velocidade de comunicação. A presença de um grande desvio padrão nos resultados do projeto em conjunto com alguns resultados inesperados ressaltam tais propriedades.
+Extendendo a comparação com uma comunicação TCP, as velocidades obtidas foram de no mínimo em torno de 2 vezes maiores (comparando os resultados da operação 5 entre os protocolos) e no máximo em torno de 50 vezes maiores (comparando os resultados da operação 6). Estes resultados reforçam os pontos já indicados.
+Por outro lado, como dificuldades é válido notar que a presença de valores muito fora do esperado foram mais frequentes neste projeto (e nem sempre vieram juntos com uma explicação plausível, até onde visto), de forma que as tomadas de tempo que implicaram nos resultados mais discrepantes com a realidade (tempos de comunicação negativos ou com várias casas decimais acima/abaixo dos valores vizinhos), foram descartadas dos cálculos que foram utilizados na obtenção de medidas estatísticas do experimento.
 
 # VII - Referências
 
