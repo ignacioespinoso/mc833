@@ -4,6 +4,11 @@
 
 ## [Projeto 2](https://github.com/ignacioespinoso/mc833/proj2)
 
+# TODO
+>Atualizar links do comparativo TCP-UDP.
+>Finalizar conclusão.
+>Descrever melhor a estrutura da mensagem.
+
 # I - Introdução
 
 O projeto 2 consiste em implementar uma conexão UDP entre cliente e servidor. Para tal, foram implementadas e testadas as interações entre um socket de servidor, com uma aplicação simples rodando por trás e um socket de cliente.
@@ -177,18 +182,19 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 | Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
 |-----------|------------|--------------------|------------------------|
-| 1         | 156        | 178                | 49                     |
-| 2         | 393        | 549                | 152                    |
-| 3         | 734        | 3425               | 494                    |
-| 4         | 628        | 1588               | 440                    |
-| 5         | 433        | 1440               | 416                    |
-| 6         | 593        | 794                | 227                    |
+| 1         | 315        | 333                | 92                     |
+| 2         | 397        | 404                | 113                    |
+| 3         | 832        | 349                | 97                     |
+| 4         | 584        | 204                | 57                     |
+| 5         | 548        | 228                | 63                     |
+| 6         | 466        | 59                 | 16                     |
 
-A operação que mais demorou, analisando os resultados da *Média*, curiosamente foi a operação 3 **Obter informação completa de uma disciplina específica**, que também obteve (por grande margem) o maior desvio padrão, dentre todas as operações realizadas. Os dados podem ser observados no Gráfico 1.
+A operação que mais demorou, analisando os resultados da *Média*, curiosamente foi a operação 3 **Obter informação completa de uma disciplina específica**. Não foi possível encontrar uma explicação suficientemente satisfatória para tal fato, exceto que o teste local é especialmente influenciado pelo sistema operacional, de forma que o escalonamento dos processos executados pode ter sido dada de forma a afetar tal resutado. Outra operação de destaque é a 5,**Pegar toda a informação disponível**, que teve a maior discrepância entre o tempo total médio e o tempo de comunicação. Isso pode ser explicado por tal operação requerer o acesso a todos os dados do sistema, ampliando grandemente o tempo de processamento do servidor.
+Os dados podem ser observados no Gráfico 1.
 
 ![Gráfico 1 - Tempo médio de comunicação para o teste local](resources/Times_plot_local.png)
 
-É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos processos, IO, dentre outros fatores.
+É possível notar que o desvio padrão encontrado nos testes locais foi bem alto, em relação ao valores do tempo de comunicação. Novamente, pode se dizer que, localmente, o tempo de comunicação é mais sensível a propriedades internas do sistema como, escalonamento dos processos, IO, dentre outros fatores.
 
 
 ### Teste com máquinas separadas
@@ -201,14 +207,18 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 |-----------|------------|--------------------|------------------------|
 | 1         | 152        | 93                 | 26                     |
 | 2         | 10685      | 960                | 266                    |
-| 3         | 395        | 443                | 124                    |
-| 4         | 357        | 564                | 156                    |
-| 5         | 2081(update)     | 3423(update)           | 989(update)                |
-| 6         | 389        | 476                | 136                    |
+| 3         | 395        | 443                | 136                    |
+| 4         | 367        | 564                | 161                    |
+| 5         | 10963      | 918                | 255                    |
+| 6         | 380        | 474                | 137                    |
 
 
 ![Gráfico 2 - Tempo médio de comunicação para o teste remoto](resources/Times_plot_remote.png)
 
+No gráfico, se destacam as operações 2 e 5. A operação 5 se comportou como o esperado, dado que a mesma envolve o maior volume de dados de todas as operações, naturalmente implicando em um maior tempo de comunicação. Para a operação 2, no entanto, o tempo excepcionalmente alto se repetiu, mas não fomos capazes de atribuir uma provável causa além de variações na própria rede do Instituto de Computação que afetaram a conexão, em especial pela mesma ser UDP.
+
+## Comparativo com uma comunicação TCP
+Tal como esperado, os resultados do segundo projeto, por implementar uma comunicação UDP, foram muito mais velozes que os [resultados do primeiro projeto](https://github.com/ignacioespinoso/mc833/tree/master/proj1). A ausência de uma conexão e todas suas implicações (3-way handshake, etc) resultaram em velocidades de transmissão de dados muito mais promissoras. Por outro lado, vale notar que o desvio padrão e a presença de resultados inesperados foi maior no projeto 2. Tais pontos também foram previstos, pelo fato da comunicação não oferecer quaisquer garantias sobre a transmissão.
 
 > \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
 > Conectado na rede *Eduroam* por Wi-Fi. IP: 177.220.84.48
