@@ -216,18 +216,20 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 No gráfico, se destacam as operações 2 e 5. A operação 5 se comportou como o esperado, dado que a mesma envolve o maior volume de dados de todas as operações, naturalmente implicando em um maior tempo de comunicação. Para a operação 2, no entanto, o tempo excepcionalmente alto se repetiu, mas não fomos capazes de atribuir uma provável causa além de variações na própria rede do Instituto de Computação que afetaram a conexão, em especial pela mesma ser UDP.
 
-## Comparativo com uma comunicação TCP
-Tal como esperado, os resultados do segundo projeto, por implementar uma comunicação UDP, foram muito mais velozes que os [resultados do primeiro projeto](https://github.com/ignacioespinoso/mc833/tree/master/proj1). A ausência de uma conexão e todas suas implicações (3-way handshake, etc) resultaram em velocidades de transmissão de dados muito mais promissoras. Por outro lado, vale notar que o desvio padrão e a presença de resultados inesperados foi maior no projeto 2. Tais pontos também foram previstos, pelo fato da comunicação não oferecer quaisquer garantias sobre a transmissão.
-
 > \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
 > Conectado na rede *Eduroam* por Wi-Fi. IP: 177.220.84.48
 >
 > \*\* Computador "Iron" foi usado para a coleta de dados.
 > Conectado à rede cabeada. IP: 143.106.16.18
 
+### Comparativo com uma comunicação TCP
+Tal como esperado, os resultados do segundo projeto, por implementar uma comunicação UDP, foram muito mais velozes que os [resultados do primeiro projeto](https://github.com/ignacioespinoso/mc833/tree/master/proj1). A ausência de uma conexão e todas suas implicações (3-way handshake, etc) resultaram em velocidades de transmissão de dados muito mais promissoras. Por outro lado, vale notar que o desvio padrão e a presença de resultados inesperados foi maior no projeto 2. Tais pontos também foram previstos, pelo fato da comunicação não oferecer quaisquer garantias sobre a transmissão.
+
 # VI - Conclusão
 Dos resultados obtidos e da comparação da comunicação UDP com a comunicação TCP, é possível notar que a primeira, tal como visto na teoria, realmente consiste em um protocolo não confiável e sem garantias, em troca de obter maior velocidade de comunicação. A presença de um grande desvio padrão nos resultados do projeto em conjunto com alguns resultados inesperados ressaltam tais propriedades.
+
 Extendendo a comparação com uma comunicação TCP, as velocidades obtidas foram de no mínimo em torno de 2 vezes maiores (comparando os resultados da operação 5 entre os protocolos) e no máximo em torno de 50 vezes maiores (comparando os resultados da operação 6). Estes resultados reforçam os pontos já indicados.
+
 Por outro lado, como dificuldades é válido notar que a presença de valores muito fora do esperado foram mais frequentes neste projeto (e nem sempre vieram juntos com uma explicação plausível, até onde visto), de forma que as tomadas de tempo que implicaram nos resultados mais discrepantes com a realidade (tempos de comunicação negativos ou com várias casas decimais acima/abaixo dos valores vizinhos), foram descartadas dos cálculos que foram utilizados na obtenção de medidas estatísticas do experimento.
 
 # VII - Referências
