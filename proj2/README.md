@@ -2,11 +2,7 @@
 ### [Giovani Nascimento Pereira](github.com/giovaninppc) - 168609
 ### [Ignacio Ribeiro Espinoso](github.com/ignacioespinoso) - 169767
 
-## [Projeto 2](https://github.com/ignacioespinoso/mc833/proj2)
-
-# TODO
-1. Atualizar links do comparativo TCP-UDP.
-2. Descrever melhor a estrutura da mensagem.
+# [Projeto 2](https://github.com/ignacioespinoso/mc833/proj2)
 
 # I - Introdução
 
@@ -68,9 +64,9 @@ Certifique-se que a conexão é possível entre essas duas máquinas.
 
 O TEST MODE, foi o modo de execução criado para simular todas as iterações necessárias para calcular os tempos médios de conexão do programa. Ele executa 50 vezes cada request especificado pelo projeto.
 
-Para realizar *teste local*, rode em um terminal o servidor com **make run_server**, e em outro execute o cliente em modo de teste com **make client_local_test**, isso fará automaticamente todas as iterações de envio e recebimento de mensagem.
+Para realizar *teste local*, rode em um terminal o servidor com **make run\_server**, e em outro execute o cliente em modo de teste com **make client\_local\_test**, isso fará automaticamente todas as iterações de envio e recebimento de mensagem.
 
-Para realizar *teste remoto*, execute o servidor em uma máquina com **make run_server**, e em outra compile o cliente com **make client** e execute com **./client xxx.xx.xx TEST**, o último identificador avisa o programa para entrar em modo de teste.
+Para realizar *teste remoto*, execute o servidor em uma máquina com **make run\_server**, e em outra compile o cliente com **make client** e execute com **./client xxx.xx.xx TEST**, o último identificador avisa o programa para entrar em modo de teste.
 
 
 # III - Estrutura
@@ -170,6 +166,31 @@ Total Interval Time: 324 μs
 
 ```
 Note o horário em que o Log foi criado, a operação que foi feita. O número da operação está com descrito na seção II - Mensages/Requests (A operação 0 é a operação de conectar um ao outro - sempre aparece no início de um novo Log). O tempo é medido em microssegundos.
+
+### Casos de Uso
+#### Aluno
+Com o Servidor já em execução um aluno pode se conectar executando  o código do cliente 
+
+```terminal
+./client xxx.x.x.x
+```
+
+sabendo o IP do servidor **x**. Aqui vale a pena notar que o próprio comportamento do lado do cliente difere da situação quando usando TCP, aqui o aluno já irá selecionar qual mensagem ele irá mandar para o servidor, e no caso do TCP, o programa do cliente primeiro estabelece uma conexão, para então selecionar uma mensagem.
+
+Agora, o aluno quer pegar as informações da próxima aula para saber se haverá algo diferente. Ele vai fazer uma requisição do tipo **4**, então ele coloca o número da requisição no começo da mensagem, e depois a disciplina sobre a qual ele busca informação - vamos supor que seja *MC102*. A mensgame então fica:
+
+```C
+4 MC102
+```
+
+O programa do cliente então envia a mensagem para o servidor, e espera por uma resposta. Caso uma resposta chegue em tempo adequado, ela será processada pelo programa, caso contrário, o cliente terá um *timeout* e interromperá sua execução. Mas dada uma resposta correta, o cliente deve receber algo do tipo:
+
+```C
+Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.
+```
+
+Ele então decide encerrar o programa, com o comando **0**, e isso encerra a execução, lembrando que no UDP não há conexão com o servidor, por isso ela não precisa ser encerrada.
+
 
 # V - Resultados
 ### Teste local
