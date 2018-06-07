@@ -15,6 +15,13 @@ public class ComputeEngine implements Compute {
         return t.execute();
     }
 
+    public String AnalyzeRequest(String message, int usr_type, Discipline[] college_data) {
+
+        //process the request string (op number and parameter) on the database (college_data)
+
+        return "xablau";
+    }
+
     public static void main(String[] args) {
         if (System.getSecurityManager() == null) {
             System.setSecurityManager(new SecurityManager());
