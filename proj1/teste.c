@@ -1,6 +1,6 @@
 // Codigo de teste para o arquivo Data.c
 /*  Giovani Nascimento Pereira - 168609
-	Ignacio Espinoso Ribeiro - 
+	Ignacio Espinoso Ribeiro - 169767
 
 	MC833 - 2S2018
 	Unicamp
@@ -18,19 +18,16 @@ int main (){
 	testIfLoaded();
 
 	printf("\n-------- Pegando Codigos\n");
-	char **codigos = NULL;
+	char *codigos = NULL;
 	codigos = getCodigosDisciplinas();
 	int numero = getQuantidadeDisciplinas();
-	for (int i=0; i<numero; i++){
-		printf("%s\n", codigos[i]);
-	}
+	printf("%s\n", codigos);
+
 
 	printf("\n-------- Pegando Codigos & Nomes\n");
-	char **codigosNomes = NULL;
+	char *codigosNomes = NULL;
 	codigosNomes = getCodigosNomesDisciplinas();
-	for (int i=0; i<numero; i++){
-		printf("%s\n", codigosNomes[i]);
-	}
+	printf("%s\n", codigosNomes);
 
 	printf("\n-------- Procurando Ementas\n");
 	printf("MC102:\n%s\n", getEmentaFromCodigo("MC102"));
@@ -50,7 +47,6 @@ int main (){
 	} else {
 		printf("ERROR");
 	}
-	
 
 	printf("\n-------- Pegando Informacao total Disciplina\n");
 	printf("%s\n", getInformacaoDisciplinaFromCodigo("MC102"));

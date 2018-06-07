@@ -2,3 +2,6 @@
 .ds_*
 .Ds_*
 *.out
+clientTimeLog.txt
+serverTimeLog.txt
+vgcore.*
