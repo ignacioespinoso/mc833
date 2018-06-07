@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed56056-3efa-4ccf-8395-efe06b09a299" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proj3/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proj3/College.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/proj3/Compute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proj3/Compute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/proj3/ComputeEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proj3/ComputeEngine.java" afterDir="false" />
     </list>
@@ -19,8 +20,8 @@
       <file leaf-file-name="Compute.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/proj3/Compute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,11 +32,26 @@
       <file leaf-file-name="ComputeEngine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/proj3/ComputeEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="88" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="88" />
+            <state relative-caret-position="225">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#6986#6987#0" expanded="true" />
+                <element signature="e#7032#7033#0" expanded="true" />
+                <element signature="e#10516#10517#0" expanded="true" />
+                <element signature="e#10559#10560#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionTime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/proj3/ConnectionTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -52,8 +68,8 @@
       <file leaf-file-name="College.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/proj3/College.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,8 +77,8 @@
       <file leaf-file-name="ComputePi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/proj3/ComputePi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="9" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/proj3/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -82,8 +98,8 @@
       <file leaf-file-name="Pi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/proj3/Pi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="420">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,6 +122,8 @@
       <find>Discipline</find>
       <find>College</find>
       <find>self</find>
+      <find>computepi</find>
+      <find>timer</find>
     </findStrings>
     <replaceStrings>
       <replace>Unicamp.disciplines</replace>
@@ -122,19 +140,20 @@
         <option value="$PROJECT_DIR$/src/proj3/Task.java" />
         <option value="$PROJECT_DIR$/src/proj3/ComputePi.java" />
         <option value="$PROJECT_DIR$/src/proj3/Pi.java" />
-        <option value="$PROJECT_DIR$/src/proj3/Compute.java" />
         <option value="$PROJECT_DIR$/src/proj3/Disciplina.java" />
-        <option value="$PROJECT_DIR$/src/proj3/ComputeEngine.java" />
         <option value="$PROJECT_DIR$/src/proj3/Discipline.java" />
         <option value="$PROJECT_DIR$/src/proj3/College.java" />
+        <option value="$PROJECT_DIR$/src/proj3/Compute.java" />
+        <option value="$PROJECT_DIR$/src/proj3/ConnectionTime.java" />
+        <option value="$PROJECT_DIR$/src/proj3/ComputeEngine.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+    <option name="x" value="-1" />
     <option name="y" value="40" />
-    <option name="width" value="960" />
-    <option name="height" value="1042" />
+    <option name="width" value="1922" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -144,8 +163,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,13 +188,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -302,7 +322,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13045794" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26996806" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -312,17 +332,91 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32894737" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/proj3/Compute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/ConnectionTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/Discipline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/College.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/ComputePi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/Pi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/ComputeEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="e#7032#7033#0" expanded="true" />
+            <element signature="e#10516#10517#0" expanded="true" />
+            <element signature="e#10559#10560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/proj3/Compute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -339,6 +433,12 @@
           <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="e#7032#7033#0" expanded="true" />
+            <element signature="e#10516#10517#0" expanded="true" />
+            <element signature="e#10559#10560#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -400,6 +500,12 @@
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="e#7032#7033#0" expanded="true" />
+            <element signature="e#10516#10517#0" expanded="true" />
+            <element signature="e#10559#10560#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -447,6 +553,12 @@
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="e#7032#7033#0" expanded="true" />
+            <element signature="e#10516#10517#0" expanded="true" />
+            <element signature="e#10559#10560#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,6 +606,12 @@
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="e#7032#7033#0" expanded="true" />
+            <element signature="e#10516#10517#0" expanded="true" />
+            <element signature="e#10559#10560#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -548,26 +666,12 @@
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proj3/Pi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proj3/ComputePi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="e#7032#7033#0" expanded="true" />
+            <element signature="e#10516#10517#0" expanded="true" />
+            <element signature="e#10559#10560#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -581,34 +685,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/proj3/College.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/proj3/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/proj3/Compute.java">
+    <entry file="file://$PROJECT_DIR$/src/proj3/ComputePi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="90">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="9" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/proj3/ComputeEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/proj3/Pi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="88" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="88" />
+        <state relative-caret-position="420">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/Compute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/ConnectionTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proj3/ComputeEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#6986#6987#0" expanded="true" />
+            <element signature="e#7032#7033#0" expanded="true" />
+            <element signature="e#10516#10517#0" expanded="true" />
+            <element signature="e#10559#10560#0" expanded="true" />
           </folding>
         </state>
       </provider>
