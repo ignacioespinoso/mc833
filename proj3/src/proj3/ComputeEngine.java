@@ -18,7 +18,7 @@ public class ComputeEngine implements Compute {
         return t.execute();
     }
 
-    public String AnalyzeRequest(String message) {
+    public String analyzeRequest(String message) {
         String answer;
         int request;
         String code, comment;
