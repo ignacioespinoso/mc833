@@ -2,10 +2,9 @@ package proj3;
 
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.math.BigDecimal;
 import java.util.Scanner;
 
-public class ComputePi {
+public class Client {
     public ConnectionTime op;
     public String request;
 
@@ -14,19 +13,24 @@ public class ComputePi {
             System.setSecurityManager(new SecurityManager());
         }
         try {
+            Client client = new Client();
             String name = "Compute";
             Registry registry = LocateRegistry.getRegistry(args[0]);
             Compute comp = (Compute) registry.lookup(name);
-            Pi task = new Pi(Integer.parseInt(args[1]));
-            BigDecimal pi = comp.executeTask(task);
-            System.out.println(pi);
 
+            client.checkTestMode(args, comp);
+
+            while(client.selectRequestMessage()) {
+                String answer = comp.analyzeRequest(client.request);
+                System.out.print(answer);
+            }
 
         } catch (Exception e) {
             System.err.println("Client exception:");
             e.printStackTrace();
         }
     }
+
 
     public boolean selectRequestMessage() {
         int option;
@@ -51,7 +55,7 @@ public class ComputePi {
 //        Save the request on the time operation
         op.operation = option;
 
-        switch (option){
+        switch (option) {
             case 0:
                 // Close connection
                 return false;
@@ -105,7 +109,6 @@ public class ComputePi {
 
         return true;
     }
-
 //    Check if the user run the program on TEST MODE
     public void checkTestMode(String[] args, Compute comp) {
         if((args.length > 2) && (args[2].equals("TEST"))) {

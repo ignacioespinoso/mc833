@@ -5,17 +5,13 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-public class ComputeEngine implements Compute {
+public class Server implements Compute {
     private College unicamp;
     public ConnectionTime op;
     private int usr_type;
 
-    public ComputeEngine() {
+    public Server() {
         super();
-    }
-
-    public <T> T executeTask(Task<T> t) {
-        return t.execute();
     }
 
     public String analyzeRequest(String message) {
@@ -82,14 +78,14 @@ public class ComputeEngine implements Compute {
         }
         try {
             String name = "Compute";
-            Compute engine = new ComputeEngine();
-            ((ComputeEngine) engine).CreateUnicamp();
+            Compute engine = new Server();
+            ((Server) engine).CreateUnicamp();
             Compute stub = (Compute) UnicastRemoteObject.exportObject(engine, 0);
             Registry registry = LocateRegistry.getRegistry();
             registry.rebind(name, stub);
-            System.out.println("ComputeEngine bound");
+            System.out.println("Server bound");
         } catch (Exception e) {
-            System.err.println("ComputeEngine exception:");
+            System.err.println("Server exception:");
             e.printStackTrace();
         }
     }
