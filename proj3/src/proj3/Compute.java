@@ -1,4 +1,4 @@
-// package proj3;
+package proj3;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

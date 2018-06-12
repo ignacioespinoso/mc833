@@ -1,4 +1,4 @@
-//package proj3;
+package proj3;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -7,7 +7,6 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class Server implements Compute {
     private College unicamp;
-    public ConnectionTime op;
     private int usr_type;
 
     public Server() {
@@ -18,11 +17,11 @@ public class Server implements Compute {
         String answer;
         int request;
         String code, comment;
-
+        ConnectionTime op;
 
         request = Character.getNumericValue(message.charAt(0));
 
-        this.op = new ConnectionTime(request, System.nanoTime(), 0);
+        op = new ConnectionTime(request, -1, System.nanoTime());
         //process the request string (op number and parameters) on the database (unicamp).
         switch(request) {
             case 1:
@@ -67,8 +66,8 @@ public class Server implements Compute {
                 answer = message + " [Unrecognized Message/Request]";
                 break;
         }
-        System.out.println("");
-        this.op.receiveTime = System.nanoTime();
+        op.sendTime = System.nanoTime();
+        op.printExecutionTimeServer();
         return answer;
     }
 

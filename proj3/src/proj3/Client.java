@@ -1,11 +1,10 @@
-// package proj3;
+package proj3;
 
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Scanner;
 
 public class Client {
-    //public ConnectionTime op;
     public String request;
 
     public static void main(String args[]) {
@@ -14,15 +13,19 @@ public class Client {
         // }
         try {
             Client client = new Client();
+            ConnectionTime op = new ConnectionTime(-1, -1, -1);
             String name = "Compute";
             Registry registry = LocateRegistry.getRegistry();
             Compute comp = (Compute) registry.lookup(name);
 
             client.checkTestMode(args, comp);
 
-            while(client.selectRequestMessage()) {
+            while(client.selectRequestMessage(op)) {
+                op.sendTime = System.nanoTime();
                 String answer = comp.analyzeRequest(client.request);
-                System.out.print(answer);
+                op.receiveTime = System.nanoTime();
+                System.out.println(answer);
+                op.printConnectionTimeClient();
             }
 
         } catch (Exception e) {
@@ -32,7 +35,7 @@ public class Client {
     }
 
 
-    public boolean selectRequestMessage() {
+    public boolean selectRequestMessage(ConnectionTime op) {
         int option;
 
         System.out.println("Make a request or send a message:");
@@ -51,6 +54,10 @@ public class Client {
 //        Get user command
         Scanner scanner = new Scanner(System.in);
         option = scanner.nextInt();
+
+//      Time counter gets operation.
+        op.operation = option; 
+
         scanner.nextLine();
 //        Save the request on the time operation
       //  op.operation = option;
@@ -111,7 +118,7 @@ public class Client {
     }
 //    Check if the user run the program on TEST MODE
     public void checkTestMode(String[] args, Compute comp) {
-        if((args.length > 2) && (args[2].equals("TEST"))) {
+        if((args.length > 0) && (args[0].equals("TEST"))) {
             executeTestMode(comp);
         }
     }
@@ -120,15 +127,19 @@ public class Client {
 //    to make 50 connections of all types to get the current
 //    execution and connection time
     public void executeTestMode(Compute comp) {
-        String response;
+        String answer;
+        ConnectionTime op = new ConnectionTime(-1, -1, -1);
         System.out.println("-------- TEST MODE ---------\n");
 
         System.out.println(">>>>>>> Category 1 Messages:\nGet all subjects and names\n");
-        // op.operation = 1;
+        op.operation = 1;
         for(int i = 0; i < 50; i++) {
             try {
-                response = comp.analyzeRequest("1 Get all subjects");
-                System.out.print(response);
+                op.sendTime = System.nanoTime();
+                answer = comp.analyzeRequest("1 Get all subjects");
+                op.receiveTime = System.nanoTime();
+                System.out.println(answer);
+                op.printConnectionTimeClient();
             } catch (Exception e) {
             System.err.println("Client exception:");
                 e.printStackTrace();
@@ -136,11 +147,14 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 2 Messages:\nGet subject description\n");
-        // op.operation = 2;
+        op.operation = 2;
         for(int i = 0; i < 50; i++) {
             try {
-                response = comp.analyzeRequest("2 MC102");
-                System.out.print(response);
+                op.sendTime = System.nanoTime();
+                answer = comp.analyzeRequest("2 MC102");
+                op.receiveTime = System.nanoTime();
+                System.out.println(answer);
+                op.printConnectionTimeClient();
             } catch (Exception e) {
                 System.err.println("Client exception:");
                 e.printStackTrace();
@@ -148,11 +162,14 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 3 Messages:\nGet subject full information\n");
-        // op.operation = 3;
+        op.operation = 3;
         for(int i = 0; i < 50; i++) {
             try {
-                response = comp.analyzeRequest("3 MA111");
-                System.out.print(response);
+                op.sendTime = System.nanoTime();
+                answer = comp.analyzeRequest("3 MA111");
+                op.receiveTime = System.nanoTime();
+                System.out.println(answer);
+                op.printConnectionTimeClient();
             } catch (Exception e) {
                 System.err.println("Client exception:");
                 e.printStackTrace();
@@ -160,11 +177,14 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 4 Messages:\nGet next class information\n");
-        // op.operation = 4;
+        op.operation = 4;
         for(int i = 0; i < 50; i++) {
             try {
-                response = comp.analyzeRequest("4 EE532");
-                System.out.print(response);
+                op.sendTime = System.nanoTime();
+                answer = comp.analyzeRequest("4 EE532");
+                op.receiveTime = System.nanoTime();
+                System.out.println(answer);
+                op.printConnectionTimeClient();
             } catch (Exception e) {
                 System.err.println("Client exception:");
                 e.printStackTrace();
@@ -172,11 +192,14 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 5 Messages:\nGet all Subjects info\n");
-        // op.operation = 5;
+        op.operation = 5;
         for(int i = 0; i < 50; i++) {
             try {
-                response = comp.analyzeRequest("5 Get all subjects info");
-                System.out.print(response);
+                op.sendTime = System.nanoTime();
+                answer = comp.analyzeRequest("5 Get all subjects info");
+                op.receiveTime = System.nanoTime();
+                System.out.println(answer);
+                op.printConnectionTimeClient();
             } catch (Exception e) {
                 System.err.println("Client exception:");
                 e.printStackTrace();
@@ -184,11 +207,14 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 6 Messages:\nWrite new Next Class information\n");
-        // op.operation = 6;
+        op.operation = 6;
         for(int i = 0; i < 50; i++) {
             try {
-                response = comp.analyzeRequest("6 EE532 Trocando comentario por este daqui");
-                System.out.print(response);
+                op.sendTime = System.nanoTime();
+                answer = comp.analyzeRequest("6 EE532 Trocando comentario por este daqui");
+                op.receiveTime = System.nanoTime();
+                System.out.println(answer);
+                op.printConnectionTimeClient();
             } catch (Exception e) {
                 System.err.println("Client exception:");
                 e.printStackTrace();
