@@ -5,7 +5,7 @@ import java.rmi.registry.Registry;
 import java.util.Scanner;
 
 public class Client {
-    public ConnectionTime op;
+    //public ConnectionTime op;
     public String request;
 
     public static void main(String args[]) {
@@ -54,7 +54,7 @@ public class Client {
         scanner.nextLine();
         System.out.println("Pegou o numero");
 //        Save the request on the time operation
-        op.operation = option;
+      //  op.operation = option;
 
         switch (option) {
             case 0:
@@ -125,7 +125,7 @@ public class Client {
         System.out.println("-------- TEST MODE ---------\n");
 
         System.out.println(">>>>>>> Category 1 Messages:\nGet all subjects and names\n");
-        op.operation = 1;
+        // op.operation = 1;
         for(int i = 0; i < 50; i++) {
             try {
                 response = comp.analyzeRequest("1 Get all subjects");
@@ -137,7 +137,7 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 2 Messages:\nGet subject description\n");
-        op.operation = 2;
+        // op.operation = 2;
         for(int i = 0; i < 50; i++) {
             try {
                 response = comp.analyzeRequest("2 MC102");
@@ -149,7 +149,7 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 3 Messages:\nGet subject full information\n");
-        op.operation = 3;
+        // op.operation = 3;
         for(int i = 0; i < 50; i++) {
             try {
                 response = comp.analyzeRequest("3 MA111");
@@ -161,7 +161,7 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 4 Messages:\nGet next class information\n");
-        op.operation = 4;
+        // op.operation = 4;
         for(int i = 0; i < 50; i++) {
             try {
                 response = comp.analyzeRequest("4 EE532");
@@ -173,7 +173,7 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 5 Messages:\nGet all Subjects info\n");
-        op.operation = 5;
+        // op.operation = 5;
         for(int i = 0; i < 50; i++) {
             try {
                 response = comp.analyzeRequest("5 Get all subjects info");
@@ -185,7 +185,7 @@ public class Client {
         }
 
         System.out.println(">>>>>>> Category 6 Messages:\nWrite new Next Class information\n");
-        op.operation = 6;
+        // op.operation = 6;
         for(int i = 0; i < 50; i++) {
             try {
                 response = comp.analyzeRequest("6 EE532 Trocando comentario por este daqui");
