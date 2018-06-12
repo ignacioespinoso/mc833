@@ -1,4 +1,4 @@
-package proj3;
+//package proj3;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -73,9 +73,9 @@ public class Server implements Compute {
     }
 
     public static void main(String[] args) {
-        if (System.getSecurityManager() == null) {
-            System.setSecurityManager(new SecurityManager());
-        }
+        // if (System.getSecurityManager() == null) {
+        //     System.setSecurityManager(new SecurityManager());
+        // }
         try {
             String name = "Compute";
             Compute engine = new Server();
@@ -134,7 +134,7 @@ public class Server implements Compute {
         Unicamp.disciplines[5].professor = "David Dogbrekeit";
         Unicamp.disciplines[5].sala = "IF11";
         Unicamp.disciplines[5].comentario = "A proxima aula está cancelada devido ao alto índice de câncer dos alunos...";
-
+        
         this.unicamp = Unicamp;
     }
 

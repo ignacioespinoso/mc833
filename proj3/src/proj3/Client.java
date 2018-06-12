@@ -1,4 +1,4 @@
-package proj3;
+// package proj3;
 
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
