@@ -67,7 +67,7 @@ public class Server implements Compute {
                 answer = message + " [Unrecognized Message/Request]";
                 break;
         }
-        System.out.println("";)
+        System.out.println("");
         this.op.receiveTime = System.nanoTime();
         return answer;
     }
@@ -213,7 +213,7 @@ public class Server implements Compute {
         String info_disciplina = "";
 
         for(int i = 0; i < this.unicamp.size; i++) {
-            info_disciplina = this.unicamp.disciplines[i].codigo + ": ";
+            info_disciplina += this.unicamp.disciplines[i].codigo + ": ";
             info_disciplina += this.unicamp.disciplines[i].nome;
             info_disciplina += "\nProfessor(a): " + this.unicamp.disciplines[i].professor;
             info_disciplina += "\nSala: " + this.unicamp.disciplines[i].sala;
