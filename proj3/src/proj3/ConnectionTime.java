@@ -1,4 +1,4 @@
-// package proj3;
+package proj3;
 
 //import java.io.*;
 //import java.nio.file.*;
@@ -15,17 +15,19 @@ public class ConnectionTime {
     }
 
     public void printConnectionTimeClient() {
+        System.out.println("\n>>>>>>>>>OPERATION: " + this.operation + " <<<<<<<<<");
         System.out.println(">>>>>Send Time: " + this.sendTime/1000 + " μs");
         System.out.println(">>>>>Receive Time: " + this.receiveTime/1000 + " μs");
-        System.out.println(">>>>>Total Interval Time: " + (this.sendTime/1000 - this.receiveTime/1000) + " μs");
+        System.out.println(">>>>>Total Interval Time: " + (this.receiveTime/1000 - this.sendTime/1000) + " μs\n");
 
 //        writeClientTimeResults("ClientTimeLog.txt");
     }
 
     public void printExecutionTimeServer() {
+        System.out.println("\n>>>>>>>>>OPERATION: " + this.operation + " <<<<<<<<<");
         System.out.println(">>>>>Receive Time: " + this.receiveTime/1000 + " μs");
         System.out.println(">>>>>Send Time: " + this.sendTime/1000 + " μs");
-        System.out.println(">>>>>Total Interval Time: " + (this.sendTime/1000 - this.receiveTime/1000) + " μs");
+        System.out.println(">>>>>Total Interval Time: " + (this.sendTime/1000 - this.receiveTime/1000) + " μs\n");
 
 //        writeServerTimeResults("ServerTimeLog.txt");
     }
