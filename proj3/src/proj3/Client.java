@@ -52,6 +52,7 @@ public class Client {
         Scanner scanner = new Scanner(System.in);
         option = scanner.nextInt();
         scanner.nextLine();
+        System.out.println("Pegou o numero");
 //        Save the request on the time operation
         op.operation = option;
 
