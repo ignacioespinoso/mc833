@@ -67,7 +67,7 @@ public class Server implements Compute {
                 answer = message + " [Unrecognized Message/Request]";
                 break;
         }
-
+        System.out.println("";)
         this.op.receiveTime = System.nanoTime();
         return answer;
     }
