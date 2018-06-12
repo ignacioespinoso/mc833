@@ -9,13 +9,13 @@ public class Client {
     public String request;
 
     public static void main(String args[]) {
-        if (System.getSecurityManager() == null) {
-            System.setSecurityManager(new SecurityManager());
-        }
+        // if (System.getSecurityManager() == null) {
+        //     System.setSecurityManager(new SecurityManager());
+        // }
         try {
             Client client = new Client();
             String name = "Compute";
-            Registry registry = LocateRegistry.getRegistry(args[0]);
+            Registry registry = LocateRegistry.getRegistry();
             Compute comp = (Compute) registry.lookup(name);
 
             client.checkTestMode(args, comp);
