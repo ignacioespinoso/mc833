@@ -49,7 +49,8 @@ Para a **Base de dados** os arquivos são:
 
 Para executar o programa, primeiro deve-se iniciar o servidor.
 
-Na pasta onde os arquivos (.java) estão, compile os arquivos ```javac *java``` esse comando já vai compilar todos os arquivos, e gerar os executáveis (.class) na mesma pasta.
+Para compilar os arquivos:
+Da pasta raiz do projeto, vá para o diretório src e lá abra o terminal.  Assim, execute do terminal o comando ```javac proj3/*.java```. Esse comando já vai compilar todos os arquivos, e gerar os executáveis (.class) na mesma pasta.
 
 Depois, iniciamos o objeto remoto ```rmiregistry &```, e para rodar o servidor usamos o comando ```java -classpath /<filepath**>/ Server &```. Isso vai deixar o servidor rodando em background.
 
@@ -62,6 +63,15 @@ Então agora falta inicializar o **Cliente**, para isso basta executar o comando
 ### Executando em duas máquinas
 
 TODO
+
+### Executando em TEST MODE (Modo de teste)
+O TEST MODE, foi o modo de execução criado para simular todas as iterações necessárias para calcular os tempos médios de conexão do programa. Ele executa 50 vezes cada request especificado pelo projeto.
+
+Para realizar teste local, rode em um terminal normalmente os comandos de compilação os arquivos .java do projeto e o comando de execuÃ§Ã£o do servidor. Em outro execute terminal o cliente em modo de teste com atravÃ©s do uso do argumento TEST, ```java -classpath /<filepath>/ proj3.Client TEST```, isso fará automaticamente todas as iterações de envio e recebimento de mensagem.
+
+Para realizar teste remoto, execute o servidor em uma máquina com make run_server, e em outra compile o cliente com make client e execute com ./client xxx.xx.xx TEST, o último identificador avisa o programa para entrar em modo de teste.
+
+Vale notar que para enviar o output a um arquivo de log se adicionou um ```>clientLog.txt``` ao final do comando de execução do cliente e ```>serverLog.txt``` ao final do comando de execução do servidor.
 
 # III - Estrutura
 
@@ -122,13 +132,33 @@ Como a troca de mensagens é feita inteiramente por Strings, esse método foi es
 
 ### Usuário Aluno Professor
 
-TODO
+O usuário do tipo **Aluno** é o usuário padrão, ele tem acesso livre às requisições dos tipos 1 a 5. Caso tente fazer uma requisição do tipo 6, o servidor irá retornar uma mensagem de erro, pois este usuário não possui esta permissão.
+
+Apenas o usuário **Professor** tem acesso à requisição 6 - *Configurar comentário da próxima aula*. Para tanto, o usuário deve autenticar-se como professor, isso é feito pelo comando *secreto* 9, que manda uma mensagem para o servidor e autentica o usuário como professor. Assim, se ele mandar alguma requisição do tipo 6, ela será devidamente processada.
 
 ### Saídas
 
 Toda mensagem enviada e recebida - pelo cliente e servidor, é mostrada na saída padrão, bem como o tempo de cada execução.
 
 No cliente, o tempo refere-se ao intervalo entre enviar uma requisição e receber uma resposta. No servidor, o tempo refere-se ao intervalo de processamento, entre a chegada da mensagem, e o momento de envio. Para se encontrar o tempo de conexão, ou seja, apenas o tempo gasto entre a comunicação dos dois sockets, deve-se subtrair, para uma mesma conexão, o tempo de conexão do servidor do tempo de conexão do cliente.
+
+## Casos de Uso
+### Aluno
+
+Com o Servidor já em execução um aluno pode se conectar executando o código do cliente
+```java -classpath /<filepath>/ Client xxx.xxx.xxx```
+sabendo o IP **x** do servidor. Uma vez conectado, o cliente irá exibir a lista de requests que podem ser feitas ao servidor.
+
+Vamos supor que o aluno queira saber o que acontecerá na próxima aula de uma determinada disciplina, ou seja, uma requisição do tipo **4**, ele irá digitar o código da operação e em seguida a disciplina da qual ele procura a informação: ```4 EE532```.
+
+O programa do cliente então envia a mensagem para o servidor, e espera por uma resposta. Dada uma resposta correta, o cliente deve receber algo do tipo:
+
+```
+Entrega de terça-feira disponível no Drive da turma.
+```
+
+Ele então decide encerrar o programa, com o comando 0, e isso encerra a execução.
+
 
 # V - Resultados
 
