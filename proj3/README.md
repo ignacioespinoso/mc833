@@ -62,6 +62,23 @@ Então agora falta inicializar o **Cliente**, para isso basta executar o comando
 
 ### Executando em duas máquinas
 
+Para executar em duas máquinas, elas devem estar ambas conectadas à internet. Uma será o servidor, e a outra fará o papel do cliente.
+
+No **servidor**, compile os arquivos novamente (apenas para garantir a existência dos executáveis), inicie o objeto remoto com o comando ```rmiregistry &``` e agora execute o servidor com o comando 
+
+```
+java -classpath /<filepath>/ proj3.Server -Djava.rmi.server.hostname=x
+```
+Onde **x** representa o IP do próprio servidor.
+
+Agora no cliente, compile os arquivos novamente e execute o cliente com o seguinte comando:
+
+```
+java TODO
+```
+
+Se der tudo certo, isso vai fazer com que o cliente se conecte ao servidor no IP especificado e comece a conexão.
+
 TODO
 
 ### Executando em TEST MODE (Modo de teste)
