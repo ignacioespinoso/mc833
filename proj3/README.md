@@ -52,7 +52,7 @@ Para executar o programa, primeiro deve-se iniciar o servidor.
 Para compilar os arquivos:
 Da pasta raiz do projeto, vá para o diretório src e lá abra o terminal.  Assim, execute do terminal o comando ```javac proj3/*.java```. Esse comando já vai compilar todos os arquivos, e gerar os executáveis (.class) na mesma pasta.
 
-Depois, iniciamos o objeto remoto ```rmiregistry &```, e para rodar o servidor usamos o comando ```java -classpath /<filepath**>/ Server &```. Isso vai deixar o servidor rodando em background.
+Depois, iniciamos o objeto remoto ```rmiregistry &```, e para rodar o servidor usamos o comando ```java -classpath /<filepath**>/ proj3.Server &```. Isso vai deixar o servidor rodando em background.
 
 Então agora falta inicializar o **Cliente**, para isso basta executar o comando ```java -classpath /<filepath>/ Client```, isso já vai executar o Cliente no seu terminal e o usuário terá acesso às requisições disponíveis.
 
@@ -74,12 +74,11 @@ Onde **x** representa o IP do próprio servidor.
 Agora no cliente, compile os arquivos novamente e execute o cliente com o seguinte comando:
 
 ```
-java TODO
+java -classpath /<filepath>/ proj3.Client x
 ```
+Onde x é novamente o IP do seu servidor.
 
 Se der tudo certo, isso vai fazer com que o cliente se conecte ao servidor no IP especificado e comece a conexão.
-
-TODO
 
 ### Executando em TEST MODE (Modo de teste)
 O TEST MODE, foi o modo de execução criado para simular todas as iterações necessárias para calcular os tempos médios de conexão do programa. Ele executa 50 vezes cada request especificado pelo projeto.
@@ -181,7 +180,22 @@ Ele então decide encerrar o programa, com o comando 0, e isso encerra a execuç
 
 ### Teste local
 
-TODO
+Executando o programa localmente, em TEST MODE, pegamos informações sobre o tempo de comunicação entre os processos distintos cliente e servidor.
+
+O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
+
+| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
+|-----------|------------|--------------------|------------------------|
+| 1         |        |                |                     |
+| 2         |        |                |                     |
+| 3         |        |                |                     |
+| 4         |        |                |                     |
+| 5         |        |                |                     |
+| 6         |        |                |                     |
+
+TODO:::::ANALISAR
+
+![Gráfico 1](resources/local_plot_proj3.png)
 
 ### Test com máquinas separadas
 
