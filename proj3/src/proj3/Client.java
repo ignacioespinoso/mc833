@@ -15,7 +15,7 @@ public class Client {
             Client client = new Client();
             ConnectionTime op = new ConnectionTime(-1, -1, -1);
             String name = "Compute";
-            Registry registry = LocateRegistry.getRegistry();
+            Registry registry = LocateRegistry.getRegistry(args[0]);
             Compute comp = (Compute) registry.lookup(name);
 
             client.checkTestMode(args, comp);
@@ -56,7 +56,7 @@ public class Client {
         option = scanner.nextInt();
 
 //      Time counter gets operation.
-        op.operation = option; 
+        op.operation = option;
 
         scanner.nextLine();
 //        Save the request on the time operation
@@ -118,7 +118,7 @@ public class Client {
     }
 //    Check if the user run the program on TEST MODE
     public void checkTestMode(String[] args, Compute comp) {
-        if((args.length > 0) && (args[0].equals("TEST"))) {
+        if((args.length > 1) && (args[1].equals("TEST"))) {
             executeTestMode(comp);
         }
     }

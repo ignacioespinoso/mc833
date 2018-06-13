@@ -1,0 +1,4125 @@
+-------- TEST MODE ---------
+
+>>>>>>> Category 1 Messages:
+Get all subjects and names
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760881569 μs
+>>>>>Receive Time: 19760894314 μs
+>>>>>Total Interval Time: 12745 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760894692 μs
+>>>>>Receive Time: 19760901545 μs
+>>>>>Total Interval Time: 6853 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760901790 μs
+>>>>>Receive Time: 19760904274 μs
+>>>>>Total Interval Time: 2484 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760904483 μs
+>>>>>Receive Time: 19760906995 μs
+>>>>>Total Interval Time: 2512 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760907286 μs
+>>>>>Receive Time: 19760910767 μs
+>>>>>Total Interval Time: 3481 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760912023 μs
+>>>>>Receive Time: 19760919036 μs
+>>>>>Total Interval Time: 7013 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760919314 μs
+>>>>>Receive Time: 19760926967 μs
+>>>>>Total Interval Time: 7653 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760927344 μs
+>>>>>Receive Time: 19760934765 μs
+>>>>>Total Interval Time: 7421 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760935101 μs
+>>>>>Receive Time: 19760939285 μs
+>>>>>Total Interval Time: 4184 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760939555 μs
+>>>>>Receive Time: 19760943510 μs
+>>>>>Total Interval Time: 3955 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760945109 μs
+>>>>>Receive Time: 19760950747 μs
+>>>>>Total Interval Time: 5638 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760951082 μs
+>>>>>Receive Time: 19760956924 μs
+>>>>>Total Interval Time: 5842 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760957288 μs
+>>>>>Receive Time: 19760962644 μs
+>>>>>Total Interval Time: 5356 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760962903 μs
+>>>>>Receive Time: 19760976154 μs
+>>>>>Total Interval Time: 13251 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760976333 μs
+>>>>>Receive Time: 19760980524 μs
+>>>>>Total Interval Time: 4191 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760980703 μs
+>>>>>Receive Time: 19760988817 μs
+>>>>>Total Interval Time: 8114 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760989034 μs
+>>>>>Receive Time: 19760995191 μs
+>>>>>Total Interval Time: 6157 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19760995363 μs
+>>>>>Receive Time: 19761004121 μs
+>>>>>Total Interval Time: 8758 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761004274 μs
+>>>>>Receive Time: 19761006807 μs
+>>>>>Total Interval Time: 2533 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761006960 μs
+>>>>>Receive Time: 19761009140 μs
+>>>>>Total Interval Time: 2180 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761009267 μs
+>>>>>Receive Time: 19761011642 μs
+>>>>>Total Interval Time: 2375 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761011798 μs
+>>>>>Receive Time: 19761014530 μs
+>>>>>Total Interval Time: 2732 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761014693 μs
+>>>>>Receive Time: 19761017777 μs
+>>>>>Total Interval Time: 3084 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761017976 μs
+>>>>>Receive Time: 19761021184 μs
+>>>>>Total Interval Time: 3208 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761021377 μs
+>>>>>Receive Time: 19761024465 μs
+>>>>>Total Interval Time: 3088 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761024653 μs
+>>>>>Receive Time: 19761027316 μs
+>>>>>Total Interval Time: 2663 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761033207 μs
+>>>>>Receive Time: 19761036335 μs
+>>>>>Total Interval Time: 3128 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761036462 μs
+>>>>>Receive Time: 19761038848 μs
+>>>>>Total Interval Time: 2386 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761038947 μs
+>>>>>Receive Time: 19761045020 μs
+>>>>>Total Interval Time: 6073 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761045148 μs
+>>>>>Receive Time: 19761047446 μs
+>>>>>Total Interval Time: 2298 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761047569 μs
+>>>>>Receive Time: 19761049852 μs
+>>>>>Total Interval Time: 2283 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761050033 μs
+>>>>>Receive Time: 19761052096 μs
+>>>>>Total Interval Time: 2063 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761052698 μs
+>>>>>Receive Time: 19761054712 μs
+>>>>>Total Interval Time: 2014 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761055592 μs
+>>>>>Receive Time: 19761057605 μs
+>>>>>Total Interval Time: 2013 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761058501 μs
+>>>>>Receive Time: 19761060444 μs
+>>>>>Total Interval Time: 1943 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761060847 μs
+>>>>>Receive Time: 19761062734 μs
+>>>>>Total Interval Time: 1887 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761063315 μs
+>>>>>Receive Time: 19761066830 μs
+>>>>>Total Interval Time: 3515 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761066989 μs
+>>>>>Receive Time: 19761069578 μs
+>>>>>Total Interval Time: 2589 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761069734 μs
+>>>>>Receive Time: 19761071923 μs
+>>>>>Total Interval Time: 2189 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761072110 μs
+>>>>>Receive Time: 19761074013 μs
+>>>>>Total Interval Time: 1903 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761074512 μs
+>>>>>Receive Time: 19761076555 μs
+>>>>>Total Interval Time: 2043 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761077130 μs
+>>>>>Receive Time: 19761079073 μs
+>>>>>Total Interval Time: 1943 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761079711 μs
+>>>>>Receive Time: 19761081814 μs
+>>>>>Total Interval Time: 2103 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761082772 μs
+>>>>>Receive Time: 19761085253 μs
+>>>>>Total Interval Time: 2481 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761085919 μs
+>>>>>Receive Time: 19761088289 μs
+>>>>>Total Interval Time: 2370 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761088917 μs
+>>>>>Receive Time: 19761090992 μs
+>>>>>Total Interval Time: 2075 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761091410 μs
+>>>>>Receive Time: 19761093803 μs
+>>>>>Total Interval Time: 2393 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761094625 μs
+>>>>>Receive Time: 19761098057 μs
+>>>>>Total Interval Time: 3432 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761098158 μs
+>>>>>Receive Time: 19761104588 μs
+>>>>>Total Interval Time: 6430 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+ME322: Introducao a probabilidades
+MC102: Programacao e ordenacao de computadores
+EE532: Eletronica Aplicada
+MS211: Cálculo Numérico
+F 408: Processos quanticos de radioatividade
+
+
+>>>>>>>>>OPERATION: 1 <<<<<<<<<
+>>>>>Send Time: 19761104686 μs
+>>>>>Receive Time: 19761106613 μs
+>>>>>Total Interval Time: 1927 μs
+
+>>>>>>> Category 2 Messages:
+Get subject description
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761106718 μs
+>>>>>Receive Time: 19761108546 μs
+>>>>>Total Interval Time: 1828 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761109381 μs
+>>>>>Receive Time: 19761113543 μs
+>>>>>Total Interval Time: 4162 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761113701 μs
+>>>>>Receive Time: 19761115992 μs
+>>>>>Total Interval Time: 2291 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761116129 μs
+>>>>>Receive Time: 19761118410 μs
+>>>>>Total Interval Time: 2281 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761118491 μs
+>>>>>Receive Time: 19761120708 μs
+>>>>>Total Interval Time: 2217 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761121013 μs
+>>>>>Receive Time: 19761123197 μs
+>>>>>Total Interval Time: 2184 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761123862 μs
+>>>>>Receive Time: 19761125891 μs
+>>>>>Total Interval Time: 2029 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761126604 μs
+>>>>>Receive Time: 19761128628 μs
+>>>>>Total Interval Time: 2024 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761129295 μs
+>>>>>Receive Time: 19761131251 μs
+>>>>>Total Interval Time: 1956 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761132144 μs
+>>>>>Receive Time: 19761134251 μs
+>>>>>Total Interval Time: 2107 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761134700 μs
+>>>>>Receive Time: 19761136672 μs
+>>>>>Total Interval Time: 1972 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761137130 μs
+>>>>>Receive Time: 19761139072 μs
+>>>>>Total Interval Time: 1942 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761139821 μs
+>>>>>Receive Time: 19761141754 μs
+>>>>>Total Interval Time: 1933 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761142413 μs
+>>>>>Receive Time: 19761144309 μs
+>>>>>Total Interval Time: 1896 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761144841 μs
+>>>>>Receive Time: 19761146679 μs
+>>>>>Total Interval Time: 1838 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761147249 μs
+>>>>>Receive Time: 19761150813 μs
+>>>>>Total Interval Time: 3564 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761150909 μs
+>>>>>Receive Time: 19761154282 μs
+>>>>>Total Interval Time: 3373 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761154352 μs
+>>>>>Receive Time: 19761156685 μs
+>>>>>Total Interval Time: 2333 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761156747 μs
+>>>>>Receive Time: 19761158883 μs
+>>>>>Total Interval Time: 2136 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761158934 μs
+>>>>>Receive Time: 19761161050 μs
+>>>>>Total Interval Time: 2116 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761161381 μs
+>>>>>Receive Time: 19761163540 μs
+>>>>>Total Interval Time: 2159 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761163617 μs
+>>>>>Receive Time: 19761166154 μs
+>>>>>Total Interval Time: 2537 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761166248 μs
+>>>>>Receive Time: 19761168511 μs
+>>>>>Total Interval Time: 2263 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761168574 μs
+>>>>>Receive Time: 19761170749 μs
+>>>>>Total Interval Time: 2175 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761170812 μs
+>>>>>Receive Time: 19761172980 μs
+>>>>>Total Interval Time: 2168 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761173049 μs
+>>>>>Receive Time: 19761175251 μs
+>>>>>Total Interval Time: 2202 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761175307 μs
+>>>>>Receive Time: 19761177381 μs
+>>>>>Total Interval Time: 2074 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761177744 μs
+>>>>>Receive Time: 19761179895 μs
+>>>>>Total Interval Time: 2151 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761180615 μs
+>>>>>Receive Time: 19761183021 μs
+>>>>>Total Interval Time: 2406 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761183920 μs
+>>>>>Receive Time: 19761185885 μs
+>>>>>Total Interval Time: 1965 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761186786 μs
+>>>>>Receive Time: 19761188755 μs
+>>>>>Total Interval Time: 1969 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761188814 μs
+>>>>>Receive Time: 19761190602 μs
+>>>>>Total Interval Time: 1788 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761190944 μs
+>>>>>Receive Time: 19761193390 μs
+>>>>>Total Interval Time: 2446 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761193445 μs
+>>>>>Receive Time: 19761195265 μs
+>>>>>Total Interval Time: 1820 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761195533 μs
+>>>>>Receive Time: 19761197466 μs
+>>>>>Total Interval Time: 1933 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761198093 μs
+>>>>>Receive Time: 19761206369 μs
+>>>>>Total Interval Time: 8276 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761206473 μs
+>>>>>Receive Time: 19761209960 μs
+>>>>>Total Interval Time: 3487 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761210041 μs
+>>>>>Receive Time: 19761212258 μs
+>>>>>Total Interval Time: 2217 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761212325 μs
+>>>>>Receive Time: 19761214554 μs
+>>>>>Total Interval Time: 2229 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761214639 μs
+>>>>>Receive Time: 19761216592 μs
+>>>>>Total Interval Time: 1953 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761216694 μs
+>>>>>Receive Time: 19761218530 μs
+>>>>>Total Interval Time: 1836 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761219396 μs
+>>>>>Receive Time: 19761224586 μs
+>>>>>Total Interval Time: 5190 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761224704 μs
+>>>>>Receive Time: 19761226929 μs
+>>>>>Total Interval Time: 2225 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761226995 μs
+>>>>>Receive Time: 19761230466 μs
+>>>>>Total Interval Time: 3471 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761230552 μs
+>>>>>Receive Time: 19761232606 μs
+>>>>>Total Interval Time: 2054 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761232698 μs
+>>>>>Receive Time: 19761234736 μs
+>>>>>Total Interval Time: 2038 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761234805 μs
+>>>>>Receive Time: 19761236454 μs
+>>>>>Total Interval Time: 1649 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761236871 μs
+>>>>>Receive Time: 19761238776 μs
+>>>>>Total Interval Time: 1905 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761239563 μs
+>>>>>Receive Time: 19761241351 μs
+>>>>>Total Interval Time: 1788 μs
+
+MC102
+Programação básica para iniciantes - em C e Python.
+
+>>>>>>>>>OPERATION: 2 <<<<<<<<<
+>>>>>Send Time: 19761242490 μs
+>>>>>Receive Time: 19761245048 μs
+>>>>>Total Interval Time: 2558 μs
+
+>>>>>>> Category 3 Messages:
+Get subject full information
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761245343 μs
+>>>>>Receive Time: 19761247631 μs
+>>>>>Total Interval Time: 2288 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761247722 μs
+>>>>>Receive Time: 19761249768 μs
+>>>>>Total Interval Time: 2046 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761249886 μs
+>>>>>Receive Time: 19761252524 μs
+>>>>>Total Interval Time: 2638 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761252586 μs
+>>>>>Receive Time: 19761256184 μs
+>>>>>Total Interval Time: 3598 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761256254 μs
+>>>>>Receive Time: 19761258148 μs
+>>>>>Total Interval Time: 1894 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761258209 μs
+>>>>>Receive Time: 19761260243 μs
+>>>>>Total Interval Time: 2034 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761260999 μs
+>>>>>Receive Time: 19761262928 μs
+>>>>>Total Interval Time: 1929 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761263707 μs
+>>>>>Receive Time: 19761265737 μs
+>>>>>Total Interval Time: 2030 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761266434 μs
+>>>>>Receive Time: 19761268620 μs
+>>>>>Total Interval Time: 2186 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761268936 μs
+>>>>>Receive Time: 19761270942 μs
+>>>>>Total Interval Time: 2006 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761272023 μs
+>>>>>Receive Time: 19761274124 μs
+>>>>>Total Interval Time: 2101 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761274960 μs
+>>>>>Receive Time: 19761276930 μs
+>>>>>Total Interval Time: 1970 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761277339 μs
+>>>>>Receive Time: 19761279220 μs
+>>>>>Total Interval Time: 1881 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761279808 μs
+>>>>>Receive Time: 19761283318 μs
+>>>>>Total Interval Time: 3510 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761283398 μs
+>>>>>Receive Time: 19761285505 μs
+>>>>>Total Interval Time: 2107 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761285545 μs
+>>>>>Receive Time: 19761287476 μs
+>>>>>Total Interval Time: 1931 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761287514 μs
+>>>>>Receive Time: 19761289383 μs
+>>>>>Total Interval Time: 1869 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761290116 μs
+>>>>>Receive Time: 19761291966 μs
+>>>>>Total Interval Time: 1850 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761292641 μs
+>>>>>Receive Time: 19761294534 μs
+>>>>>Total Interval Time: 1893 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761295155 μs
+>>>>>Receive Time: 19761297058 μs
+>>>>>Total Interval Time: 1903 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761298025 μs
+>>>>>Receive Time: 19761300015 μs
+>>>>>Total Interval Time: 1990 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761300892 μs
+>>>>>Receive Time: 19761303080 μs
+>>>>>Total Interval Time: 2188 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761303148 μs
+>>>>>Receive Time: 19761307849 μs
+>>>>>Total Interval Time: 4701 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761307923 μs
+>>>>>Receive Time: 19761311841 μs
+>>>>>Total Interval Time: 3918 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761311920 μs
+>>>>>Receive Time: 19761314280 μs
+>>>>>Total Interval Time: 2360 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761314364 μs
+>>>>>Receive Time: 19761316508 μs
+>>>>>Total Interval Time: 2144 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761316593 μs
+>>>>>Receive Time: 19761318557 μs
+>>>>>Total Interval Time: 1964 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761319072 μs
+>>>>>Receive Time: 19761321133 μs
+>>>>>Total Interval Time: 2061 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761321809 μs
+>>>>>Receive Time: 19761323761 μs
+>>>>>Total Interval Time: 1952 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761324711 μs
+>>>>>Receive Time: 19761327123 μs
+>>>>>Total Interval Time: 2412 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761327832 μs
+>>>>>Receive Time: 19761329737 μs
+>>>>>Total Interval Time: 1905 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761330912 μs
+>>>>>Receive Time: 19761332705 μs
+>>>>>Total Interval Time: 1793 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761333376 μs
+>>>>>Receive Time: 19761335227 μs
+>>>>>Total Interval Time: 1851 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761336201 μs
+>>>>>Receive Time: 19761338087 μs
+>>>>>Total Interval Time: 1886 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761339040 μs
+>>>>>Receive Time: 19761340856 μs
+>>>>>Total Interval Time: 1816 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761341848 μs
+>>>>>Receive Time: 19761343736 μs
+>>>>>Total Interval Time: 1888 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761344753 μs
+>>>>>Receive Time: 19761346903 μs
+>>>>>Total Interval Time: 2150 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761347668 μs
+>>>>>Receive Time: 19761349836 μs
+>>>>>Total Interval Time: 2168 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761350626 μs
+>>>>>Receive Time: 19761352984 μs
+>>>>>Total Interval Time: 2358 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761353652 μs
+>>>>>Receive Time: 19761355858 μs
+>>>>>Total Interval Time: 2206 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761356865 μs
+>>>>>Receive Time: 19761359889 μs
+>>>>>Total Interval Time: 3024 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761359970 μs
+>>>>>Receive Time: 19761362085 μs
+>>>>>Total Interval Time: 2115 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761362542 μs
+>>>>>Receive Time: 19761366286 μs
+>>>>>Total Interval Time: 3744 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761366362 μs
+>>>>>Receive Time: 19761368572 μs
+>>>>>Total Interval Time: 2210 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761368655 μs
+>>>>>Receive Time: 19761370557 μs
+>>>>>Total Interval Time: 1902 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761371152 μs
+>>>>>Receive Time: 19761373280 μs
+>>>>>Total Interval Time: 2128 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761373959 μs
+>>>>>Receive Time: 19761375897 μs
+>>>>>Total Interval Time: 1938 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761376929 μs
+>>>>>Receive Time: 19761378920 μs
+>>>>>Total Interval Time: 1991 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761379814 μs
+>>>>>Receive Time: 19761382038 μs
+>>>>>Total Interval Time: 2224 μs
+
+MA111
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planos
+
+>>>>>>>>>OPERATION: 3 <<<<<<<<<
+>>>>>Send Time: 19761382692 μs
+>>>>>Receive Time: 19761393130 μs
+>>>>>Total Interval Time: 10438 μs
+
+>>>>>>> Category 4 Messages:
+Get next class information
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761393240 μs
+>>>>>Receive Time: 19761395517 μs
+>>>>>Total Interval Time: 2277 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761395600 μs
+>>>>>Receive Time: 19761397806 μs
+>>>>>Total Interval Time: 2206 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761398211 μs
+>>>>>Receive Time: 19761400176 μs
+>>>>>Total Interval Time: 1965 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761401123 μs
+>>>>>Receive Time: 19761403299 μs
+>>>>>Total Interval Time: 2176 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761403377 μs
+>>>>>Receive Time: 19761405395 μs
+>>>>>Total Interval Time: 2018 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761405450 μs
+>>>>>Receive Time: 19761410838 μs
+>>>>>Total Interval Time: 5388 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761410900 μs
+>>>>>Receive Time: 19761413053 μs
+>>>>>Total Interval Time: 2153 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761413110 μs
+>>>>>Receive Time: 19761414958 μs
+>>>>>Total Interval Time: 1848 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761415594 μs
+>>>>>Receive Time: 19761417682 μs
+>>>>>Total Interval Time: 2088 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761418406 μs
+>>>>>Receive Time: 19761420271 μs
+>>>>>Total Interval Time: 1865 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761421213 μs
+>>>>>Receive Time: 19761422949 μs
+>>>>>Total Interval Time: 1736 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761423959 μs
+>>>>>Receive Time: 19761426879 μs
+>>>>>Total Interval Time: 2920 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761426977 μs
+>>>>>Receive Time: 19761428854 μs
+>>>>>Total Interval Time: 1877 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761429967 μs
+>>>>>Receive Time: 19761431931 μs
+>>>>>Total Interval Time: 1964 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761432848 μs
+>>>>>Receive Time: 19761434899 μs
+>>>>>Total Interval Time: 2051 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761435828 μs
+>>>>>Receive Time: 19761437716 μs
+>>>>>Total Interval Time: 1888 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761438738 μs
+>>>>>Receive Time: 19761440683 μs
+>>>>>Total Interval Time: 1945 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761441728 μs
+>>>>>Receive Time: 19761443921 μs
+>>>>>Total Interval Time: 2193 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761444652 μs
+>>>>>Receive Time: 19761446661 μs
+>>>>>Total Interval Time: 2009 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761447907 μs
+>>>>>Receive Time: 19761450214 μs
+>>>>>Total Interval Time: 2307 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761451150 μs
+>>>>>Receive Time: 19761454530 μs
+>>>>>Total Interval Time: 3380 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761454618 μs
+>>>>>Receive Time: 19761456839 μs
+>>>>>Total Interval Time: 2221 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761456933 μs
+>>>>>Receive Time: 19761459194 μs
+>>>>>Total Interval Time: 2261 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761459716 μs
+>>>>>Receive Time: 19761461943 μs
+>>>>>Total Interval Time: 2227 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761462541 μs
+>>>>>Receive Time: 19761465105 μs
+>>>>>Total Interval Time: 2564 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761465183 μs
+>>>>>Receive Time: 19761467407 μs
+>>>>>Total Interval Time: 2224 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761467897 μs
+>>>>>Receive Time: 19761470042 μs
+>>>>>Total Interval Time: 2145 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761470665 μs
+>>>>>Receive Time: 19761472881 μs
+>>>>>Total Interval Time: 2216 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761473454 μs
+>>>>>Receive Time: 19761475611 μs
+>>>>>Total Interval Time: 2157 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761476200 μs
+>>>>>Receive Time: 19761479981 μs
+>>>>>Total Interval Time: 3781 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761480067 μs
+>>>>>Receive Time: 19761482259 μs
+>>>>>Total Interval Time: 2192 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761482929 μs
+>>>>>Receive Time: 19761485082 μs
+>>>>>Total Interval Time: 2153 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761485753 μs
+>>>>>Receive Time: 19761487889 μs
+>>>>>Total Interval Time: 2136 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761488581 μs
+>>>>>Receive Time: 19761490754 μs
+>>>>>Total Interval Time: 2173 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761491485 μs
+>>>>>Receive Time: 19761493654 μs
+>>>>>Total Interval Time: 2169 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761494300 μs
+>>>>>Receive Time: 19761496464 μs
+>>>>>Total Interval Time: 2164 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761497221 μs
+>>>>>Receive Time: 19761499392 μs
+>>>>>Total Interval Time: 2171 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761500161 μs
+>>>>>Receive Time: 19761502410 μs
+>>>>>Total Interval Time: 2249 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761502505 μs
+>>>>>Receive Time: 19761506300 μs
+>>>>>Total Interval Time: 3795 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761506392 μs
+>>>>>Receive Time: 19761513798 μs
+>>>>>Total Interval Time: 7406 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761513898 μs
+>>>>>Receive Time: 19761516253 μs
+>>>>>Total Interval Time: 2355 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761516329 μs
+>>>>>Receive Time: 19761518542 μs
+>>>>>Total Interval Time: 2213 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761519452 μs
+>>>>>Receive Time: 19761521574 μs
+>>>>>Total Interval Time: 2122 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761522032 μs
+>>>>>Receive Time: 19761524069 μs
+>>>>>Total Interval Time: 2037 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761524553 μs
+>>>>>Receive Time: 19761526718 μs
+>>>>>Total Interval Time: 2165 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761528182 μs
+>>>>>Receive Time: 19761530433 μs
+>>>>>Total Interval Time: 2251 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761531326 μs
+>>>>>Receive Time: 19761534269 μs
+>>>>>Total Interval Time: 2943 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761534366 μs
+>>>>>Receive Time: 19761537924 μs
+>>>>>Total Interval Time: 3558 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761538015 μs
+>>>>>Receive Time: 19761540207 μs
+>>>>>Total Interval Time: 2192 μs
+
+EE532
+Entrega de terça-feira disponível no Drive da turma.
+
+>>>>>>>>>OPERATION: 4 <<<<<<<<<
+>>>>>Send Time: 19761540281 μs
+>>>>>Receive Time: 19761542401 μs
+>>>>>Total Interval Time: 2120 μs
+
+>>>>>>> Category 5 Messages:
+Get all Subjects info
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761543292 μs
+>>>>>Receive Time: 19761545645 μs
+>>>>>Total Interval Time: 2353 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761546257 μs
+>>>>>Receive Time: 19761549401 μs
+>>>>>Total Interval Time: 3144 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761549493 μs
+>>>>>Receive Time: 19761552145 μs
+>>>>>Total Interval Time: 2652 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761552482 μs
+>>>>>Receive Time: 19761554855 μs
+>>>>>Total Interval Time: 2373 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761555514 μs
+>>>>>Receive Time: 19761559876 μs
+>>>>>Total Interval Time: 4362 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761559984 μs
+>>>>>Receive Time: 19761562498 μs
+>>>>>Total Interval Time: 2514 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761562577 μs
+>>>>>Receive Time: 19761565060 μs
+>>>>>Total Interval Time: 2483 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761565132 μs
+>>>>>Receive Time: 19761567656 μs
+>>>>>Total Interval Time: 2524 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761567929 μs
+>>>>>Receive Time: 19761570937 μs
+>>>>>Total Interval Time: 3008 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761571070 μs
+>>>>>Receive Time: 19761573397 μs
+>>>>>Total Interval Time: 2327 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761574047 μs
+>>>>>Receive Time: 19761576778 μs
+>>>>>Total Interval Time: 2731 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761577169 μs
+>>>>>Receive Time: 19761579967 μs
+>>>>>Total Interval Time: 2798 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761580560 μs
+>>>>>Receive Time: 19761583075 μs
+>>>>>Total Interval Time: 2515 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761583900 μs
+>>>>>Receive Time: 19761586569 μs
+>>>>>Total Interval Time: 2669 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761587151 μs
+>>>>>Receive Time: 19761589834 μs
+>>>>>Total Interval Time: 2683 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761590049 μs
+>>>>>Receive Time: 19761592268 μs
+>>>>>Total Interval Time: 2219 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761592880 μs
+>>>>>Receive Time: 19761595085 μs
+>>>>>Total Interval Time: 2205 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761595342 μs
+>>>>>Receive Time: 19761597503 μs
+>>>>>Total Interval Time: 2161 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761598040 μs
+>>>>>Receive Time: 19761600617 μs
+>>>>>Total Interval Time: 2577 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761600660 μs
+>>>>>Receive Time: 19761603373 μs
+>>>>>Total Interval Time: 2713 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761605177 μs
+>>>>>Receive Time: 19761608544 μs
+>>>>>Total Interval Time: 3367 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761608602 μs
+>>>>>Receive Time: 19761617428 μs
+>>>>>Total Interval Time: 8826 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761617501 μs
+>>>>>Receive Time: 19761622106 μs
+>>>>>Total Interval Time: 4605 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761622165 μs
+>>>>>Receive Time: 19761624523 μs
+>>>>>Total Interval Time: 2358 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761624578 μs
+>>>>>Receive Time: 19761626756 μs
+>>>>>Total Interval Time: 2178 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761626856 μs
+>>>>>Receive Time: 19761629224 μs
+>>>>>Total Interval Time: 2368 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761629572 μs
+>>>>>Receive Time: 19761632022 μs
+>>>>>Total Interval Time: 2450 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761632890 μs
+>>>>>Receive Time: 19761635305 μs
+>>>>>Total Interval Time: 2415 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761635848 μs
+>>>>>Receive Time: 19761638369 μs
+>>>>>Total Interval Time: 2521 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761638954 μs
+>>>>>Receive Time: 19761641416 μs
+>>>>>Total Interval Time: 2462 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761641524 μs
+>>>>>Receive Time: 19761644352 μs
+>>>>>Total Interval Time: 2828 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761644447 μs
+>>>>>Receive Time: 19761646909 μs
+>>>>>Total Interval Time: 2462 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761647029 μs
+>>>>>Receive Time: 19761649368 μs
+>>>>>Total Interval Time: 2339 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761649421 μs
+>>>>>Receive Time: 19761651560 μs
+>>>>>Total Interval Time: 2139 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761652126 μs
+>>>>>Receive Time: 19761654503 μs
+>>>>>Total Interval Time: 2377 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761654879 μs
+>>>>>Receive Time: 19761657188 μs
+>>>>>Total Interval Time: 2309 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761657758 μs
+>>>>>Receive Time: 19761660092 μs
+>>>>>Total Interval Time: 2334 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761660324 μs
+>>>>>Receive Time: 19761662684 μs
+>>>>>Total Interval Time: 2360 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761663545 μs
+>>>>>Receive Time: 19761666271 μs
+>>>>>Total Interval Time: 2726 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761666358 μs
+>>>>>Receive Time: 19761669035 μs
+>>>>>Total Interval Time: 2677 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761669324 μs
+>>>>>Receive Time: 19761671802 μs
+>>>>>Total Interval Time: 2478 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761672524 μs
+>>>>>Receive Time: 19761675056 μs
+>>>>>Total Interval Time: 2532 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761675686 μs
+>>>>>Receive Time: 19761678150 μs
+>>>>>Total Interval Time: 2464 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761678746 μs
+>>>>>Receive Time: 19761681093 μs
+>>>>>Total Interval Time: 2347 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761682155 μs
+>>>>>Receive Time: 19761685736 μs
+>>>>>Total Interval Time: 3581 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761685818 μs
+>>>>>Receive Time: 19761690590 μs
+>>>>>Total Interval Time: 4772 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761690638 μs
+>>>>>Receive Time: 19761692967 μs
+>>>>>Total Interval Time: 2329 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761693015 μs
+>>>>>Receive Time: 19761695266 μs
+>>>>>Total Interval Time: 2251 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761695311 μs
+>>>>>Receive Time: 19761697653 μs
+>>>>>Total Interval Time: 2342 μs
+
+All Subjects:
+MA111: Topicos de Calculo 1 para engenharias
+Professor(a): Ketty Mello
+Sala: CB03
+Ementa: Análise de limites. Derivadas totais. Integrais simples de uma variável. Integrais 2D.
+Comentario: Na proxima aula vamos estudar o desenvolvimento do diferencial em 3 planosME322: Introducao a probabilidades
+Professor(a): Anderson Bernardini
+Sala: PB08 / IM17
+Ementa: Variaveis aleatorias discretas e continuas. Distribuicoes comuns: Poisson, intermédio, binário, gauss...
+Comentario: Para a proxima aula, ler os textos do capitulo 3 sobre variaveis aleatorias continuas. Vamos discutir em sala os efeitos dessas variaveis nas formulacoes de probabilidade.MC102: Programacao e ordenacao de computadores
+Professor(a): Zanoni Dias
+Sala: CB05 / CC353
+Ementa: Programação básica para iniciantes - em C e Python.
+Comentario: Labs 3 e 4 disponiveis no SuSy. Boa semana a todos.EE532: Eletronica Aplicada
+Professor(a): Lee da FEEC
+Sala: FE02
+Ementa: Estudo de circuitos eletricos nao lineares com componentes semi condutores.
+Comentario: Entrega de terça-feira disponível no Drive da turma.MS211: Cálculo Numérico
+Professor(a): Maria Cheti Ehrlhardtz
+Sala: PB12
+Ementa: Métodos e processos de zeros de funções, aproximações nominais, resolucao e derivadas e integrais.
+Comentario: O projeto 2 da disciplina já está disponível na plataforma. Usem os metodos de Newton e Gauss para convergir, e se quiser, aumentem a precisao dos pontos flutuantes para melhorar o resultado.F 408: Processos quanticos de radioatividade
+Professor(a): David Dogbrekeit
+Sala: IF11
+Ementa: Disciplina não oferecida pelo professor
+Comentario: A proxima aula está cancelada devido ao alto índice de câncer dos alunos...
+
+>>>>>>>>>OPERATION: 5 <<<<<<<<<
+>>>>>Send Time: 19761697722 μs
+>>>>>Receive Time: 19761699948 μs
+>>>>>Total Interval Time: 2226 μs
+
+>>>>>>> Category 6 Messages:
+Write new Next Class information
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761700234 μs
+>>>>>Receive Time: 19761702074 μs
+>>>>>Total Interval Time: 1840 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761702135 μs
+>>>>>Receive Time: 19761704159 μs
+>>>>>Total Interval Time: 2024 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761704220 μs
+>>>>>Receive Time: 19761706124 μs
+>>>>>Total Interval Time: 1904 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761706585 μs
+>>>>>Receive Time: 19761708505 μs
+>>>>>Total Interval Time: 1920 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761708928 μs
+>>>>>Receive Time: 19761710722 μs
+>>>>>Total Interval Time: 1794 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761711393 μs
+>>>>>Receive Time: 19761717605 μs
+>>>>>Total Interval Time: 6212 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761717656 μs
+>>>>>Receive Time: 19761721051 μs
+>>>>>Total Interval Time: 3395 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761721186 μs
+>>>>>Receive Time: 19761722937 μs
+>>>>>Total Interval Time: 1751 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761722999 μs
+>>>>>Receive Time: 19761724666 μs
+>>>>>Total Interval Time: 1667 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761725286 μs
+>>>>>Receive Time: 19761729333 μs
+>>>>>Total Interval Time: 4047 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761729404 μs
+>>>>>Receive Time: 19761731052 μs
+>>>>>Total Interval Time: 1648 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761731406 μs
+>>>>>Receive Time: 19761733215 μs
+>>>>>Total Interval Time: 1809 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761734162 μs
+>>>>>Receive Time: 19761735685 μs
+>>>>>Total Interval Time: 1523 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761735755 μs
+>>>>>Receive Time: 19761737504 μs
+>>>>>Total Interval Time: 1749 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761737575 μs
+>>>>>Receive Time: 19761739249 μs
+>>>>>Total Interval Time: 1674 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761739671 μs
+>>>>>Receive Time: 19761741453 μs
+>>>>>Total Interval Time: 1782 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761742460 μs
+>>>>>Receive Time: 19761744338 μs
+>>>>>Total Interval Time: 1878 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761745171 μs
+>>>>>Receive Time: 19761746930 μs
+>>>>>Total Interval Time: 1759 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761747842 μs
+>>>>>Receive Time: 19761749493 μs
+>>>>>Total Interval Time: 1651 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761749568 μs
+>>>>>Receive Time: 19761751404 μs
+>>>>>Total Interval Time: 1836 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761751485 μs
+>>>>>Receive Time: 19761753296 μs
+>>>>>Total Interval Time: 1811 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761754305 μs
+>>>>>Receive Time: 19761756147 μs
+>>>>>Total Interval Time: 1842 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761757530 μs
+>>>>>Receive Time: 19761759203 μs
+>>>>>Total Interval Time: 1673 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761759304 μs
+>>>>>Receive Time: 19761761212 μs
+>>>>>Total Interval Time: 1908 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761761343 μs
+>>>>>Receive Time: 19761763300 μs
+>>>>>Total Interval Time: 1957 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761763923 μs
+>>>>>Receive Time: 19761765845 μs
+>>>>>Total Interval Time: 1922 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761766836 μs
+>>>>>Receive Time: 19761768704 μs
+>>>>>Total Interval Time: 1868 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761769554 μs
+>>>>>Receive Time: 19761771335 μs
+>>>>>Total Interval Time: 1781 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761771923 μs
+>>>>>Receive Time: 19761774616 μs
+>>>>>Total Interval Time: 2693 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761774666 μs
+>>>>>Receive Time: 19761776401 μs
+>>>>>Total Interval Time: 1735 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761776872 μs
+>>>>>Receive Time: 19761778779 μs
+>>>>>Total Interval Time: 1907 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761779433 μs
+>>>>>Receive Time: 19761782211 μs
+>>>>>Total Interval Time: 2778 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761782294 μs
+>>>>>Receive Time: 19761784054 μs
+>>>>>Total Interval Time: 1760 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761784933 μs
+>>>>>Receive Time: 19761786543 μs
+>>>>>Total Interval Time: 1610 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761786616 μs
+>>>>>Receive Time: 19761788340 μs
+>>>>>Total Interval Time: 1724 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761788415 μs
+>>>>>Receive Time: 19761790098 μs
+>>>>>Total Interval Time: 1683 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761790664 μs
+>>>>>Receive Time: 19761792377 μs
+>>>>>Total Interval Time: 1713 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761792457 μs
+>>>>>Receive Time: 19761794243 μs
+>>>>>Total Interval Time: 1786 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761794323 μs
+>>>>>Receive Time: 19761795989 μs
+>>>>>Total Interval Time: 1666 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761796543 μs
+>>>>>Receive Time: 19761798407 μs
+>>>>>Total Interval Time: 1864 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761799373 μs
+>>>>>Receive Time: 19761801875 μs
+>>>>>Total Interval Time: 2502 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761802278 μs
+>>>>>Receive Time: 19761804072 μs
+>>>>>Total Interval Time: 1794 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761804149 μs
+>>>>>Receive Time: 19761805947 μs
+>>>>>Total Interval Time: 1798 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761806045 μs
+>>>>>Receive Time: 19761809907 μs
+>>>>>Total Interval Time: 3862 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761810038 μs
+>>>>>Receive Time: 19761811933 μs
+>>>>>Total Interval Time: 1895 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761812029 μs
+>>>>>Receive Time: 19761813924 μs
+>>>>>Total Interval Time: 1895 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761814957 μs
+>>>>>Receive Time: 19761819498 μs
+>>>>>Total Interval Time: 4541 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761819569 μs
+>>>>>Receive Time: 19761820982 μs
+>>>>>Total Interval Time: 1413 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761821419 μs
+>>>>>Receive Time: 19761823244 μs
+>>>>>Total Interval Time: 1825 μs
+
+You don't have permission to do that!
+
+
+>>>>>>>>>OPERATION: 6 <<<<<<<<<
+>>>>>Send Time: 19761824074 μs
+>>>>>Receive Time: 19761826616 μs
+>>>>>Total Interval Time: 2542 μs
+
+
+
+-------- TEST MODE FINISHED ---------
+check the Log file to get the system time easily
+
