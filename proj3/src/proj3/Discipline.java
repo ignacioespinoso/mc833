@@ -1,4 +1,4 @@
-// package proj3;
+package proj3;
 
 public class Discipline {
     public String codigo;
