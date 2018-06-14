@@ -162,7 +162,7 @@ No cliente, o tempo refere-se ao intervalo entre enviar uma requisição e receb
 ### Aluno
 
 Com o Servidor já em execução um aluno pode se conectar executando o código do cliente
-```java -classpath /<filepath>/ Client xxx.xxx.xxx```
+```java -classpath /<filepath>/ proj3.Client x```
 sabendo o IP **x** do servidor. Uma vez conectado, o cliente irá exibir a lista de requests que podem ser feitas ao servidor.
 
 Vamos supor que o aluno queira saber o que acontecerá na próxima aula de uma determinada disciplina, ou seja, uma requisição do tipo **4**, ele irá digitar o código da operação e em seguida a disciplina da qual ele procura a informação: ```4 EE532```.
@@ -184,22 +184,42 @@ Executando o programa localmente, em TEST MODE, pegamos informações sobre o te
 
 O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
 
+##### Tabela 1: Tempos de Comunicação para o RMI Local
+
 | Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
 |-----------|------------|--------------------|------------------------|
-| 1         |        |                |                     |
-| 2         |        |                |                     |
-| 3         |        |                |                     |
-| 4         |        |                |                     |
-| 5         |        |                |                     |
-| 6         |        |                |                     |
+| 1         | 383       |    93            |  26                   |
+| 2         | 311       |   90             |  13                   |
+| 3         | 263       |   41             |   6                   |
+| 4         | 200       |   27             |   4                   |
+| 5         | 458       |   164            |   23                  |
+| 6         | 222       |   109            |   15                  |
 
-TODO:::::ANALISAR
+Podemos notar que (assim como nos demais experimentos) a requisição 5 foi a mais demorada, pois é a que acessa mais dados na base, e, consequentemente, a que envia mais dados para o cliente.
 
 ![Gráfico 1](resources/local_plot_proj3.png)
 
-### Test com máquinas separadas
+### Teste com máquinas separadas
 
-TODO
+O programa foi executado em duas máquinas separadas, conectadas a rede, uma à rede cabeada no Instituto de Computação, e outro conectado ao wi-fi, no mesmo instituto.
+
+Os tem pos médios de comunicação, para cada operação, podem ser vistos na tabela abaixo:
+
+##### Tabela 2: Tempos de Comunicação para o RMI em máquinas separadas
+
+| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
+|-----------|------------|--------------------|------------------------|
+| 1         |    3875   |     2404          |     680               |
+| 2         |    2368   |      1014         |     286               |
+| 3         |    2421   |     1307          |     362               |
+| 4         |    2452   |       954         |      264              |
+| 5         |    2768   |      1044         |       289             |
+| 6         |    2112   |        872        |       241             |
+
+
+## Comparativo com a comunicação TCP
+
+
 
 # VI - Conclusão
 
