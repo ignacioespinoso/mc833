@@ -188,16 +188,6 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 | Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
 |-----------|------------|--------------------|------------------------|
-<<<<<<< HEAD
-| 1         | 383       |    93            |  26                   |
-| 2         | 311       |   90             |  13                   |
-| 3         | 263       |   41             |   6                   |
-| 4         | 200       |   27             |   4                   |
-| 5         | 458       |   164            |   23                  |
-| 6         | 222       |   109            |   15                  |
-
-Podemos notar que (assim como nos demais experimentos) a requisição 5 foi a mais demorada, pois é a que acessa mais dados na base, e, consequentemente, a que envia mais dados para o cliente.
-=======
 | 1         |  383.88    |       93.22        |         26.37          |
 | 2         |  311.44    |       90.63        |         25.64          |
 | 3         |  263.64    |       41.07        |         11.38          |
@@ -206,36 +196,16 @@ Podemos notar que (assim como nos demais experimentos) a requisição 5 foi a ma
 | 6         |  222.86    |      109.42        |         30.64          |
 
 Analisando os valores da média, pode se constatar que os resultados foram dentro do esperado, uma vez que os tempos medidos, apesar do desvio padrão razoável, foram condizentes com a complexidade da operação. Dentro desse raciocínio, fez sentido a operação 5 ter consumido o maior tempo, dado o volume de dados envolvidos em recuperar todos os dados de todas as disciplinas.
->>>>>>> f61850a2e91883657d4552e58823f2fc738e2980
 
 ![Gráfico 1](resources/local_plot_proj3.png)
 
-### Teste com máquinas separadas
+### Teste em máquinas separadas
 
-O programa foi executado em duas máquinas separadas, conectadas a rede, uma à rede cabeada no Instituto de Computação, e outro conectado ao wi-fi, no mesmo instituto.
-
-Os tem pos médios de comunicação, para cada operação, podem ser vistos na tabela abaixo:
-
-##### Tabela 2: Tempos de Comunicação para o RMI em máquinas separadas
-
-| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
-|-----------|------------|--------------------|------------------------|
-| 1         |    3875   |     2404          |     680               |
-| 2         |    2368   |      1014         |     286               |
-| 3         |    2421   |     1307          |     362               |
-| 4         |    2452   |       954         |      264              |
-| 5         |    2768   |      1044         |       289             |
-| 6         |    2112   |        872        |       241             |
-
-
-## Comparativo com a comunicação TCP
-
-
-<<<<<<< HEAD
-=======
 O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente em um computador do Instituto de Computação. O Macbook estava conectado a rede Wi-Fi do instituto, e o computador conectado à rede cabeada - os dois em IPs diferentes.
 
 O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
+
+##### Tabela 2: Tempos de Comunicação para o RMI em máquinas distintas
 
 | Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
 |-----------|------------|--------------------|------------------------|
@@ -256,11 +226,30 @@ Também vale notar que as medidas foram marcadas por um alto desvio padrão (mui
 
 > \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
 > Conectado na rede *Eduroam* por Wi-Fi. IP: 177.220.84.48
->
-### Comparativo com uma comunicação TCP
 
-Como esperado, o tempo de execução em máquinas distintas do RMI é extremamente superior ao tem
->>>>>>> f61850a2e91883657d4552e58823f2fc738e2980
+## Comparativo com uma comunicação TCP
+
+Abaixo, vamos observar os tempos medidos para a conexão TCP* para as mesmas condições e mensagens utilizadas neste trabalho e para as mesmas categorias de mensagem:
+
+##### Tabela 3 - Tempos médios de comunicação de uma conexão TCP
+
+| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
+|-----------|------------|--------------------|------------------------|
+| 1         | 1186       | 1026               | 310                    |
+| 2         | 754        | 350                | 97                     |
+| 3         | 1016       | 781                | 216                    |
+| 4         | 896        | 1396               | 387                    |
+| 5         | 2514       | 439                | 861                    |
+| 6         | 799        | 59                 | 116                    |
+
+> Dados retirados do trabalho 1 da Disciplina.
+
+Como esperado, o tempo de comunicação em máquinas distintas do RMI é extremamente superior ao tempo de comunicação para máquinas numas conexão TCP.
+
+Vamos comparar os valores usando a tabela abaixo:
+
+##### Tabela 4 - Comparação entre os tempos de comunicação TCP e RMI
+
 
 # VI - Conclusão
 
