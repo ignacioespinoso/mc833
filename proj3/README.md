@@ -169,8 +169,8 @@ Vamos supor que o aluno queira saber o que acontecerá na próxima aula de uma d
 
 O programa do cliente então envia a mensagem para o servidor, e espera por uma resposta. Dada uma resposta correta, o cliente deve receber algo do tipo:
 
-
-``` Entrega de terça-feira disponível no Drive da turma.
+```
+Entrega de terça-feira disponível no Drive da turma.
 ```
 
 Ele então decide encerrar o programa, com o comando 0, e isso encerra a execução.
@@ -244,16 +244,28 @@ Abaixo, vamos observar os tempos medidos para a conexão TCP* para as mesmas con
 
 > Dados retirados do trabalho 1 da Disciplina.
 
-Como esperado, o tempo de comunicação em máquinas distintas do RMI é extremamente superior ao tempo de comunicação para máquinas numas conexão TCP.
-
-Vamos comparar os valores usando a tabela abaixo:
+Vamos comparar os valores através da razão entre os tempos de comunicação RMI e TCP usando a tabela abaixo, dessa forma vamos saber quantas vezes a comunicação RMI foi maior que a TCP.
 
 ##### Tabela 4 - Comparação entre os tempos de comunicação TCP e RMI
+|Categoria da Mensagem|Razão dos tempos médios RMI/TCP|
+|---|---|
+|1|3,05|
+|2|3,19|
+|3|2,20|
+|4|2,72|
+|5|1,00|
+|6|2,63|
 
+Como esperado, o tempo de comunicação em máquinas distintas do RMI é superior ao tempo de comunicação para máquinas numas conexão TCP.
+Os valores chegam a ser até 3 vezes maiores no caso do RMI.
 
 # VI - Conclusão
 
-TODO
+A comunicação usando TCP é mais rápida na média que a comunicação usando RMI.
+
+Contudo, para se implementar um socket TCP em C, e uma aplicação simples de cliente e servidor para que troquem mensagens, o código é consideravelmente maior, e exige um pouco mais de complexidade, no tratamento de mensagens, na conexão e tudo mais. Já o mesmo sistem em RMI Java, é bem mais simples de ser codificado, de configurar suas mensagens e executar os métodos remotos.
+
+Apesar do RMI ter sido 3 vezes mais demorado que o TCP, a melhor escolha para sua aplicação depende do que será utilizado no mundo real. Se uma conexão irá receber muitas mensagens, e num fluxo muito rápido, é provável que o TCP seja sua melhor opção. Mas caso contrário, o RMI pode ser considerado, dada a dificuldade menor de implementação, e mesmo sendo 3 vezes maior, é na ordem de microssegundos, que para uma aplicação com poucas mensagens ao servidor, pode não fazer tanta diferença.
 
 # VII - Referências
 
