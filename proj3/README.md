@@ -6,7 +6,7 @@
 
 # I - Introdução
 
-O projeto 3 consiste em implementar uma conexão RMI entre cliente e servidor. O RMI é uma interface de programação que permite a execução de chamadas remotas no estilo RPC (chamar um processo remotamente) em aplicações desenvolvidas em Java[4]. 
+O projeto 3 consiste em implementar uma conexão RMI entre cliente e servidor. O RMI é uma interface de programação que permite a execução de chamadas remotas no estilo RPC (chamar um processo remotamente) em aplicações desenvolvidas em Java[4].
 
 No caso, a aplicação do servidor consiste em um sistema que armazena dados relativos a disciplinas (códigos, ementas e comentários) para consulta e alterações por parte do cliente. Vale notar que existem dois tipos de usuário: aluno e professor, de forma que somente um professor pode executar determinadas operações. As seguintes operações podem ser realizadas por qualquer tipo de usuário:
 
@@ -57,14 +57,14 @@ Depois, iniciamos o objeto remoto ```rmiregistry &```, e para rodar o servidor u
 Então agora falta inicializar o **Cliente**, para isso basta executar o comando ```java -classpath /<filepath>/ Client```, isso já vai executar o Cliente no seu terminal e o usuário terá acesso às requisições disponíveis.
 
 > \* O comando rmiresgistry cria e começa o registro de um objeto remoto na porta especificado no host corrente. Se a porta for omitida, ele é iniciado por *default* na porta 1099. O comando não produz outputs, e tipicamente roda em background ```rmiregistry &```.
-> 
+>
 > \*\* O *\<filepath\>* é o caminho até a pasta onde estão os arquivos. Ele pode ser obtido através do comando ```pwd```.
 
 ### Executando em duas máquinas
 
 Para executar em duas máquinas, elas devem estar ambas conectadas à internet. Uma será o servidor, e a outra fará o papel do cliente.
 
-No **servidor**, compile os arquivos novamente (apenas para garantir a existência dos executáveis), inicie o objeto remoto com o comando ```rmiregistry &``` e agora execute o servidor com o comando 
+No **servidor**, compile os arquivos novamente (apenas para garantir a existência dos executáveis), inicie o objeto remoto com o comando ```rmiregistry &``` e agora execute o servidor com o comando
 
 ```
 java -classpath /<filepath>/ proj3.Server -Djava.rmi.server.hostname=x
@@ -83,9 +83,9 @@ Se der tudo certo, isso vai fazer com que o cliente se conecte ao servidor no IP
 ### Executando em TEST MODE (Modo de teste)
 O TEST MODE, foi o modo de execução criado para simular todas as iterações necessárias para calcular os tempos médios de conexão do programa. Ele executa 50 vezes cada request especificado pelo projeto.
 
-Para realizar teste local, rode em um terminal normalmente os comandos de compilação os arquivos .java do projeto e o comando de execuÃ§Ã£o do servidor. Em outro execute terminal o cliente em modo de teste com atravÃ©s do uso do argumento TEST, ```java -classpath /<filepath>/ proj3.Client TEST```, isso fará automaticamente todas as iterações de envio e recebimento de mensagem.
+Para realizar teste local, rode em um terminal normalmente os comandos de compilação os arquivos .java do projeto e o comando de execução do servidor. Em outro execute terminal o cliente em modo de teste com atravÃ©s do uso do argumento TEST, ```java -classpath /<filepath>/ proj3.Client TEST```, isso fará automaticamente todas as iterações de envio e recebimento de mensagem.
 
-Para realizar teste remoto, execute o servidor em uma máquina com make run_server, e em outra compile o cliente com make client e execute com ./client xxx.xx.xx TEST, o último identificador avisa o programa para entrar em modo de teste.
+Para realizar teste remoto, execute o servidor em uma máquina normalmente (como já mostrado), e em outra compile o normalmente o cliente e o execute similar ao já mostrado na execução do programa em duas máquinas: ```java -classpath /<filepath>/ proj3.Client x TEST```, onde x é o IP do servidor.
 
 Vale notar que para enviar o output a um arquivo de log se adicionou um ```>clientLog.txt``` ao final do comando de execução do cliente e ```>serverLog.txt``` ao final do comando de execução do servidor.
 
@@ -105,12 +105,12 @@ public class Discipline {
     public String professor;
     public String sala;
     public String comentario;
-    
+
     //(construtor...)
 }
 ```
 
-E as disciplinas são inciadas no Sevirdor no método ```CreateUnicamp()```, que cria o modelo de disciplinas utilizados num vetor que armazena todas as disciplinas.
+E as disciplinas são inciadas no Servidor no método ```CreateUnicamp()```, que cria o modelo de disciplinas utilizados num vetor que armazena todas as disciplinas.
 
 Esta foi a mesma abordagem utilizada nos outros dois projetos, pois permite alcançar os resultados esperados apesar de ser uma implementação relativamente simples, ela também é executada mais rapidamente que requisições a bancos de dados, ou leituras em arquivos.
 
@@ -122,7 +122,7 @@ Um dos problemas que ela acarreta, por outro lado, é o aumento do tamanho do c�
 
 ### Formato
 
-A comunicação entre cliente e servidor se deu através de uma conexão TCP, assim todo o processo de handshake foi implementado. Para cada novo cliente, o servidor dá um fork, de forma que que as requisições são processadas e respondidas de acordo com o cliente de origem.
+A comunicação entre cliente e servidor se deu através do RMI, assim todo o processo de declaração e implementação do rmiregistry foi implementado. Assim, foi adicionada uma interface ```Compute``` que declara o método ```analyzeRequest(String message)```, implementado pelo servidor. Tal interface possibilita que o cliente visualize e chame o método de forma transparente. Ao final da execução, o método retorna a string de resposta, processada pelo servidor. O cliente recebe a resposta e a imprime.
 
 ### Mensagens / Requests
 
@@ -140,8 +140,8 @@ As requests que o cliente pode mandar para o servidor foram categorizadas para f
 > \*\* Mensagem enviada para o servidor
 >
 > \*\*\* XXXX é um substituto para o código da disciplina que será requisitada
-> 
- 
+>
+
 Note que a primeira informação de cada mensagem é um número, referente ao identificador (categoria) da operação. Essa é a informação que é inicialmente analisada pelo servidor, para identificar qual o tipo de requisição o usuário está fazendo, e depois, o restante da mensagem de acordo com a operação.
 
 Como a troca de mensagens é feita inteiramente por Strings, esse método foi escolhido por formar uma maneira simples de identificar as mensagens (decodificar a requisição), e definir quais repostas deveriam partir do servidor em cada caso.
@@ -165,12 +165,12 @@ Com o Servidor já em execução um aluno pode se conectar executando o código 
 ```java -classpath /<filepath>/ proj3.Client x```
 sabendo o IP **x** do servidor. Uma vez conectado, o cliente irá exibir a lista de requests que podem ser feitas ao servidor.
 
-Vamos supor que o aluno queira saber o que acontecerá na próxima aula de uma determinada disciplina, ou seja, uma requisição do tipo **4**, ele irá digitar o código da operação e em seguida a disciplina da qual ele procura a informação: ```4 EE532```.
+Vamos supor que o aluno queira saber o que acontecerá na próxima aula de uma determinada disciplina, ou seja, uma requisição do tipo **4**, ele irá digitar o código da operação e em seguida a disciplina da qual ele procura a informação: ```4 EE532``` .
 
 O programa do cliente então envia a mensagem para o servidor, e espera por uma resposta. Dada uma resposta correta, o cliente deve receber algo do tipo:
 
-```
-Entrega de terça-feira disponível no Drive da turma.
+
+``` Entrega de terça-feira disponível no Drive da turma.
 ```
 
 Ele então decide encerrar o programa, com o comando 0, e isso encerra a execução.
@@ -188,6 +188,7 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 
 | Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
 |-----------|------------|--------------------|------------------------|
+<<<<<<< HEAD
 | 1         | 383       |    93            |  26                   |
 | 2         | 311       |   90             |  13                   |
 | 3         | 263       |   41             |   6                   |
@@ -196,6 +197,16 @@ O tempo médio de comunicação para cada Operação (conforme descrito na seç�
 | 6         | 222       |   109            |   15                  |
 
 Podemos notar que (assim como nos demais experimentos) a requisição 5 foi a mais demorada, pois é a que acessa mais dados na base, e, consequentemente, a que envia mais dados para o cliente.
+=======
+| 1         |  383.88    |       93.22        |         26.37          |
+| 2         |  311.44    |       90.63        |         25.64          |
+| 3         |  263.64    |       41.07        |         11.38          |
+| 4         |  199.90    |       27.40        |          7.60          |
+| 5         |  458.86    |      164.46        |         45.59          |
+| 6         |  222.86    |      109.42        |         30.64          |
+
+Analisando os valores da média, pode se constatar que os resultados foram dentro do esperado, uma vez que os tempos medidos, apesar do desvio padrão razoável, foram condizentes com a complexidade da operação. Dentro desse raciocínio, fez sentido a operação 5 ter consumido o maior tempo, dado o volume de dados envolvidos em recuperar todos os dados de todas as disciplinas.
+>>>>>>> f61850a2e91883657d4552e58823f2fc738e2980
 
 ![Gráfico 1](resources/local_plot_proj3.png)
 
@@ -220,6 +231,36 @@ Os tem pos médios de comunicação, para cada operação, podem ser vistos na t
 ## Comparativo com a comunicação TCP
 
 
+<<<<<<< HEAD
+=======
+O programa foi executado com o **servidor** rodando em um Macbook\*, e o cliente em um computador do Instituto de Computação. O Macbook estava conectado a rede Wi-Fi do instituto, e o computador conectado à rede cabeada - os dois em IPs diferentes.
+
+O tempo médio de comunicação para cada Operação (conforme descrito na seção II - Mensagens) e o desvio padrão pode ser observado na tabela abaixo:
+
+| Categoria | Media (μs) | Desvio Padrão (μs) | Intervalo de Confiança |
+|-----------|------------|--------------------|------------------------|
+| 1         |  3629.23   |      1975.14       |         558.77         |
+| 2         |  2412.70   |      1068.78       |         296.25         |
+| 3         |  2238.57   |       611.15       |         171.12         |
+| 4         |  2439.22   |       941.56       |         260.99         |
+| 5         |  2532.46   |      1047.41       |         290.33         |
+| 6         |  2109.42   |      872.80        |         241.93         |
+
+![Gráfico 2](resources/remote_plot_proj3.png)
+
+Para o teste em máquinas distintas, com exceção da operação 1, os resultados também foram condizentes com as expectativas. Se tratando de uma linguagem de mais alto nível, é natural que os tempos tenham sido mais significativos.
+
+Para os resultados da operação 1, notou-se uma média acima do esperado (uma vez que não é uma operação complexa e tampouco envolve um grande volume de dados em comparação com as demais operações) e que não foi possível estabeler uma provável causa além de possíveis oscilações na execução do RMI e no escalonamento de processos do sistema operacional.
+
+Também vale notar que as medidas foram marcadas por um alto desvio padrão (muito maior que a execução em uma só máquina), um provável reflexo de como o java executa o RMI.
+
+> \* Macbook Pro early 2015. 2,7 GHz Intel Core i5;
+> Conectado na rede *Eduroam* por Wi-Fi. IP: 177.220.84.48
+>
+### Comparativo com uma comunicação TCP
+
+Como esperado, o tempo de execução em máquinas distintas do RMI é extremamente superior ao tem
+>>>>>>> f61850a2e91883657d4552e58823f2fc738e2980
 
 # VI - Conclusão
 
